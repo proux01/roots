@@ -71,9 +71,6 @@ Section Well_founded.
 
 End Well_founded.
 
-Require Coq.extraction.Extraction.
-Extraction Inline Fix_F_sub Fix_sub.
-
 Set Implicit Arguments.
 
 (** Reasoning about well-founded fixpoints on measures. *)
