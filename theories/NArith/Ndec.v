@@ -10,7 +10,7 @@
 
 Require Import Bool.
 Require Import Sumbool.
-Require Import Arith.
+Require Import Arith_base.
 Require Import BinPos.
 Require Import BinNat.
 Require Import Pnat.

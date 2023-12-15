@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NArith.
+Require Import NArith NArithRing.
 Require Import Relation_Definitions.
 Require Import Setoid.
 (*****)
