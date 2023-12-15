@@ -18,7 +18,6 @@ Require Export Ndiv_def.
 Require Export Nsqrt_def.
 Require Export Ngcd_def.
 Require Export Ndigits.
-Require Export NArithRing.
 
 (** [N] contains an [order] tactic for natural numbers *)
 

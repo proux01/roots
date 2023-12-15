@@ -7,7 +7,7 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-Require Import Arith.
+Require Import Arith_base.
 Require Import BinPos.
 Require Import BinNat.
 Require Import Ndigits.
