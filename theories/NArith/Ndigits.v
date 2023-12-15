@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import Bool Morphisms Setoid Bvector BinPos BinNat PeanoNat Pnat Nnat
-        Basics ByteVector.
+        Basics.
 
 Local Open Scope N_scope.
 Local Open Scope program_scope.
@@ -640,10 +640,6 @@ Definition N2Bv_sized (m : nat) (n : N) : Bvector m :=
   end.
 
 #[deprecated(since="8.19", note="Consider N.testbit instead.")]
-Definition N2ByteV_sized (m : nat) : N -> ByteVector m :=
-  of_Bvector ∘ N2Bv_sized (m * 8).
-
-#[deprecated(since="8.19", note="Consider N.testbit instead.")]
 Fixpoint Bv2N (n:nat)(bv:Bvector n) : N :=
   match bv with
     | Vector.nil _ => N0
@@ -652,10 +648,6 @@ Fixpoint Bv2N (n:nat)(bv:Bvector n) : N :=
   end.
 
 Arguments Bv2N {n} bv, n bv.
-
-#[deprecated(since="8.19", note="Consider N.testbit instead.")]
-Definition ByteV2N {n : nat} : ByteVector n -> N :=
-  Bv2N ∘ to_Bvector.
 
 #[deprecated(since="8.19", note="Consider N.testbit instead.")]
 Lemma Bv2N_N2Bv : forall n, Bv2N _ (N2Bv n) = n.
@@ -703,14 +695,6 @@ Proof with simpl; auto.
   - destruct h.
     + apply N.succ_double_lt...
     + apply N.double_lt_mono...
-Qed.
-
-#[deprecated(since="8.19", note="Consider N.testbit instead.")]
-Corollary ByteV2N_upper_bound (n : nat) (v : ByteVector n) :
-  (ByteV2N v < N.shiftl_nat 1 (n * 8))%N.
-Proof.
-  unfold ByteV2N, compose.
-  apply Bv2N_upper_bound.
 Qed.
 
 (** To state nonetheless a second result about composition of
