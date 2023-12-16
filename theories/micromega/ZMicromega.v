@@ -607,8 +607,6 @@ Qed.
 
 (** NB: narrow_interval_upper_bound is Zdiv.Zdiv_le_lower_bound *)
 
-Require Import QArith.
-
 Inductive ZArithProof :=
 | DoneProof
 | RatProof : ZWitness -> ZArithProof -> ZArithProof
