@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import ZArith Uint63 SpecFloat PrimFloat FloatOps FloatAxioms.
-Require Import Psatz.
+Require Import Lia.
 
 (** * Support results involving frexp and ldexp *)
 
