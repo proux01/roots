@@ -13,6 +13,7 @@
 Require Import NArith NArithRing.
 Require Import Relation_Definitions.
 Require Import Setoid.
+Require Import Ring.
 (*****)
 Require Import Env.
 Require Import EnvRing.

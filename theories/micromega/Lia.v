@@ -14,7 +14,7 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import ZMicromega RingMicromega VarMap DeclConstant.
+Require Import ZMicromega RingMicromega VarMap DeclConstantZ.
 Require Import BinNums.
 Require Stdlib.micromega.Tauto.
 Declare ML Module "micromega_core_plugin:coq-core.plugins.micromega_core".

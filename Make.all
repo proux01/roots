@@ -237,6 +237,7 @@ theories/micromega/ZifyNat.v
 theories/micromega/ZifyPow.v
 theories/micromega/ZifyUint63.v
 theories/micromega/ZArith_hints.v
+theories/micromega/DeclConstantZ.v
 theories/micromega/DeclConstant.v
 theories/micromega/ZifySint63.v
 theories/micromega/ZMicromega.v
