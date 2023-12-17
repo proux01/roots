@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import PrimInt63 FloatClass.
+From Coq Require Import PrimInt63 FloatClass.
 
 (** * Definition of the interface for primitive floating-point arithmetic
 

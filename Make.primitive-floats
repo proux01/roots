@@ -1,0 +1,9 @@
+theories/Floats/FloatOps.v
+theories/Floats/Floats.v
+theories/Floats/SpecFloat.v
+theories/Floats/PrimFloat.v
+theories/Floats/FloatLemmas.v
+theories/Floats/FloatAxioms.v
+theories/Floats/FloatClass.v
+
+-R theories/Floats Coq.Floats
