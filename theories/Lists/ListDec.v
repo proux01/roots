@@ -10,7 +10,7 @@
 
 (** Decidability results about lists *)
 
-Require Import List Decidable.
+From Coq Require Import List Decidable.
 Set Implicit Arguments.
 
 Definition decidable_eq A := forall x y:A, decidable (x=y).

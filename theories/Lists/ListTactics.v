@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import BinPos.
+From Coq Require Import BinPos.
 Require Import List.
 
 Ltac list_fold_right fcons fnil l :=
