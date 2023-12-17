@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import List.
-Require Import Rbase.
-Require Import Rfunctions.
+From Coq Require Import List.
+From Coq Require Import Rbase.
+From Coq Require Import Rfunctions.
 Local Open Scope R_scope.
 
 Fixpoint MaxRlist (l:list R) : R :=

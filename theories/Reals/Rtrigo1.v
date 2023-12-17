@@ -8,21 +8,21 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Rbase.
-Require Import Rfunctions.
-Require Import SeqSeries.
-Require Export Rtrigo_fun.
-Require Export Rtrigo_def.
-Require Export Rtrigo_alt.
-Require Export Cos_rel.
-Require Export Cos_plus.
-Require Import ZArith_base.
-Require Import Zcomplements.
-Require Import Lia.
-Require Import Lra.
-Require Import Ranalysis1.
-Require Import Rsqrt_def. 
-Require Import PSeries_reg.
+From Coq Require Import Rbase.
+From Coq Require Import Rfunctions.
+From Coq Require Import SeqSeries.
+From Coq Require Export Rtrigo_fun.
+From Coq Require Export Rtrigo_def.
+From Coq Require Export Rtrigo_alt.
+From Coq Require Export Cos_rel.
+From Coq Require Export Cos_plus.
+From Coq Require Import ZArith_base.
+From Coq Require Import Zcomplements.
+From Coq Require Import Lia.
+From Coq Require Import Lra.
+From Coq Require Import Ranalysis1.
+From Coq Require Import Rsqrt_def. 
+From Coq Require Import PSeries_reg.
 
 Local Open Scope nat_scope.
 Local Open Scope R_scope.

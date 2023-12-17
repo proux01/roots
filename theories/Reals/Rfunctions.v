@@ -15,18 +15,18 @@
 (**          Definition of the sum functions            *)
 (*                                                      *)
 (********************************************************)
-Require Export ArithRing.
+From Coq Require Export ArithRing.
 
-Require Import Rdefinitions Raxioms RIneq.
-Require Export Rpow_def.
-Require Export R_Ifp.
-Require Export Rbasic_fun.
-Require Export R_sqr.
-Require Export SplitAbsolu.
-Require Export SplitRmult.
-Require Export ArithProp.
-Require Import Zpower.
-Require Import Ztac.
+From Coq Require Import Rdefinitions Raxioms RIneq.
+From Coq Require Export Rpow_def.
+From Coq Require Export R_Ifp.
+From Coq Require Export Rbasic_fun.
+From Coq Require Export R_sqr.
+From Coq Require Export SplitAbsolu.
+From Coq Require Export SplitRmult.
+From Coq Require Export ArithProp.
+From Coq Require Import Zpower.
+From Coq Require Import Ztac.
 Local Open Scope nat_scope.
 Local Open Scope R_scope.
 

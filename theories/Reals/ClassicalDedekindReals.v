@@ -11,15 +11,15 @@
 Require Import Coq.Logic.Eqdep_dec.
 Require Import Coq.Logic.FunctionalExtensionality.
 Require Import Coq.Logic.HLevels.
-Require Import QArith.
-Require Import Qabs.
-Require Import ConstructiveCauchyReals.
-Require Import ConstructiveRcomplete.
-Require Import Lia.
-Require Import Lqa.
-Require Import Qpower.
-Require Import QExtra.
-Require CMorphisms.
+From Coq Require Import QArith.
+From Coq Require Import Qabs.
+From Coq Require Import ConstructiveCauchyReals.
+From Coq Require Import ConstructiveRcomplete.
+From Coq Require Import Lia.
+From Coq Require Import Lqa.
+From Coq Require Import Qpower.
+From Coq Require Import QExtra.
+From Coq Require CMorphisms.
 
 (*****************************************************************************)
 (** * Q Auxiliary Lemmas                                                     *)

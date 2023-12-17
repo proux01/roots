@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Rbase.
-Require Import Rfunctions.
-Require Import Compare.
+From Coq Require Import Rbase.
+From Coq Require Import Rfunctions.
+From Coq Require Import Compare.
 Local Open Scope R_scope.
 
 Implicit Type r : R.

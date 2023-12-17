@@ -14,18 +14,18 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import ZMicromega.
-Require Import QMicromega.
-Require Import RMicromega.
-Require Import QArith.
-Require Import ZArith.
-Require Import Rdefinitions.
-Require Import RingMicromega.
-Require Import VarMap.
+From Coq Require Import ZMicromega.
+From Coq Require Import QMicromega.
+From Coq Require Import RMicromega.
+From Coq Require Import QArith.
+From Coq Require Import ZArith.
+From Coq Require Import Rdefinitions.
+From Coq Require Import RingMicromega.
+From Coq Require Import VarMap.
 Require Coq.micromega.Tauto.
-Require Lia.
-Require Lra.
-Require Lqa.
+From Coq Require Lia.
+From Coq Require Lra.
+From Coq Require Lqa.
 
 Declare ML Module "micromega_plugin:coq-core.plugins.micromega".
 

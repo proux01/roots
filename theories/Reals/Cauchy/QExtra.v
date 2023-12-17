@@ -1,10 +1,10 @@
-Require Import QArith.
-Require Import Qpower.
-Require Import Qabs.
-Require Import Qround.
-Require Import Lia.
-Require Import Lqa. (* This is only used in a few places and could be avoided *)
-Require Import PosExtra.
+From Coq Require Import QArith.
+From Coq Require Import Qpower.
+From Coq Require Import Qabs.
+From Coq Require Import Qround.
+From Coq Require Import Lia.
+From Coq Require Import Lqa. (* This is only used in a few places and could be avoided *)
+From Coq Require Import PosExtra.
 
 (** * Power of 2 open and closed upper and lower bounds for [q : Q] *)
 

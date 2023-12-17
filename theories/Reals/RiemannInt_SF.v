@@ -8,13 +8,13 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Rbase.
-Require Import Rfunctions.
-Require Import Ranalysis_reg.
-Require Import Classical_Prop.
-Require Import List.
-Require Import RList.
-Require Import Lia Lra.
+From Coq Require Import Rbase.
+From Coq Require Import Rfunctions.
+From Coq Require Import Ranalysis_reg.
+From Coq Require Import Classical_Prop.
+From Coq Require Import List.
+From Coq Require Import RList.
+From Coq Require Import Lia Lra.
 Local Open Scope R_scope.
 
 Set Implicit Arguments.

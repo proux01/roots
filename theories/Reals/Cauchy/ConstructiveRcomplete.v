@@ -9,18 +9,18 @@
 (************************************************************************)
 (************************************************************************)
 
-Require Import QArith_base.
-Require Import Qabs.
-Require Import ConstructiveReals.
-Require Import ConstructiveCauchyRealsMult.
-Require Import Logic.ConstructiveEpsilon.
-Require Import ConstructiveCauchyAbs.
-Require Import Lia.
-Require Import Lqa.
-Require Import Qpower.
-Require Import QExtra.
-Require Import PosExtra.
-Require Import ConstructiveExtra.
+From Coq Require Import QArith_base.
+From Coq Require Import Qabs.
+From Coq Require Import ConstructiveReals.
+From Coq Require Import ConstructiveCauchyRealsMult.
+From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq Require Import ConstructiveCauchyAbs.
+From Coq Require Import Lia.
+From Coq Require Import Lqa.
+From Coq Require Import Qpower.
+From Coq Require Import QExtra.
+From Coq Require Import PosExtra.
+From Coq Require Import ConstructiveExtra.
 
 (** Proof that Cauchy reals are Cauchy-complete.
 

@@ -1,6 +1,6 @@
-Require Import PArith.
-Require Import ZArith.
-Require Import Lia.
+From Coq Require Import PArith.
+From Coq Require Import ZArith.
+From Coq Require Import Lia.
 
 Lemma Pos_pow_1_r: forall p : positive,
   (1^p = 1)%positive.
