@@ -9,9 +9,9 @@
 (************************************************************************)
 
 Require Export Coq.funind.FunInd.
-Require Import PeanoNat.
-Require Compare_dec.
-Require Wf_nat.
+From Coq Require Import PeanoNat.
+From Coq Require Compare_dec.
+From Coq Require Wf_nat.
 
 Section Iter.
 Variable A : Type.
