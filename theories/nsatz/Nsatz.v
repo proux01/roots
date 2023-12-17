@@ -18,29 +18,29 @@ Reification is done using type classes, defined in Ncring_tac.v
 
 *)
 
-Require Import List.
-Require Import Setoid.
-Require Import BinPos.
-Require Import BinList.
-Require Import Znumtheory.
-Require Export Morphisms Setoid Bool.
-Require Export Algebra_syntax.
-Require Export Ncring.
-Require Export Ncring_initial.
-Require Export Ncring_tac.
-Require Export Integral_domain.
-Require Import DiscrR.
-Require Import ZArith.
-Require Import Lia.
+From Coq Require Import List.
+From Coq Require Import Setoid.
+From Coq Require Import BinPos.
+From Coq Require Import BinList.
+From Coq Require Import Znumtheory.
+From Coq Require Export Morphisms Setoid Bool.
+From Coq Require Export Algebra_syntax.
+From Coq Require Export Ncring.
+From Coq Require Export Ncring_initial.
+From Coq Require Export Ncring_tac.
+From Coq Require Export Integral_domain.
+From Coq Require Import DiscrR.
+From Coq Require Import ZArith.
+From Coq Require Import Lia.
 
 Require Export NsatzTactic.
 (** Make use of [discrR] in [nsatz] *)
 Ltac nsatz_internal_discrR ::= discrR.
 
 (* Real numbers *)
-Require Export Rbase.
-Require Export Rfunctions.
-Require Import RealField.
+From Coq Require Export Rbase.
+From Coq Require Export Rfunctions.
+From Coq Require Import RealField.
 
 Lemma Rsth : Setoid_Theory R (@eq R).
 constructor;red;intros;subst;trivial.
