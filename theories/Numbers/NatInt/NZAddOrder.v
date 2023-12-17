@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NZAxioms NZBase NZMul NZOrder.
+From Coq Require Import NZAxioms NZBase NZMul NZOrder.
 
 Module Type NZAddOrderProp (Import NZ : NZOrdAxiomsSig').
 Include NZBaseProp NZ <+ NZMulProp NZ <+ NZOrderProp NZ.

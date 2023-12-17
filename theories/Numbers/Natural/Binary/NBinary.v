@@ -10,9 +10,9 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import BinPos.
-Require Export BinNat.
-Require Import NAxioms NProperties.
+From Coq Require Import BinPos.
+From Coq Require Export BinNat.
+From Coq Require Import NAxioms NProperties.
 
 Local Open Scope N_scope.
 

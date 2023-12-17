@@ -8,18 +8,18 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export List.
-Require Import Setoid.
-Require Import BinPos.
-Require Import BinList.
-Require Import Znumtheory.
-Require Export Morphisms Setoid Bool.
-Require Import ZArith_base.
-Require Export Algebra_syntax.
-Require Export Ncring.
-Require Export Ncring_initial.
-Require Export Ncring_tac.
-Require Import InitialRing.
+From Coq Require Export List.
+From Coq Require Import Setoid.
+From Coq Require Import BinPos.
+From Coq Require Import BinList.
+From Coq Require Import Znumtheory.
+From Coq Require Export Morphisms Setoid Bool.
+From Coq Require Import ZArith_base.
+From Coq Require Export Algebra_syntax.
+From Coq Require Export Ncring.
+From Coq Require Export Ncring_initial.
+From Coq Require Export Ncring_tac.
+From Coq Require Import InitialRing.
 
 Class Cring {R:Type}`{Rr:Ring R} := 
  cring_mul_comm: forall x y:R, x * y == y * x.

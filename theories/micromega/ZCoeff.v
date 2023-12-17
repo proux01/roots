@@ -10,12 +10,12 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import OrderedRing.
-Require Import RingMicromega.
-Require Import ZArith_base.
-Require Import InitialRing.
-Require Import Setoid.
-Require Import ZArithRing.
+From Coq Require Import OrderedRing.
+From Coq Require Import RingMicromega.
+From Coq Require Import ZArith_base.
+From Coq Require Import InitialRing.
+From Coq Require Import Setoid.
+From Coq Require Import ZArithRing.
 
 Import OrderedRingSyntax.
 

@@ -8,12 +8,12 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Zbool.
-Require Import BinInt.
-Require Import BinNat.
-Require Import Setoid.
-Require Import Ring_theory.
-Require Import Ring_polynom.
+From Coq Require Import Zbool.
+From Coq Require Import BinInt.
+From Coq Require Import BinNat.
+From Coq Require Import Setoid.
+From Coq Require Import Ring_theory.
+From Coq Require Import Ring_polynom.
 Import List.
 
 Set Implicit Arguments.

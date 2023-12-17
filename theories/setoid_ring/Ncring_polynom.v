@@ -11,13 +11,13 @@
 (*  A <X1,...,Xn>: non commutative polynomials on a commutative ring A *)
 
 Set Implicit Arguments.
-Require Import Setoid.
-Require Import BinList.
-Require Import BinPos.
-Require Import BinNat.
-Require Import BinInt.
-Require Export Ring_polynom. (* n'utilise que PExpr *)
-Require Export Ncring.
+From Coq Require Import Setoid.
+From Coq Require Import BinList.
+From Coq Require Import BinPos.
+From Coq Require Import BinNat.
+From Coq Require Import BinInt.
+From Coq Require Export Ring_polynom. (* n'utilise que PExpr *)
+From Coq Require Export Ncring.
 
 #[local] Create HintDb rsimpl.
 

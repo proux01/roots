@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export BinNums.
-Require Import BinPos.
+From Coq Require Export BinNums.
+From Coq Require Import BinPos.
 
 Local Open Scope N_scope.
 

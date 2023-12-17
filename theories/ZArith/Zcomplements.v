@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArithRing.
-Require Import ZArith_base.
-Require Import Wf_nat.
+From Coq Require Import ZArithRing.
+From Coq Require Import ZArith_base.
+From Coq Require Import Wf_nat.
 Local Open Scope Z_scope.
 
 (**********************************************************************)
@@ -114,7 +114,7 @@ Qed.
 (**********************************************************************)
 (** A list length in Z, tail recursive.  *)
 
-Require Import List.
+From Coq Require Import List.
 
 Fixpoint Zlength_aux (acc:Z) (A:Type) (l:list A) : Z :=
   match l with

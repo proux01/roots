@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export ZLt.
+From Coq Require Export ZLt.
 
 Module ZAddOrderProp (Import Z : ZAxiomsMiniSig').
 Include ZOrderProp Z.

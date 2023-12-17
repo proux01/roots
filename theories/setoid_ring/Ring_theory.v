@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Setoid Morphisms BinPos BinNat.
+From Coq Require Import Setoid Morphisms BinPos BinNat.
 
 Set Implicit Arguments.
 

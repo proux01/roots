@@ -10,9 +10,9 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export Decidable.
-Require Export ZAxioms.
-Require Import NZProperties.
+From Coq Require Export Decidable.
+From Coq Require Export ZAxioms.
+From Coq Require Import NZProperties.
 
 Module ZBaseProp (Import Z : ZAxiomsMiniSig').
 Include NZProp Z.

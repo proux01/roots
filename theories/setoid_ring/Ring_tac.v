@@ -9,12 +9,12 @@
 (************************************************************************)
 
 Set Implicit Arguments.
-Require Import Setoid.
-Require Import BinPos.
-Require Import Ring_polynom.
-Require Import BinList.
-Require Export ListTactics.
-Require Import InitialRing.
+From Coq Require Import Setoid.
+From Coq Require Import BinPos.
+From Coq Require Import Ring_polynom.
+From Coq Require Import BinList.
+From Coq Require Export ListTactics.
+From Coq Require Import InitialRing.
 Declare ML Module "ring_plugin:coq-core.plugins.ring".
 
 

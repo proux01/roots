@@ -11,12 +11,12 @@
 
 (** Binary Integers (Pierre Crégut, CNET, Lannion, France) *)
 
-Require Export Arith_base.
-Require Import BinInt.
-Require Import Zorder.
-Require Import Decidable.
-Require Import Peano_dec.
-Require Export Compare_dec.
+From Coq Require Export Arith_base.
+From Coq Require Import BinInt.
+From Coq Require Import Zorder.
+From Coq Require Import Decidable.
+From Coq Require Import Peano_dec.
+From Coq Require Export Compare_dec.
 
 Local Open Scope Z_scope.
 

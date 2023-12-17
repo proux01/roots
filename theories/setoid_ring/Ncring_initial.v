@@ -8,18 +8,18 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith_base.
-Require Import Zpow_def.
-Require Import BinInt.
-Require Import BinNat.
-Require Import Setoid.
-Require Import BinList.
-Require Import BinPos.
-Require Import BinNat.
-Require Import BinInt.
-Require Import Setoid.
-Require Export Ncring.
-Require Export Ncring_polynom.
+From Coq Require Import ZArith_base.
+From Coq Require Import Zpow_def.
+From Coq Require Import BinInt.
+From Coq Require Import BinNat.
+From Coq Require Import Setoid.
+From Coq Require Import BinList.
+From Coq Require Import BinPos.
+From Coq Require Import BinNat.
+From Coq Require Import BinInt.
+From Coq Require Import Setoid.
+From Coq Require Export Ncring.
+From Coq Require Export Ncring_polynom.
 
 Set Implicit Arguments.
 

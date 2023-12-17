@@ -10,7 +10,7 @@
 
 (** Properties of [abs] and [sgn] *)
 
-Require Import ZMulOrder.
+From Coq Require Import ZMulOrder.
 
 (** Since we already have [max], we could have defined [abs]. *)
 

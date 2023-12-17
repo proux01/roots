@@ -8,14 +8,14 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Bool.
-Require Import Sumbool.
-Require Import Arith_base.
-Require Import BinPos.
-Require Import BinNat.
-Require Import Pnat.
-Require Import Nnat.
-Require Import Ndigits.
+From Coq Require Import Bool.
+From Coq Require Import Sumbool.
+From Coq Require Import Arith_base.
+From Coq Require Import BinPos.
+From Coq Require Import BinNat.
+From Coq Require Import Pnat.
+From Coq Require Import Nnat.
+From Coq Require Import Ndigits.
 
 Local Open Scope N_scope.
 

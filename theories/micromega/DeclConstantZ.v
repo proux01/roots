@@ -24,7 +24,7 @@
     Proposal: for each type, the user declares using type-classes the set of allowed ground terms.
  *)
 
-Require Import List.
+From Coq Require Import List.
 
 (**  Declarative definition of constants.
      These are ground terms (without variables) of interest.

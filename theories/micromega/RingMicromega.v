@@ -10,18 +10,18 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NArith.
-Require Import Relation_Definitions.
-Require Import Setoid.
-Require Import Ring.
+From Coq Require Import NArith.
+From Coq Require Import Relation_Definitions.
+From Coq Require Import Setoid.
+From Coq Require Import Ring.
 (*****)
-Require Import Env.
-Require Import EnvRing.
+From Coq Require Import Env.
+From Coq Require Import EnvRing.
 (*****)
-Require Import List.
-Require Import Bool.
-Require Import OrderedRing.
-Require Import Refl.
+From Coq Require Import List.
+From Coq Require Import Bool.
+From Coq Require Import OrderedRing.
+From Coq Require Import Refl.
 Require Coq.micromega.Tauto.
 
 Set Implicit Arguments.

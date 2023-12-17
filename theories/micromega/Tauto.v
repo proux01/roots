@@ -14,10 +14,10 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import List.
-Require Import Refl.
-Require Import Bool.
-Require Import Relation_Definitions Setoid.
+From Coq Require Import List.
+From Coq Require Import Refl.
+From Coq Require Import Bool.
+From Coq Require Import Relation_Definitions Setoid.
 
 Set Implicit Arguments.
 

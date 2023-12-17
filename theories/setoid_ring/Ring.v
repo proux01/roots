@@ -8,11 +8,11 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Bool.
-Require Export Ring_theory.
-Require Export Ring_base.
-Require Export InitialRing.
-Require Export Ring_tac.
+From Coq Require Import Bool.
+From Coq Require Export Ring_theory.
+From Coq Require Export Ring_base.
+From Coq Require Export InitialRing.
+From Coq Require Export Ring_tac.
 
 Lemma BoolTheory :
   ring_theory false true xorb andb xorb (fun b:bool => b) (eq(A:=bool)).

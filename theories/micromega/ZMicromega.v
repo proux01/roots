@@ -14,16 +14,16 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import List.
-Require Import Bool.
-Require Import OrderedRing.
-Require Import RingMicromega.
-Require Import ZCoeff.
-Require Import Refl.
-Require Import ZArith_base.
-Require Import ZArithRing.
-Require Import Ztac.
-Require PreOmega.
+From Coq Require Import List.
+From Coq Require Import Bool.
+From Coq Require Import OrderedRing.
+From Coq Require Import RingMicromega.
+From Coq Require Import ZCoeff.
+From Coq Require Import Refl.
+From Coq Require Import ZArith_base.
+From Coq Require Import ZArithRing.
+From Coq Require Import Ztac.
+From Coq Require PreOmega.
 Local Open Scope Z_scope.
 
 Ltac flatten_bool :=
@@ -447,7 +447,7 @@ Qed.
 
 
 
-Require Import Coq.micromega.Tauto BinNums.
+Require Import Coq.micromega.Tauto Coq.Numbers.BinNums.
 
 Definition cnf_of_list {T: Type} (tg : T) (l : list (NFormula Z)) :=
   List.fold_right (fun x acc =>

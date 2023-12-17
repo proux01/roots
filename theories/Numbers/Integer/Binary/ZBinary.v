@@ -11,7 +11,7 @@
 (************************************************************************)
 
 
-Require Import ZAxioms ZProperties BinInt.
+From Coq Require Import ZAxioms ZProperties BinInt.
 
 Local Open Scope Z_scope.
 

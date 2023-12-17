@@ -15,8 +15,8 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import ZArith_base.
-Require Import List.
+From Coq Require Import ZArith_base.
+From Coq Require Import List.
 Set Implicit Arguments.
 
 (* 

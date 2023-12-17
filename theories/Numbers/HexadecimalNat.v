@@ -13,7 +13,7 @@
     Proofs that conversions between hexadecimal numbers and [nat]
     are bijections. *)
 
-Require Import Hexadecimal HexadecimalFacts Arith.
+From Coq Require Import Hexadecimal HexadecimalFacts Arith.
 
 Module Unsigned.
 

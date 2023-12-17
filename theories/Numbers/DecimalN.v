@@ -13,7 +13,7 @@
     Proofs that conversions between decimal numbers and [N]
     are bijections *)
 
-Require Import Decimal DecimalFacts DecimalPos PArith NArith.
+From Coq Require Import Decimal DecimalFacts DecimalPos PArith NArith.
 
 Module Unsigned.
 

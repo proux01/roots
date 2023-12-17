@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Morphisms BinInt ZDivEucl.
+From Coq Require Import Morphisms BinInt ZDivEucl.
 Local Open Scope Z_scope.
 
 (** * Definitions of division for binary integers, Euclid convention. *)

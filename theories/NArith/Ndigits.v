@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Bool Morphisms Setoid BinPos BinNat PeanoNat Pnat Nnat
+From Coq Require Import Bool Morphisms Setoid BinPos BinNat PeanoNat Pnat Nnat
         Basics.
 
 Local Open Scope N_scope.

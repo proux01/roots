@@ -8,17 +8,17 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import List.
-Require Import Setoid.
-Require Import BinPos.
-Require Import BinList.
-Require Import Znumtheory.
-Require Export Morphisms Setoid Bool.
-Require Import ZArith.
-Require Import Algebra_syntax.
-Require Export Ncring.
-Require Import Ncring_polynom.
-Require Import Ncring_initial.
+From Coq Require Import List.
+From Coq Require Import Setoid.
+From Coq Require Import BinPos.
+From Coq Require Import BinList.
+From Coq Require Import Znumtheory.
+From Coq Require Export Morphisms Setoid Bool.
+From Coq Require Import ZArith.
+From Coq Require Import Algebra_syntax.
+From Coq Require Export Ncring.
+From Coq Require Import Ncring_polynom.
+From Coq Require Import Ncring_initial.
 
 
 Set Implicit Arguments.
