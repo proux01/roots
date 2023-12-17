@@ -26,14 +26,14 @@
 (* in Summer 1995. Several developments by E. Ledinot were an inspiration.  *)
 (****************************************************************************)
 
-Require Export Finite_sets.
-Require Export Constructive_sets.
-Require Export Classical.
-Require Export Classical_sets.
-Require Export Powerset.
-Require Export Powerset_facts.
-Require Export Powerset_Classical_facts.
-Require Export PeanoNat.
+From Coq Require Export Finite_sets.
+From Coq Require Export Constructive_sets.
+From Coq Require Export Classical.
+From Coq Require Export Classical_sets.
+From Coq Require Export Powerset.
+From Coq Require Export Powerset_facts.
+From Coq Require Export Powerset_Classical_facts.
+From Coq Require Export PeanoNat.
 
 Section Finite_sets_facts.
   Variable U : Type.
