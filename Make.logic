@@ -1,0 +1,23 @@
+theories/Logic/Base/Adjointification.v
+theories/Logic/Base/Eqdep_dec.v
+theories/Logic/Base/JMeq.v
+theories/Logic/Base/SetIsType.v
+theories/Logic/Base/Berardi.v
+theories/Logic/Base/ExtensionalFunctionRepresentative.v
+theories/Logic/Base/ProofIrrelevanceFacts.v
+theories/Logic/Base/StrictProp.v
+theories/Logic/Base/ConstructiveEpsilon.v
+theories/Logic/Base/ExtensionalityFacts.v
+theories/Logic/Base/ProofIrrelevance.v
+theories/Logic/Base/WeakFan.v
+theories/Logic/Base/Decidable.v
+theories/Logic/Base/FunctionalExtensionality.v
+theories/Logic/Base/PropExtensionalityFacts.v
+theories/Logic/Base/Eqdep.v
+theories/Logic/Base/HLevels.v
+theories/Logic/Base/PropFacts.v
+theories/Logic/Base/EqdepFacts.v
+theories/Logic/Base/Hurkens.v
+theories/Logic/Base/RelationalChoice.v
+
+-R theories/Logic/Base Coq.Logic.Base
