@@ -8,11 +8,11 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import OrderedType.
-Require Import ZArith_base.
-Require Import PeanoNat Peano_dec Compare_dec.
-Require Import Ascii String.
-Require Import NArith Ndec.
+From Coq Require Import OrderedType.
+From Coq Require Import ZArith_base.
+From Coq Require Import PeanoNat Peano_dec Compare_dec.
+From Coq Require Import Ascii String.
+From Coq Require Import NArith Ndec.
 
 (** * Examples of Ordered Type structures. *)
 

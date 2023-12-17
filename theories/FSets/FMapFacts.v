@@ -15,8 +15,8 @@
   different styles: equivalence and boolean equalities.
 *)
 
-Require Import Bool DecidableType DecidableTypeEx OrderedType Morphisms.
-Require Export FMapInterface.
+From Coq Require Import Bool DecidableType DecidableTypeEx OrderedType Morphisms.
+From Coq Require Export FMapInterface.
 Set Implicit Arguments.
 Unset Strict Implicit.
 

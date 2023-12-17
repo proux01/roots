@@ -13,9 +13,9 @@
  * Institution: LRI, CNRS UMR 8623 - Université Paris Sud
  *              91405 Orsay, France *)
 
-Require Import Orders BoolOrder PeanoNat POrderedType BinNat BinInt
+From Coq Require Import Orders BoolOrder PeanoNat POrderedType BinNat BinInt
  RelationPairs EqualitiesFacts.
-Require Import Ascii String.
+From Coq Require Import Ascii String.
 
 (** * Examples of Ordered Type structures. *)
 
