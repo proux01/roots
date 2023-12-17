@@ -1,0 +1,23 @@
+theories/extraction/All/ExtrHaskellZInteger.v
+theories/extraction/All/ExtrHaskellZInt.v
+theories/extraction/All/ExtrHaskellNatNum.v
+theories/extraction/All/ExtrHaskellString.v
+theories/extraction/All/ExtrOcamlZInt.v
+theories/extraction/All/ExtrOcamlNativeString.v
+theories/extraction/All/ExtrOCamlFloats.v
+theories/extraction/All/ExtrOcamlNatBigInt.v
+theories/extraction/All/ExtrOcamlZBigInt.v
+theories/extraction/All/ExtrOcamlNatInt.v
+theories/extraction/All/ExtrHaskellNatInt.v
+theories/extraction/All/ExtrOcamlString.v
+theories/extraction/All/ExtrOCamlPString.v
+theories/extraction/All/ExtrHaskellZNum.v
+theories/extraction/All/ExtrOcamlChar.v
+theories/extraction/All/ExtrOCamlPArray.v
+theories/extraction/All/ExtrOcamlBasic.v
+theories/extraction/All/ExtrOcamlIntConv.v
+theories/extraction/All/ExtrOCamlInt63.v
+theories/extraction/All/ExtrHaskellBasic.v
+theories/extraction/All/ExtrHaskellNatInteger.v
+
+-R theories/extraction/All Stdlib.extraction.All

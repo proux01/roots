@@ -8,8 +8,8 @@
 
 From Stdlib Require Extraction.
 
-Require Import ZArith.
-Require Import EqNat.
+From Stdlib Require Import ZArith.
+From Stdlib Require Import EqNat.
 
 Extract Inlined Constant Z.add => "(Prelude.+)".
 Extract Inlined Constant Z.sub => "(Prelude.-)".

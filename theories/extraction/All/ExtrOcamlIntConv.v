@@ -14,7 +14,7 @@
 
 From Stdlib Require Extraction.
 
-Require Import Arith ZArith.
+From Stdlib Require Import Arith ZArith.
 
 Parameter int : Type.
 Parameter int_zero : int.

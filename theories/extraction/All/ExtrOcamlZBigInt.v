@@ -12,8 +12,8 @@
 
 From Stdlib Require Extraction.
 
-Require Import ZArith NArith.
-Require Import ExtrOcamlBasic.
+From Stdlib Require Import ZArith NArith.
+From Stdlib Require Import ExtrOcamlBasic.
 
 Extraction Blacklist Z Big_int_Z.
 

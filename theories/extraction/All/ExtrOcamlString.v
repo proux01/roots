@@ -12,7 +12,8 @@
 
 From Stdlib Require Extraction.
 
-Require Import Ascii String Stdlib.Strings.Byte.
-Require Export ExtrOcamlChar.
+From Stdlib Require Import Ascii String.
+Require Import Stdlib.Strings.Byte.
+From Stdlib Require Export ExtrOcamlChar.
 
 Extract Inductive string => "char list" [ "[]" "(::)" ].

@@ -4,11 +4,11 @@
 
 From Stdlib Require Extraction.
 
-Require Import Ascii.
-Require Import String.
+From Stdlib Require Import Ascii.
+From Stdlib Require Import String.
 Require Import Stdlib.Strings.Byte.
 
-Require Export ExtrHaskellBasic.
+From Stdlib Require Export ExtrHaskellBasic.
 
 (**
  * At the moment, Coq's extraction has no way to add extra import

@@ -12,8 +12,8 @@
 
 From Stdlib Require Extraction.
 
-Require Import Arith EqNat Euclid.
-Require Import ExtrOcamlBasic.
+From Stdlib Require Import Arith EqNat Euclid.
+From Stdlib Require Import ExtrOcamlBasic.
 
 (** NB: The extracted code depends on [zarith] package. *)
 

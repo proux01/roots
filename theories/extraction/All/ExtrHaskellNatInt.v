@@ -2,8 +2,8 @@
 
 From Stdlib Require Extraction.
 
-Require Import Arith.
-Require Import ExtrHaskellNatNum.
+From Stdlib Require Import Arith.
+From Stdlib Require Import ExtrHaskellNatNum.
 
 (**
  * Disclaimer: trying to obtain efficient certified programs

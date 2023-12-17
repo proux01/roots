@@ -13,8 +13,9 @@
 
 From Stdlib Require Extraction.
 
-Require Import Ascii String Stdlib.Strings.Byte.
-Require Export ExtrOcamlChar.
+From Stdlib Require Import Ascii String.
+Require Import Stdlib.Strings.Byte.
+From Stdlib Require Export ExtrOcamlChar.
 
 (* python -c 'print(" ".join(r""" "%s" """.strip() % (r"'"'\''"'" if chr(i) == "'"'"'" else repr(""" "" """.strip()) if chr(i) == """ " """.strip() else repr(chr(i))) for i in range(256)))' # " to satisfy Coq's comment parser *)
 Extract Inductive byte => char
