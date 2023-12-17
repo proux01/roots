@@ -2,8 +2,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import ZArith.
-Require Import ExtrHaskellZNum.
+From Coq Require Import ZArith.
+From Coq Require Import ExtrHaskellZNum.
 
 (**
  * Disclaimer: trying to obtain efficient certified programs

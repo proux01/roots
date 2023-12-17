@@ -12,8 +12,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import ZArith NArith.
-Require Import ExtrOcamlBasic.
+From Coq Require Import ZArith NArith.
+From Coq Require Import ExtrOcamlBasic.
 
 (** Disclaimer: trying to obtain efficient certified programs
     by extracting [Z] into [int] is definitively *not* a good idea.

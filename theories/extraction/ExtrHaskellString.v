@@ -4,11 +4,11 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Ascii.
-Require Import String.
+From Coq Require Import Ascii.
+From Coq Require Import String.
 Require Import Coq.Strings.Byte.
 
-Require Export ExtrHaskellBasic.
+From Coq Require Export ExtrHaskellBasic.
 
 (**
  * At the moment, Coq's extraction has no way to add extra import
