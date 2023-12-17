@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NZAxioms NZBase Decidable OrdersTac.
+From Coq Require Import NZAxioms NZBase Decidable OrdersTac.
 
 Module Type NZOrderProp
  (Import NZ : NZOrdSig')(Import NZBase : NZBaseProp NZ).

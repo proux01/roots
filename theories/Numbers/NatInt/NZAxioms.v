@@ -10,7 +10,7 @@
 
 (** Initial Author : Evgeny Makarov, INRIA, 2007 *)
 
-Require Export Equalities Orders NumPrelude GenericMinMax.
+From Coq Require Export Equalities Orders NumPrelude GenericMinMax.
 
 (** Axiomatization of a domain with zero, successor, predecessor,
     and a bi-directional induction principle. We require [P (S n) = n]

@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Bool NZAxioms NZMulOrder.
+From Coq Require Import Bool NZAxioms NZMulOrder.
 
 (** Parity functions *)
 

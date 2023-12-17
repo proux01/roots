@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import PeanoNat Decidable.
+From Coq Require Import PeanoNat Decidable.
 
 Local Open Scope nat_scope.
 

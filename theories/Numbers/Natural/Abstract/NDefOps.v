@@ -10,9 +10,9 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import Bool. (* To get the orb and negb function *)
-Require Import RelationPairs.
-Require Export NStrongRec.
+From Coq Require Import Bool. (* To get the orb and negb function *)
+From Coq Require Import RelationPairs.
+From Coq Require Export NStrongRec.
 
 (** In this module, we derive generic implementations of usual operators
    just via the use of a [recursion] function. *)
