@@ -1,0 +1,7 @@
+theories/Compat/AdmitAxiom.v
+theories/Compat/Coq817.v
+theories/Compat/Coq819.v
+theories/Compat/Coq818.v
+theories/Compat/Coq820.v
+
+-R theories/Compat Coq.Compat
