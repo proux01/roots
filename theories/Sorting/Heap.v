@@ -16,7 +16,7 @@
 
 (* G. Huet 1-9-95 uses Multiset *)
 
-Require Import List Multiset PermutSetoid Relations Sorting.
+From Coq Require Import List Multiset PermutSetoid Relations Sorting.
 
 #[local]
 Set Warnings "-deprecated".
