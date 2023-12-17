@@ -10,11 +10,11 @@
 
 (** Authors: Bruno Barras, Cristina Cornes *)
 
-Require Import EqdepFacts.
-Require Import Relation_Operators.
-Require Import Transitive_Closure.
-Require Import Inclusion.
-Require Import Inverse_Image.
+From Coq Require Import EqdepFacts.
+From Coq Require Import Relation_Operators.
+From Coq Require Import Transitive_Closure.
+From Coq Require Import Inclusion.
+From Coq Require Import Inverse_Image.
 
 (**  From : Constructing Recursion Operators in Type Theory
      L. Paulson  JSC (1986) 2, 325-355 *)
