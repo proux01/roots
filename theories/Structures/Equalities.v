@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export RelationClasses.
-Require Import Bool Morphisms Setoid.
+From Coq Require Export RelationClasses.
+From Coq Require Import Bool Morphisms Setoid.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

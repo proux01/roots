@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Orders OrdersTac OrdersFacts Setoid Morphisms Basics.
+From Coq Require Import Orders OrdersTac OrdersFacts Setoid Morphisms Basics.
 
 (** * A Generic construction of min and max *)
 
