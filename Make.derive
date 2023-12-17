@@ -1,0 +1,3 @@
+theories/derive/Derive.v
+
+-R theories/derive Stdlib.derive
