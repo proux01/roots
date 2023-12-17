@@ -1,0 +1,10 @@
+theories/Numbers/BinNums.v
+theories/Numbers/AltBinNotations.v
+theories/PArith/Pnat.v
+theories/PArith/POrderedType.v
+theories/PArith/BinPos.v
+theories/PArith/PArith.v
+theories/PArith/BinPosDef.v
+
+-R theories/Numbers Coq.Numbers
+-R theories/PArith Coq.PArith

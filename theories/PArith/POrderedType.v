@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import BinPos Equalities Orders OrdersTac.
+From Coq Require Import BinPos Equalities Orders OrdersTac.
 
 Local Open Scope positive_scope.
 
