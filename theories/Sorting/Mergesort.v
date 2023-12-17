@@ -13,7 +13,7 @@
 
 (* Initial author: Hugo Herbelin, Oct 2009 *)
 
-Require Import List Setoid Permutation Sorted Orders.
+From Coq Require Import List Setoid Permutation Sorted Orders.
 
 (** Notations and conventions *)
 

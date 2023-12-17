@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Relations Setoid SetoidList List Multiset PermutSetoid Permutation.
+From Coq Require Import Relations Setoid SetoidList List Multiset PermutSetoid Permutation.
 
 Set Implicit Arguments.
 

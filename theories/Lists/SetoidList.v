@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export List.
-Require Export Sorted.
-Require Export Setoid Basics Morphisms.
+From Coq Require Export List.
+From Coq Require Export Sorted.
+From Coq Require Export Setoid Basics Morphisms.
 Set Implicit Arguments.
 Unset Strict Implicit.
 (* Set Universe Polymorphism. *)
