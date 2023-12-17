@@ -10,14 +10,14 @@
 (*            Benjamin Gregoire, Laurent Thery, INRIA, 2007             *)
 (************************************************************************)
 
-Require Import Utf8.
-Require Export DoubleType.
-Require Import Lia.
-Require Import Zpow_facts.
-Require Import Zgcd_alt.
-Require ZArith.
+From Coq Require Import Utf8.
+From Coq Require Export DoubleType.
+From Coq Require Import Lia.
+From Coq Require Import Zpow_facts.
+From Coq Require Import Zgcd_alt.
+From Coq Require ZArith.
 Import Znumtheory.
-Require Export PrimInt63.
+From Coq Require Export PrimInt63.
 
 
 Definition size := 63%nat.

@@ -1,6 +1,6 @@
-Require Import ZArith.
-Require Import Sint63.
-Require Import ZifyBool.
+From Coq Require Import ZArith.
+From Coq Require Import Sint63.
+From Coq Require Import ZifyBool.
 Import ZifyClasses.
 
 Lemma to_Z_bounded (x : int) :

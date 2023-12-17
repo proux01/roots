@@ -8,10 +8,10 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith.
+From Coq Require Import ZArith.
 Import Znumtheory.
-Require Export Uint63.
-Require Import Lia.
+From Coq Require Export Uint63.
+From Coq Require Import Lia.
 
 Declare Scope sint63_scope.
 Definition printer (x : int_wrapper) : pos_neg_int63 :=

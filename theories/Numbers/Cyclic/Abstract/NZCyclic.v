@@ -10,12 +10,12 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export NZAxioms.
-Require Import ZArith.
-Require Import Zpow_facts.
-Require Import DoubleType.
-Require Import CyclicAxioms.
-Require Import Lia.
+From Coq Require Export NZAxioms.
+From Coq Require Import ZArith.
+From Coq Require Import Zpow_facts.
+From Coq Require Import DoubleType.
+From Coq Require Import CyclicAxioms.
+From Coq Require Import Lia.
 
 (** * From [CyclicType] to [NZAxiomsSig] *)
 
