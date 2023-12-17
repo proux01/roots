@@ -1,0 +1,4 @@
+theories/Unicode/Utf8_core.v
+theories/Unicode/Utf8.v
+
+-R theories/Unicode Stdlib.Unicode
