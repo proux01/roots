@@ -26,20 +26,20 @@
 (* in Summer 1995. Several developments by E. Ledinot were an inspiration.  *)
 (****************************************************************************)
 
-Require Export Finite_sets.
-Require Export Constructive_sets.
-Require Export Classical.
-Require Export Classical_sets.
-Require Export Powerset.
-Require Export Powerset_facts.
-Require Export Powerset_Classical_facts.
-Require Export Finite_sets_facts.
-Require Export Image.
-Require Export Infinite_sets.
-Require Export Compare_dec.
-Require Export Relations_1.
-Require Export Partial_Order.
-Require Export Cpo.
+From Coq Require Export Finite_sets.
+From Coq Require Export Constructive_sets.
+From Coq Require Export Classical.
+From Coq Require Export Classical_sets.
+From Coq Require Export Powerset.
+From Coq Require Export Powerset_facts.
+From Coq Require Export Powerset_Classical_facts.
+From Coq Require Export Finite_sets_facts.
+From Coq Require Export Image.
+From Coq Require Export Infinite_sets.
+From Coq Require Export Compare_dec.
+From Coq Require Export Relations_1.
+From Coq Require Export Partial_Order.
+From Coq Require Export Cpo.
 
 Section Integers_sect.
 

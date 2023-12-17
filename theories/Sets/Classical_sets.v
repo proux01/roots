@@ -26,9 +26,9 @@
 (* in Summer 1995. Several developments by E. Ledinot were an inspiration.  *)
 (****************************************************************************)
 
-Require Export Ensembles.
-Require Export Constructive_sets.
-Require Export Classical.
+From Coq Require Export Ensembles.
+From Coq Require Export Constructive_sets.
+From Coq Require Export Classical.
 
 Section Ensembles_classical.
   Variable U : Type.

@@ -26,16 +26,16 @@
 (* in Summer 1995. Several developments by E. Ledinot were an inspiration.  *)
 (****************************************************************************)
 
-Require Export Ensembles.
-Require Export Constructive_sets.
-Require Export Relations_1.
-Require Export Relations_1_facts.
-Require Export Partial_Order.
-Require Export Cpo.
-Require Export Powerset.
-Require Export Powerset_facts.
-Require Export Classical.
-Require Export Classical_sets.
+From Coq Require Export Ensembles.
+From Coq Require Export Constructive_sets.
+From Coq Require Export Relations_1.
+From Coq Require Export Relations_1_facts.
+From Coq Require Export Partial_Order.
+From Coq Require Export Cpo.
+From Coq Require Export Powerset.
+From Coq Require Export Powerset_facts.
+From Coq Require Export Classical.
+From Coq Require Export Classical_sets.
 
 Section Sets_as_an_algebra.
 

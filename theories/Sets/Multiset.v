@@ -10,7 +10,7 @@
 
 (* G. Huet 1-9-95 *)
 
-Require Import PeanoNat Permut Setoid.
+From Coq Require Import PeanoNat Permut Setoid.
 
 Set Implicit Arguments.
 
