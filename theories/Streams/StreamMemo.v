@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Eqdep_dec.
+From Stdlib.Logic Require Import Eqdep_dec.
 Require Import Streams.
 
 (** * Memoization *)
