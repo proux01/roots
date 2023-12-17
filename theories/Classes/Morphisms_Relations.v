@@ -14,7 +14,7 @@
    Institution: LRI, CNRS UMR 8623 - University Paris Sud
 *)
 
-Require Import Relation_Definitions.
+Require Import Coq.Relations.Relation_Definitions.
 Require Import Coq.Classes.Morphisms.
 Require Import Coq.Program.Program.
 

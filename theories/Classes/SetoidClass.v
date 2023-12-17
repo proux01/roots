@@ -21,7 +21,7 @@ Generalizable Variables A.
 
 Require Import Coq.Program.Program.
 
-Require Import Relation_Definitions.
+Require Import Coq.Relations.Relation_Definitions.
 Require Export Coq.Classes.RelationClasses.
 Require Export Coq.Classes.Morphisms.
 
