@@ -11,15 +11,15 @@
 From Stdlib.Logic Require Import Eqdep_dec.
 From Stdlib.Logic Require Import FunctionalExtensionality.
 From Stdlib.Logic Require Import HLevels.
-Require Import QArith.
-Require Import Qabs.
-Require Import ConstructiveCauchyReals.
-Require Import ConstructiveRcomplete.
-Require Import Lia.
-Require Import Lqa.
-Require Import Qpower.
-Require Import QExtra.
-Require CMorphisms.
+From Stdlib Require Import QArith.
+From Stdlib Require Import Qabs.
+From Stdlib Require Import ConstructiveCauchyReals.
+From Stdlib Require Import ConstructiveRcomplete.
+From Stdlib Require Import Lia.
+From Stdlib Require Import Lqa.
+From Stdlib Require Import Qpower.
+From Stdlib Require Import QExtra.
+From Stdlib Require CMorphisms.
 
 (*****************************************************************************)
 (** * Q Auxiliary Lemmas                                                     *)

@@ -16,10 +16,10 @@
    WARNING: this file is experimental and likely to change in future releases.
 *)
 
-Require Import QArith_base Qabs.
-Require Import ConstructiveReals.
-Require Import ConstructiveAbs.
-Require Import ConstructiveLimits.
+From Stdlib Require Import QArith_base Qabs.
+From Stdlib Require Import ConstructiveReals.
+From Stdlib Require Import ConstructiveAbs.
+From Stdlib Require Import ConstructiveLimits.
 From Stdlib.Logic Require Import ConstructiveEpsilon.
 
 Local Open Scope ConstructiveReals.
