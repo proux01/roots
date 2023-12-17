@@ -11,7 +11,7 @@
 (* This file is deprecated since 8.19, use list Coq.Init.Byte.byte. *)
 Local Set Warnings "-deprecated".
 
-Require Import Ascii Basics Bvector String Vector.
+From Coq Require Import Ascii Basics Bvector String Vector.
 Export VectorNotations.
 Open Scope program_scope.
 Open Scope string_scope.

@@ -12,9 +12,9 @@
 (** Contributed by Laurent Théry (INRIA);
     Adapted to Coq V8 by the Coq Development Team *)
 
-Require Import Arith.
-Require Import Ascii.
-Require Import Bool.
+From Coq Require Import Arith.
+From Coq Require Import Ascii.
+From Coq Require Import Bool.
 Require Import Coq.Strings.Byte.
 Import IfNotations.
 
