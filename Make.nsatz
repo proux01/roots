@@ -1,0 +1,4 @@
+theories/nsatz/Nsatz.v
+theories/nsatz/NsatzTactic.v
+
+-R theories/nsatz Coq.nsatz
