@@ -8,11 +8,11 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Wf_nat.
-Require Import BinInt.
-Require Import Zcompare.
-Require Import Zorder.
-Require Import Bool.
+From Coq Require Import Wf_nat.
+From Coq Require Import BinInt.
+From Coq Require Import Zcompare.
+From Coq Require Import Zorder.
+From Coq Require Import Bool.
 Local Open Scope Z_scope.
 
 (**********************************************************************)

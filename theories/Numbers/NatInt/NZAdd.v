@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NZAxioms NZBase.
+From Coq Require Import NZAxioms NZBase.
 
 Module Type NZAddProp (Import NZ : NZAxiomsSig')(Import NZBase : NZBaseProp NZ).
 

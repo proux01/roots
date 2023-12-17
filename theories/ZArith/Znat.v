@@ -11,8 +11,8 @@
 
 (** Binary Integers (Pierre Crégut, CNET, Lannion, France) *)
 
-Require Export Arith_base.
-Require Import BinPos BinInt BinNat Pnat Nnat.
+From Coq Require Export Arith_base.
+From Coq Require Import BinPos BinInt BinNat Pnat Nnat.
 
 Local Open Scope Z_scope.
 

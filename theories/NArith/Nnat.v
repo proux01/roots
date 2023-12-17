@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import BinPos BinNat PeanoNat Pnat.
+From Coq Require Import BinPos BinNat PeanoNat Pnat.
 
 (** * Conversions from [N] to [nat] *)
 

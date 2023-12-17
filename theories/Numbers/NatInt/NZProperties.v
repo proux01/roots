@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export NZAxioms NZMulOrder.
+From Coq Require Export NZAxioms NZMulOrder.
 
 (** This functor summarizes all known facts about NZ.
     For the moment it is only an alias to [NZMulOrderProp], which

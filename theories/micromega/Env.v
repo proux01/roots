@@ -14,7 +14,7 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import BinInt List.
+From Coq Require Import BinInt List.
 Set Implicit Arguments.
 Local Open Scope positive_scope.
 

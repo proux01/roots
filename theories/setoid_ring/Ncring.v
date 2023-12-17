@@ -10,12 +10,12 @@
 
 (* non commutative rings *)
 
-Require Import Setoid.
-Require Import BinPos.
-Require Import BinNat.
-Require Export Morphisms Setoid Bool.
-Require Export ZArith_base.
-Require Export Algebra_syntax.
+From Coq Require Import Setoid.
+From Coq Require Import BinPos.
+From Coq Require Import BinNat.
+From Coq Require Export Morphisms Setoid Bool.
+From Coq Require Export ZArith_base.
+From Coq Require Export Algebra_syntax.
 
 Set Implicit Arguments.
 

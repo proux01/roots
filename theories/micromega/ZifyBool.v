@@ -7,9 +7,9 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-Require Import Bool ZArith.
-Require Import Zify ZifyClasses.
-Require Import ZifyInst.
+From Coq Require Import Bool ZArith.
+From Coq Require Import Zify ZifyClasses.
+From Coq Require Import ZifyInst.
 Local Open Scope Z_scope.
 (* Instances of [ZifyClasses] for dealing with boolean operators. *)
 

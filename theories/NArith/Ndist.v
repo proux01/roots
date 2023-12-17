@@ -7,10 +7,10 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-Require Import Arith_base.
-Require Import BinPos.
-Require Import BinNat.
-Require Import Ndigits.
+From Coq Require Import Arith_base.
+From Coq Require Import BinPos.
+From Coq Require Import BinNat.
+From Coq Require Import Ndigits.
 
 Local Set Warnings "-deprecated".
 (** An ultrametric distance over [N] numbers *)

@@ -8,10 +8,10 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export BinNums.
-Require Import BinPos RelationClasses Morphisms Setoid
+From Coq Require Export BinNums.
+From Coq Require Import BinPos RelationClasses Morphisms Setoid
  Equalities OrdersFacts GenericMinMax Bool NAxioms NMaxMin NProperties.
-Require BinNatDef.
+From Coq Require BinNatDef.
 
 (**********************************************************************)
 (** * Binary natural numbers, operations and properties *)

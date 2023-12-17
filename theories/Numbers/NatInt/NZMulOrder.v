@@ -10,8 +10,8 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NZAxioms.
-Require Import NZAddOrder.
+From Coq Require Import NZAxioms.
+From Coq Require Import NZAddOrder.
 
 Module Type NZMulOrderProp (Import NZ : NZOrdAxiomsSig').
 Include NZAddOrderProp NZ.

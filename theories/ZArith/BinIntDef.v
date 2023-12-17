@@ -9,9 +9,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export BinNums.
-Require Import BinPos BinNat.
-Require Export BinNums.IntDef.
+From Coq Require Export BinNums.
+From Coq Require Import BinPos BinNat.
+From Coq Require Export BinNums.IntDef.
 
 Local Open Scope Z_scope.
 

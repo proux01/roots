@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export NBase.
+From Coq Require Export NBase.
 
 Module NAddProp (Import N : NAxiomsMiniSig').
 Include NBaseProp N.

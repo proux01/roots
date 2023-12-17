@@ -12,23 +12,23 @@
     These are the basic modules, required by [Omega] and [Ring] for instance.
     The full library is [ZArith]. *)
 
-Require Export BinNums.
-Require Export BinPos.
-Require Export BinNat.
-Require Export BinInt.
-Require Export Zcompare.
-Require Export Zorder.
-Require Export Zeven.
-Require Export Zminmax.
-Require Export Zmin.
-Require Export Zmax.
-Require Export Zabs.
-Require Export Znat.
-Require Export auxiliary.
-Require Export ZArith_dec.
-Require Export Zbool.
-Require Export Zmisc.
-Require Export Wf_Z.
+From Coq Require Export BinNums.
+From Coq Require Export BinPos.
+From Coq Require Export BinNat.
+From Coq Require Export BinInt.
+From Coq Require Export Zcompare.
+From Coq Require Export Zorder.
+From Coq Require Export Zeven.
+From Coq Require Export Zminmax.
+From Coq Require Export Zmin.
+From Coq Require Export Zmax.
+From Coq Require Export Zabs.
+From Coq Require Export Znat.
+From Coq Require Export auxiliary.
+From Coq Require Export ZArith_dec.
+From Coq Require Export Zbool.
+From Coq Require Export Zmisc.
+From Coq Require Export Wf_Z.
 
 #[global]
 Hint Resolve Z.le_refl Z.add_comm Z.add_assoc Z.mul_comm Z.mul_assoc Z.add_0_l

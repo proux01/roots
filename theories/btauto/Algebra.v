@@ -1,4 +1,4 @@
-Require Import Bool PArith DecidableClass Ring Lia.
+From Coq Require Import Bool PArith DecidableClass Ring Lia.
 
 Ltac bool :=
 repeat match goal with

@@ -10,14 +10,14 @@
 
 (** Library for binary natural numbers *)
 
-Require Export BinNums.
-Require Export BinPos.
-Require Export BinNat.
-Require Export Nnat.
-Require Export Ndiv_def.
-Require Export Nsqrt_def.
-Require Export Ngcd_def.
-Require Export Ndigits.
+From Coq Require Export BinNums.
+From Coq Require Export BinPos.
+From Coq Require Export BinNat.
+From Coq Require Export Nnat.
+From Coq Require Export Ndiv_def.
+From Coq Require Export Nsqrt_def.
+From Coq Require Export Ngcd_def.
+From Coq Require Export Ndigits.
 
 (** [N] contains an [order] tactic for natural numbers *)
 

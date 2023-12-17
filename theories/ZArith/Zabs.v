@@ -16,13 +16,13 @@
     It is now almost entirely made of compatibility formulations
     for results already present in BinInt.Z. *)
 
-Require Import Arith_base.
-Require Import BinPos.
-Require Import BinInt.
-Require Import Zcompare.
-Require Import Zorder.
-Require Import Znat.
-Require Import ZArith_dec.
+From Coq Require Import Arith_base.
+From Coq Require Import BinPos.
+From Coq Require Import BinInt.
+From Coq Require Import Zcompare.
+From Coq Require Import Zorder.
+From Coq Require Import Znat.
+From Coq Require Import ZArith_dec.
 
 Local Open Scope Z_scope.
 

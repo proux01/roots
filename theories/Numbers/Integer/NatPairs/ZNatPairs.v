@@ -10,8 +10,8 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NSub ZAxioms.
-Require Export Ring.
+From Coq Require Import NSub ZAxioms.
+From Coq Require Export Ring.
 
 Declare Scope pair_scope.
 Local Open Scope pair_scope.

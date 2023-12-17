@@ -15,8 +15,8 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import List.
-Require Setoid.
+From Coq Require Import List.
+From Coq Require Setoid.
 
 Set Implicit Arguments.
 

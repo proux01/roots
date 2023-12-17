@@ -13,8 +13,8 @@
 
 
 Set Implicit Arguments.
-Require Import Setoid Morphisms Env BinPos BinNat BinInt.
-Require Export Ring_theory.
+From Coq Require Import Setoid Morphisms Env BinPos BinNat BinInt.
+From Coq Require Export Ring_theory.
 
 Local Open Scope positive_scope.
 Import RingSyntax.

@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export Ring.
-Require Import BinPos BinNat.
+From Coq Require Export Ring.
+From Coq Require Import BinPos BinNat.
 Import InitialRing.
 
 Set Implicit Arguments.

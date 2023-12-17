@@ -10,7 +10,7 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export ZAdd.
+From Coq Require Export ZAdd.
 
 Module ZMulProp (Import Z : ZAxiomsMiniSig').
 Include ZAddProp Z.

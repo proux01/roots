@@ -1,4 +1,4 @@
-Require Import Bool DecidableClass Algebra Ring PArith Lia.
+From Coq Require Import Bool DecidableClass Algebra Ring PArith Lia.
 
 Section Bool.
 
