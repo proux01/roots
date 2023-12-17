@@ -18,7 +18,7 @@ Require Import Coq.Program.Basics.
 Require Import Coq.Program.Tactics.
 
 Require Import Coq.Classes.Init.
-Require Import Relation_Definitions.
+Require Import Coq.Relations.Relation_Definitions.
 Require Export Coq.Classes.RelationClasses.
 Require Import Coq.Classes.Morphisms.
 

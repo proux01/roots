@@ -660,7 +660,7 @@ repeat red in Hf. split; eauto.
 Qed.
 
 (** A [PartialOrder] is compatible with its underlying equivalence. *)
-Require Import Relation_Definitions.
+From Coq Require Import Relation_Definitions.
 
 #[global]
 Instance PartialOrder_proper_type `(PartialOrder A eqA R) :
