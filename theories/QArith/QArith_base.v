@@ -8,10 +8,10 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export ZArith_base.
-Require Export ZArithRing.
-Require Export ZArith.BinInt.
-Require Export Morphisms Setoid Bool.
+From Coq Require Export ZArith_base.
+From Coq Require Export ZArithRing.
+From Coq Require Export ZArith.BinInt.
+From Coq Require Export Morphisms Setoid Bool.
 
 (** * Definition of [Q] and basic properties *)
 

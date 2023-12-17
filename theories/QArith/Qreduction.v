@@ -10,8 +10,8 @@
 
 (** Normalisation functions for rational numbers. *)
 
-Require Export QArith_base.
-Require Import Znumtheory.
+From Coq Require Export QArith_base.
+From Coq Require Import Znumtheory.
 
 Notation Z2P := Z.to_pos (only parsing).
 Notation Z2P_correct := Z2Pos.id (only parsing).

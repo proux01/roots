@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export Ring.
-Require Import ZArith_base.
-Require Import Zpow_def.
+From Coq Require Export Ring.
+From Coq Require Import ZArith_base.
+From Coq Require Import Zpow_def.
 
 Import InitialRing.
 

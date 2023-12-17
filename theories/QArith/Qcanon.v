@@ -8,10 +8,10 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Field.
-Require Import QArith.
-Require Import Znumtheory.
-Require Import Eqdep_dec.
+From Coq Require Import Field.
+From Coq Require Import QArith.
+From Coq Require Import Znumtheory.
+From Coq Require Import Eqdep_dec.
 
 (** [Qc] : A canonical representation of rational numbers.
    based on the setoid representation [Q]. *)
