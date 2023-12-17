@@ -14,7 +14,7 @@
    Institution: LRI, CNRS UMR 8623 - University Paris Sud
 *)
 
-Require Import Relation_Definitions.
+Require Import Stdlib.Relations.Relation_Definitions.
 Require Import Stdlib.Classes.Morphisms.
 From Stdlib.Program Require Import Program.
 

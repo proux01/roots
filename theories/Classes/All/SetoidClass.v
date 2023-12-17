@@ -21,7 +21,7 @@ Generalizable Variables A.
 
 From Stdlib.Program Require Import Program.
 
-Require Import Relation_Definitions.
+Require Import Stdlib.Relations.Relation_Definitions.
 Require Export Stdlib.Classes.RelationClasses.
 Require Export Stdlib.Classes.Morphisms.
 

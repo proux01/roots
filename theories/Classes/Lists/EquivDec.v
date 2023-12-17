@@ -22,7 +22,7 @@ Require Export Stdlib.Classes.Equivalence.
    It can be useful in proofs to reason more classically. *)
 
 From Stdlib.Logic Require Import Decidable.
-Require Import Stdlib.Bool.Bool.
+From Stdlib.Bool Require Import Bool.
 From Stdlib.Arith Require Import Peano_dec.
 From Stdlib.Program Require Import Program.
 

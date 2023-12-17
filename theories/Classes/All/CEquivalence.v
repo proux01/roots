@@ -18,7 +18,7 @@ Require Import Stdlib.Program.Basics.
 Require Import Stdlib.Program.Tactics.
 
 Require Import Stdlib.Classes.Init.
-Require Import Relation_Definitions.
+Require Import Stdlib.Relations.Relation_Definitions.
 Require Export Stdlib.Classes.CRelationClasses.
 Require Import Stdlib.Classes.CMorphisms.
 
