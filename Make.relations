@@ -1,0 +1,5 @@
+theories/Relations/All/Relation_Operators.v
+theories/Relations/All/Operators_Properties.v
+theories/Relations/All/Relations.v
+
+-R theories/Relations/All Stdlib.Relations.All
