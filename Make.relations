@@ -1,0 +1,6 @@
+theories/Relations/Relation_Operators.v
+theories/Relations/Relation_Definitions.v
+theories/Relations/Operators_Properties.v
+theories/Relations/Relations.v
+
+-R theories/Relations Coq.Relations
