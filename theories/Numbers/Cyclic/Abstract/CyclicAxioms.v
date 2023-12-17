@@ -16,11 +16,11 @@
 
 Set Implicit Arguments.
 
-Require Import ZArith.
-Require Import Lia.
-Require Import Znumtheory.
-Require Import Zpow_facts.
-Require Import DoubleType.
+From Coq Require Import ZArith.
+From Coq Require Import Lia.
+From Coq Require Import Znumtheory.
+From Coq Require Import Zpow_facts.
+From Coq Require Import DoubleType.
 
 Local Open Scope Z_scope.
 

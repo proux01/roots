@@ -1,6 +1,6 @@
-Require Import ZArith.
-Require Import Uint63.
-Require Import ZifyBool.
+From Coq Require Import ZArith.
+From Coq Require Import Uint63.
+From Coq Require Import ZifyBool.
 Import ZifyClasses.
 
 Lemma to_Z_bounded : forall x, (0 <= to_Z x < 9223372036854775808)%Z.

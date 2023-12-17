@@ -13,9 +13,9 @@
 (**
 Author: Arnaud Spiwack (+ Pierre Letouzey)
 *)
-Require Import CyclicAxioms.
-Require Export ZArith.
-Require Export Uint63.
+From Coq Require Import CyclicAxioms.
+From Coq Require Export ZArith.
+From Coq Require Export Uint63.
 Import Zpow_facts.
 Import Utf8.
 Import Lia.

@@ -55,7 +55,7 @@ Instance GT_APP2 {T1 T2 T3: Type} (F : T1 -> T2 -> T3)
          GT A1 -> GT A2 -> GT (F A1 A2).
 Defined.
 
-Require Import ZArith_base.
+From Coq Require Import ZArith_base.
 
 #[global]
 Instance DO : DeclaredConstant O := {}.

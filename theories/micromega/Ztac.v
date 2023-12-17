@@ -12,8 +12,8 @@
     Useful to bootstrap lia.
  *)
 
-Require Import ZArithRing.
-Require Import ZArith_base.
+From Coq Require Import ZArithRing.
+From Coq Require Import ZArith_base.
 Local Open Scope Z_scope.
 
 Lemma eq_incl :

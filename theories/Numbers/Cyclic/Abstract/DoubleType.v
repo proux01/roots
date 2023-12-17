@@ -12,7 +12,7 @@
 
 Set Implicit Arguments.
 
-Require Import BinInt.
+Require Import Coq.ZArith.BinInt.
 Require Import CarryType.
 Local Open Scope Z_scope.
 
