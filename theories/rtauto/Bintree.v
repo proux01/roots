@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export List.
-Require Export BinPos.
+From Stdlib Require Export List.
+From Stdlib Require Export BinPos.
 
 Open Scope positive_scope.
 

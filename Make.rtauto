@@ -1,0 +1,4 @@
+theories/rtauto/Bintree.v
+theories/rtauto/Rtauto.v
+
+-R theories/rtauto Stdlib.rtauto
