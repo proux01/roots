@@ -9,9 +9,9 @@
 (************************************************************************)
 
 Require Export Stdlib.funind.FunInd.
-Require Import PeanoNat.
-Require Compare_dec.
-Require Wf_nat.
+From Stdlib Require Import PeanoNat.
+From Stdlib Require Compare_dec.
+From Stdlib Require Wf_nat.
 
 Section Iter.
 Variable A : Type.

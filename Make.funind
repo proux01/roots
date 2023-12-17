@@ -1,0 +1,4 @@
+theories/funind/FunInd.v
+theories/funind/Recdef.v
+
+-R theories/funind Stdlib.funind
