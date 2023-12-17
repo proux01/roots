@@ -1,0 +1,24 @@
+theories/Logic/Adjointification.v
+theories/Logic/Eqdep_dec.v
+theories/Logic/JMeq.v
+theories/Logic/SetIsType.v
+theories/Logic/Berardi.v
+theories/Logic/ExtensionalFunctionRepresentative.v
+theories/Logic/ProofIrrelevance.v
+theories/Logic/StrictProp.v
+theories/Logic/ConstructiveEpsilon.v
+theories/Logic/ExtensionalityFacts.v
+theories/Logic/ProofIrrelevanceFacts.v
+theories/Logic/WeakFan.v
+theories/Logic/Decidable.v
+theories/Logic/FunctionalExtensionality.v
+theories/Logic/PropExtensionalityFacts.v
+theories/Logic/Eqdep.v
+theories/Logic/HLevels.v
+theories/Logic/PropFacts.v
+theories/Logic/EqdepFacts.v
+theories/Logic/Hurkens.v
+theories/Logic/RelationalChoice.v
+
+-I theories
+-R theories Coq
