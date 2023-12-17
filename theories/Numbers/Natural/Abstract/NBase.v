@@ -10,9 +10,9 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Export Decidable.
-Require Export NAxioms.
-Require Import NZProperties.
+From Coq Require Export Decidable.
+From Coq Require Export NAxioms.
+From Coq Require Import NZProperties.
 
 Module NBaseProp (Import N : NAxiomsMiniSig').
 (** First, we import all known facts about both natural numbers and integers. *)
