@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith FloatClass.
+From Coq Require Import ZArith FloatClass.
 
 (** * Specification of floating-point arithmetic
 

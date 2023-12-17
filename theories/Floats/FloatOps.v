@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith Uint63 SpecFloat PrimFloat.
+From Coq Require Import ZArith Uint63 SpecFloat PrimFloat.
 
 (** * Derived operations and mapping between primitive [float]s and [spec_float]s *)
 

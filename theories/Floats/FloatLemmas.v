@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith Uint63 SpecFloat PrimFloat FloatOps FloatAxioms.
-Require Import Lia.
+From Coq Require Import ZArith Uint63 SpecFloat PrimFloat FloatOps FloatAxioms.
+From Coq Require Import Lia.
 
 (** * Support results involving frexp and ldexp *)
 
