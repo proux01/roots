@@ -10,7 +10,7 @@
 
 (** Tactics related to (dependent) equality and proof irrelevance. *)
 
-Require Export JMeq.
+From Coq Require Export JMeq.
 
 Require Import Coq.Program.Tactics.
 
@@ -59,7 +59,7 @@ Ltac simpl_one_dep_JMeq :=
   ltac:(fun H => let H' := fresh "H" in
     assert (H' := JMeq_eq H)).
 
-Require Import Eqdep.
+From Coq Require Import Eqdep.
 
 (** Simplify dependent equality using sigmas to equality of the second projections if possible.
    Uses UIP. *)

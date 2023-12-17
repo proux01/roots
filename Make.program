@@ -1,0 +1,11 @@
+theories/Program/Syntax.v
+theories/Program/Equality.v
+theories/Program/Subset.v
+theories/Program/Program.v
+theories/Program/Basics.v
+theories/Program/Tactics.v
+theories/Program/Combinators.v
+theories/Program/Wf.v
+theories/Program/Utils.v
+
+-R theories/Program Coq.Program
