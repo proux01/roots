@@ -1,0 +1,6 @@
+theories/Bool/IfProp.v
+theories/Bool/Bool.v
+theories/Bool/DecBool.v
+theories/Bool/BoolEq.v
+
+-R theories/Bool Stdlib.Bool
