@@ -12,8 +12,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Arith EqNat Euclid.
-Require Import ExtrOcamlBasic.
+From Coq Require Import Arith EqNat Euclid.
+From Coq Require Import ExtrOcamlBasic.
 
 (** NB: The extracted code depends on [zarith] package. *)
 

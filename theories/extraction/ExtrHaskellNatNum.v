@@ -8,8 +8,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Arith.
-Require Import EqNat.
+From Coq Require Import Arith.
+From Coq Require Import EqNat.
 
 Extract Inlined Constant Nat.add => "(Prelude.+)".
 Extract Inlined Constant Nat.mul => "(Prelude.*)".

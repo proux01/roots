@@ -14,7 +14,7 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Arith ZArith.
+From Coq Require Import Arith ZArith.
 
 Parameter int : Type.
 Parameter int_zero : int.

@@ -13,8 +13,9 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Ascii String Coq.Strings.Byte.
-Require Export ExtrOcamlChar.
+From Coq Require Import Ascii String.
+Require Import Coq.Strings.Byte.
+From Coq Require Export ExtrOcamlChar.
 
 (* python -c 'print(" ".join(r""" "%s" """.strip() % (r"'"'\''"'" if chr(i) == "'"'"'" else repr(""" "" """.strip()) if chr(i) == """ " """.strip() else repr(chr(i))) for i in range(256)))' # " to satisfy Coq's comment parser *)
 Extract Inductive byte => char

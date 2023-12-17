@@ -2,8 +2,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Arith.
-Require Import ExtrHaskellNatNum.
+From Coq Require Import Arith.
+From Coq Require Import ExtrHaskellNatNum.
 
 (**
  * Disclaimer: trying to obtain efficient certified programs

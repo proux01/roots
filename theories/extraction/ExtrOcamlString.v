@@ -12,7 +12,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Ascii String Coq.Strings.Byte.
-Require Export ExtrOcamlChar.
+From Coq Require Import Ascii String.
+Require Import Coq.Strings.Byte.
+From Coq Require Export ExtrOcamlChar.
 
 Extract Inductive string => "char list" [ "[]" "(::)" ].

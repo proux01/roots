@@ -12,8 +12,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import Arith EqNat Euclid.
-Require Import ExtrOcamlBasic.
+From Coq Require Import Arith EqNat Euclid.
+From Coq Require Import ExtrOcamlBasic.
 
 (** Disclaimer: trying to obtain efficient certified programs
     by extracting [nat] into [int] is definitively *not* a good idea:

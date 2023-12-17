@@ -12,8 +12,8 @@
 
 Require Coq.extraction.Extraction.
 
-Require Import ZArith NArith.
-Require Import ExtrOcamlBasic.
+From Coq Require Import ZArith NArith.
+From Coq Require Import ExtrOcamlBasic.
 
 Extraction Blacklist Z Big_int_Z.
 
