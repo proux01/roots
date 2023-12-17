@@ -1,0 +1,9 @@
+theories/Numbers/AltBinNotations.v
+theories/PArith/Pnat.v
+theories/PArith/POrderedType.v
+theories/PArith/BinPos.v
+theories/PArith/PArith.v
+theories/PArith/BinPosDef.v
+
+-R theories/Numbers Stdlib.Numbers
+-R theories/PArith Stdlib.PArith

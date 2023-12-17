@@ -10,7 +10,7 @@
 (************************************************************************)
 
 Require Export BinNums.
-Require Import Eqdep_dec EqdepFacts RelationClasses Morphisms Setoid
+From Stdlib Require Import Eqdep_dec EqdepFacts RelationClasses Morphisms Setoid
  Equalities Orders OrdersFacts GenericMinMax PeanoNat.
 
 Require Export BinPosDef.
