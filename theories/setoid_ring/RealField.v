@@ -8,12 +8,12 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Nnat.
-Require Import ArithRing.
-Require Export Ring Field.
-Require Import Rdefinitions.
-Require Import Rpow_def.
-Require Import Raxioms.
+From Coq Require Import Nnat.
+From Coq Require Import ArithRing.
+From Coq Require Export Ring Field.
+From Coq Require Import Rdefinitions.
+From Coq Require Import Rpow_def.
+From Coq Require Import Raxioms.
 
 Local Open Scope R_scope.
 

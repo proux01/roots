@@ -9,16 +9,16 @@
 (************************************************************************)
 (************************************************************************)
 
-Require Import QArith.
-Require Import Qpower.
-Require Import Qabs.
-Require Import Qround.
-Require Import Logic.ConstructiveEpsilon.
-Require CMorphisms.
-Require Import Lia.
-Require Import Lqa.
-Require Import QExtra.
-Require Import ConstructiveExtra.
+From Coq Require Import QArith.
+From Coq Require Import Qpower.
+From Coq Require Import Qabs.
+From Coq Require Import Qround.
+From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq Require CMorphisms.
+From Coq Require Import Lia.
+From Coq Require Import Lqa.
+From Coq Require Import QExtra.
+From Coq Require Import ConstructiveExtra.
 
 (** The constructive Cauchy real numbers, ie the Cauchy sequences
     of rational numbers.

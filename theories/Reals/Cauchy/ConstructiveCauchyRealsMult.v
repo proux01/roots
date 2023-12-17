@@ -14,13 +14,13 @@
     WARNING: this file is experimental and likely to change in future releases.
 *)
 
-Require Import QArith Qabs Qround Qpower.
-Require Import Logic.ConstructiveEpsilon.
-Require Export ConstructiveCauchyReals.
-Require CMorphisms.
-Require Import Lia.
-Require Import Lqa.
-Require Import QExtra.
+From Coq Require Import QArith Qabs Qround Qpower.
+From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq Require Export ConstructiveCauchyReals.
+From Coq Require CMorphisms.
+From Coq Require Import Lia.
+From Coq Require Import Lqa.
+From Coq Require Import QExtra.
 
 Local Open Scope CReal_scope.
 

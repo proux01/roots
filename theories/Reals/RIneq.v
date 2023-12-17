@@ -43,12 +43,12 @@
     field of real numbers.
  *)
 
-Require Import RelationClasses.
-Require Export Raxioms.
-Require Import Rpow_def.
-Require Import ZArith.
-Require Export ZArithRing.
-Require Export RealField.
+From Coq Require Import RelationClasses.
+From Coq Require Export Raxioms.
+From Coq Require Import Rpow_def.
+From Coq Require Import ZArith.
+From Coq Require Export ZArithRing.
+From Coq Require Export RealField.
 
 Local Open Scope Z_scope.
 Local Open Scope R_scope.

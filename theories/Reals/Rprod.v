@@ -8,13 +8,13 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Compare.
-Require Import Rbase.
-Require Import Rfunctions.
-Require Import Rseries.
-Require Import PartSum.
-Require Import Binomial.
-Require Import Lia.
+From Coq Require Import Compare.
+From Coq Require Import Rbase.
+From Coq Require Import Rfunctions.
+From Coq Require Import Rseries.
+From Coq Require Import PartSum.
+From Coq Require Import Binomial.
+From Coq Require Import Lia.
 Local Open Scope R_scope.
 
 (** TT Ak; 0<=k<=N *)

@@ -13,8 +13,8 @@
 (*                                                        *)
 (**********************************************************)
 
-Require Import Rdefinitions Raxioms RIneq.
-Require Import ZArith Ztac.
+From Coq Require Import Rdefinitions Raxioms RIneq.
+From Coq Require Import ZArith Ztac.
 Local Open Scope R_scope.
 
 (*********************************************************)
