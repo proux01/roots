@@ -222,7 +222,7 @@ Ltac fold_sub f :=
 
 (** This module provides the fixpoint equation provided one assumes
    functional extensionality. *)
-Require Import FunctionalExtensionality.
+From Coq Require Import FunctionalExtensionality.
 
 Module WfExtensionality.
 
