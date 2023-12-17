@@ -1,4 +1,4 @@
-Require Import Uint63.
+From Coq Require Import Uint63.
 
 Set Universe Polymorphism.
 
