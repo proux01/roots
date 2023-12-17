@@ -1,0 +1,3 @@
+theories/nsatz/NsatzTactic.v
+
+-R theories/nsatz Stdlib.nsatz
