@@ -1,0 +1,7 @@
+theories/Structures/Def/GenericMinMax.v
+theories/Structures/Def/Equalities.v
+theories/Structures/Def/Orders.v
+theories/Structures/Def/OrdersFacts.v
+theories/Structures/Def/OrdersTac.v
+
+-R theories/Structures/Def Stdlib.Structures.Def
