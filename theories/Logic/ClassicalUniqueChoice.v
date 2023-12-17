@@ -46,7 +46,7 @@ Qed.
 
 
 (** The following proof comes from [[ChicliPottierSimpson02]] *)
-Require Import Setoid.
+From Coq Require Import Setoid.
 
 Theorem classic_set_in_prop_context :
   forall C:Prop, ((forall P:Prop, {P} + {~ P}) -> C) -> C.

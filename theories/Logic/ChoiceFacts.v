@@ -28,7 +28,7 @@ intentional type theory, Journal of Symbolic Logic 70(2):488-514, 2005.
 [[Werner97]] Benjamin Werner, Sets in Types, Types in Sets, TACS, 1997.
 *)
 
-Require Import RelationClasses Logic.
+From Coq Require Import RelationClasses Logic.
 
 Set Implicit Arguments.
 Local Unset Intuition Negation Unfolding.
@@ -682,8 +682,8 @@ Qed.
     relations with [nat] as codomain.
 *)
 
-Require Import Wf_nat.
-Require Import Decidable.
+From Coq Require Import Wf_nat.
+From Coq Require Import Decidable.
 
 Lemma classical_denumerable_description_imp_fun_choice :
   forall A:Type,
@@ -913,7 +913,7 @@ be applied on the same Type universes on both sides of the first
     Proceedings of TYPES 2002, Lecture Notes in Computer Science 2646,
     Springer Verlag.  *)
 
-Require Import Setoid.
+From Coq Require Import Setoid.
 
 Theorem constructive_definite_descr_excluded_middle :
   (forall A : Type, ConstructiveDefiniteDescription_on A) ->
@@ -947,7 +947,7 @@ Qed.
 (** * Choice => Dependent choice => Countable choice *)
 (* The implications below are standard *)
 
-Require Import Arith.
+From Coq Require Import Arith.
 
 Theorem functional_choice_imp_functional_dependent_choice :
    FunctionalChoice -> FunctionalDependentChoice.
