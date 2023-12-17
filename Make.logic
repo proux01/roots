@@ -20,4 +20,4 @@ theories/Logic/Base/EqdepFacts.v
 theories/Logic/Base/Hurkens.v
 theories/Logic/Base/RelationalChoice.v
 
--R theories/Logic/Base Coq.Logic.Base
+-R theories/Logic/Base Stdlib.Logic.Base
