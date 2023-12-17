@@ -722,7 +722,7 @@ Section Unrestricted_minimization_entails_excluded_middle.
 
 End Unrestricted_minimization_entails_excluded_middle.
 
-Require Import Wf_nat.
+From Coq Require Import Wf_nat.
 
 Section Excluded_middle_entails_unrestricted_minimization.
 
@@ -772,7 +772,7 @@ End Example_of_undecidable_predicate_with_the_minimization_property.
    [[Bell]] John L. Bell, Choice principles in intuitionistic set theory, unpublished.
 *)
 
-Require Import RelationClasses.
+From Coq Require Import RelationClasses.
 
 Local Notation representative_boolean_partition :=
   (forall R:bool->bool->Prop,

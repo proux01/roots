@@ -1,0 +1,24 @@
+theories/Logic/IndefiniteDescription.v
+theories/Logic/Classical_Pred_Type.v
+theories/Logic/Classical_Prop.v
+theories/Logic/ClassicalFacts.v
+theories/Logic/Classical.v
+theories/Logic/Epsilon.v
+theories/Logic/ClassicalChoice.v
+theories/Logic/Description.v
+theories/Logic/ClassicalEpsilon.v
+theories/Logic/ChoiceFacts.v
+theories/Logic/PropExtensionality.v
+theories/Logic/ClassicalDescription.v
+theories/Logic/ClassicalUniqueChoice.v
+theories/Logic/SetoidChoice.v
+theories/Logic/Diaconescu.v
+
+theories/Logic/ExtensionalFunctionRepresentative.v
+theories/Logic/Decidable.v
+theories/Logic/PropExtensionalityFacts.v
+theories/Logic/EqdepFacts.v
+theories/Logic/Hurkens.v
+theories/Logic/RelationalChoice.v
+
+-R theories/Logic Coq.Logic

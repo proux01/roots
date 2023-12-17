@@ -31,12 +31,12 @@
 
 *)
 
-Require Export ClassicalChoice. (* classical logic, relational choice, unique choice *)
-Require Export ExtensionalFunctionRepresentative.
+From Coq Require Export ClassicalChoice. (* classical logic, relational choice, unique choice *)
+From Coq Require Export ExtensionalFunctionRepresentative.
 
-Require Import ChoiceFacts.
-Require Import ClassicalFacts.
-Require Import RelationClasses.
+From Coq Require Import ChoiceFacts.
+From Coq Require Import ClassicalFacts.
+From Coq Require Import RelationClasses.
 
 Theorem setoid_choice :
   forall A B,
