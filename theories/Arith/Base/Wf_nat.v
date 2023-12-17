@@ -242,7 +242,7 @@ Qed.
 Set Implicit Arguments.
 
 Require Import Compare_dec.
-Require Import Decidable.
+From Stdlib.Logic Require Import Decidable.
 
 Definition has_unique_least_element (A:Type) (R:A->A->Prop) (P:A->Prop) :=
   exists! x, P x /\ forall x', P x' -> R x x'.
