@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Bool Basics OrdersTac.
-Require Export Orders.
+From Coq Require Import Bool Basics OrdersTac.
+From Coq Require Export Orders.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
