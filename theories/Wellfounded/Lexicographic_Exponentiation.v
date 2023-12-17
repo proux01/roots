@@ -13,10 +13,10 @@
     From : Constructing Recursion Operators in Type Theory
            L. Paulson  JSC (1986) 2, 325-355  *)
 
-Require Import List.
-Require Import Relation_Operators.
-Require Import Operators_Properties.
-Require Import Transitive_Closure.
+From Coq Require Import List.
+From Coq Require Import Relation_Operators.
+From Coq Require Import Operators_Properties.
+From Coq Require Import Transitive_Closure.
 
 Import ListNotations.
 
