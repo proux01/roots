@@ -14,8 +14,8 @@
    Institution: PPS, INRIA 12/2010
 *)
 
-Require Fin List.
-Require Import VectorDef PeanoNat Eqdep_dec.
+From Coq Require Fin List.
+From Coq Require Import VectorDef PeanoNat Eqdep_dec.
 Import VectorNotations EqNotations.
 
 Definition cons_inj {A} {a1 a2} {n} {v1 v2 : t A n}
