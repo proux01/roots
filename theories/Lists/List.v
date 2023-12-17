@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import PeanoNat.
+From Coq Require Import PeanoNat.
 
 Set Implicit Arguments.
 (* Set Universe Polymorphism. *)
