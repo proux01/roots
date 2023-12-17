@@ -13,7 +13,8 @@
 (** Main result : for functions [f:A->A] with finite [A],
     f injective <-> f bijective <-> f surjective. *)
 
-Require Import List PeanoNat Compare_dec EqNat Decidable ListDec. Require Fin.
+From Coq Require Import List PeanoNat Compare_dec EqNat Decidable ListDec.
+From Coq Require Fin.
 Set Implicit Arguments.
 
 (** General definitions *)

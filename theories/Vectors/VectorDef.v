@@ -18,7 +18,7 @@
 Names should be "caml name in list.ml" if exists and order of arguments
 have to be the same. complain if you see mistakes ... *)
 
-Require Import Arith_base.
+From Coq Require Import Arith_base.
 Require Vectors.Fin.
 Import EqNotations.
 Local Open Scope nat_scope.

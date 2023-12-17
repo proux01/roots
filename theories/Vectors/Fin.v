@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import PeanoNat.
-Require Arith_base.
+From Coq Require Import PeanoNat.
+From Coq Require Arith_base.
 
 (** [fin n] is a convenient way to represent \[1 .. n\]
 
