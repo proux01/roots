@@ -33,7 +33,7 @@
     code after extraction.
 *)
 
-Require Import FSetInterface ZArith Int.
+From Coq Require Import FSetInterface ZArith Int.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

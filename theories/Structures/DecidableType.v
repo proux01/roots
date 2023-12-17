@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export SetoidList.
-Require Equalities.
+From Coq Require Export SetoidList.
+From Coq Require Equalities.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

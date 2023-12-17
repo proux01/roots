@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export SetoidList Morphisms OrdersTac.
+From Coq Require Export SetoidList Morphisms OrdersTac.
 Set Implicit Arguments.
 Unset Strict Implicit.
 
