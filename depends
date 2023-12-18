@@ -1,0 +1,53 @@
+digraph roots_deps {
+	node [color=lightblue,
+		shape=ellipse,
+		style=filled
+	];
+	"coq-roots" -> "coq-roots-set-map";
+	"coq-roots" -> "coq-roots-wellfounded";
+	"coq-roots" -> "coq-roots-derive";
+	"coq-roots" -> "coq-roots-rtauto";
+	"coq-roots" -> "coq-roots-compat";
+	"coq-roots" -> "coq-roots-nsatz";
+	"coq-roots" -> "coq-roots-micromega-extraction";
+	"coq-roots-bool" -> "coq-roots-classes";
+	"coq-roots-classes" -> "coq-roots-relations";
+	"coq-roots-classes" -> "coq-roots-program";
+	"coq-roots-program" -> "coq-roots-logic";
+	"coq-roots-vectors" -> "coq-roots-list";
+	"coq-roots-list" -> "coq-roots-positive";
+	"coq-roots-positive" -> "coq-roots-arith";
+	"coq-roots-arith" -> "coq-roots-structures";
+	"coq-roots-structures" -> "coq-roots-bool";
+	"coq-roots-structures" -> "coq-roots-setoids";
+	"coq-roots-setoids" -> "coq-roots-classes";
+	"coq-roots-set-map" -> "coq-roots-orders-ex";
+	"coq-roots-set-map" -> "coq-roots-funind";
+	"coq-roots-orders-ex" -> "coq-roots-string";
+	"coq-roots-orders-ex" -> "coq-roots-sorting";
+	"coq-roots-funind" -> "coq-roots-extraction";
+	"coq-roots-string" -> "coq-roots-nzarith";
+	"coq-roots-sorting" -> "coq-roots-sets";
+	"coq-roots-extraction" -> "coq-roots-string";
+	"coq-roots-extraction" -> "coq-roots-primitive-floats";
+	"coq-roots-extraction" -> "coq-roots-primitive-array";
+	"coq-roots-nzarith" -> "coq-roots-list";
+	"coq-roots-reals" -> "coq-roots-vectors";
+	"coq-roots-sorting" -> "coq-roots-vectors";
+	"coq-roots-string" -> "coq-roots-vectors";
+	"coq-roots-sets" -> "coq-roots-classical-logic";
+	"coq-roots-classical-logic" -> "coq-roots-nzarith";
+	"coq-roots-reals" -> "coq-roots-classical-logic";
+	"coq-roots-reals" -> "coq-roots-qarith";
+	"coq-roots-qarith" -> "coq-roots-nzarith";
+	"coq-roots-primitive-int" -> "coq-roots-nzarith";
+	"coq-roots-primitive-int" -> "coq-roots-unicode";
+	"coq-roots-primitive-floats" -> "coq-roots-primitive-int";
+	"coq-roots-primitive-array" -> "coq-roots-primitive-int";
+	"coq-roots-wellfounded" -> "coq-roots-list";
+	"coq-roots-micromega-extraction" -> "coq-roots-extraction";
+	"coq-roots-micromega-extraction" -> "coq-roots-reals";
+	"coq-roots-nsatz" -> "coq-roots-reals";
+	"coq-roots-rtauto" -> "coq-roots-list";
+	"coq-roots-compat" -> "coq-roots-nzarith";
+}
