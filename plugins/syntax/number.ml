@@ -420,21 +420,27 @@ let locate_global_inductive allow_params qid =
   with Not_found -> Smartlocate.global_inductive_with_alias qid, []
 
 let locate_global_inductive_or_int63_or_float env allow_params qid =
+  let qualid_of_indref r =
+    let r = Coqlib.lib_ref r in
+    let s = match r with
+      | IndRef (r, _) -> MutInd.to_string r
+      | VarRef _ | ConstRef _ | ConstructRef _ -> assert false in
+    qualid_of_string s in
   try TargetInd (locate_global_inductive_with_params allow_params qid)
   with Not_found ->
     let int63n = "num.int63.type" in
     let int63c = "num.int63.wrap_int" in
-    let int63w = "Coq.Numbers.Cyclic.Int63.PrimInt63.int_wrapper" in
+    let int63w = "num.int63.int_wrapper" in
     let floatn = "num.float.type" in
     let floatc = "num.float.wrap_float" in
-    let floatw = "Coq.Floats.PrimFloat.float_wrapper" in
+    let floatw = "num.float.float_wrapper" in
     if allow_params && Coqlib.has_ref int63n
        && Environ.QGlobRef.equal env (Smartlocate.global_with_alias qid) (Coqlib.lib_ref int63n)
-    then TargetPrim (cref (qualid_of_string int63w), [Coqlib.lib_ref int63c],
+    then TargetPrim (cref (qualid_of_indref int63w), [Coqlib.lib_ref int63c],
                      (Nametab.path_of_global (Coqlib.lib_ref int63n), []))
     else if allow_params && Coqlib.has_ref floatn
        && Environ.QGlobRef.equal env (Smartlocate.global_with_alias qid) (Coqlib.lib_ref floatn)
-    then TargetPrim (cref (qualid_of_string floatw), [Coqlib.lib_ref floatc],
+    then TargetPrim (cref (qualid_of_indref floatw), [Coqlib.lib_ref floatc],
                      (Nametab.path_of_global (Coqlib.lib_ref floatn), []))
     else TargetInd (Smartlocate.global_inductive_with_alias qid, [])
 
