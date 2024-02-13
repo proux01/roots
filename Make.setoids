@@ -1,3 +1,0 @@
-theories/Setoids/Setoid.v
-
--R theories/Setoids Coq.Setoids

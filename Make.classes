@@ -1,15 +1,7 @@
-theories/Classes/Morphisms_Relations.v
-theories/Classes/RelationPairs.v
-theories/Classes/Init.v
-theories/Classes/CMorphisms.v
-theories/Classes/SetoidTactics.v
-theories/Classes/Equivalence.v
-theories/Classes/Morphisms.v
-theories/Classes/SetoidClass.v
-theories/Classes/Morphisms_Prop.v
-theories/Classes/CEquivalence.v
-theories/Classes/CRelationClasses.v
-theories/Classes/DecidableClass.v
-theories/Classes/RelationClasses.v
+theories/Classes/All/Morphisms_Relations.v
+theories/Classes/All/RelationPairs.v
+theories/Classes/All/SetoidClass.v
+theories/Classes/All/CEquivalence.v
+theories/Classes/All/DecidableClass.v
 
--R theories/Classes Coq.Classes
+-R theories/Classes/All Coq.Classes.All

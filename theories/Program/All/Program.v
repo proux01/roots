@@ -7,10 +7,10 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-Require Export Coq.Program.Utils.
-Require Export Coq.Program.Wf.
-Require Export Coq.Program.Equality.
-Require Export Coq.Program.Subset.
-Require Export Coq.Program.Basics.
-Require Export Coq.Program.Combinators.
-Require Export Coq.Program.Syntax.
+From Coq.Program Require Export Utils.
+From Coq.Program Require Export Wf.
+From Coq.Program Require Export Equality.
+From Coq.Program Require Export Subset.
+From Coq.Program Require Export Basics.
+From Coq.Program Require Export Combinators.
+From Coq.Program Require Export Syntax.

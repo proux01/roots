@@ -6,18 +6,14 @@ theories/Lists/ListSet.v
 theories/Lists/ListTactics.v
 theories/Numbers/NaryFunctions.v
 theories/Logic/WKL.v
-theories/Classes/EquivDec.v
+theories/Classes/All/EquivDec.v
 
 theories/Logic/Decidable.v
 theories/Logic/Eqdep_dec.v
 theories/Logic/EqdepFacts.v
 theories/Logic/WeakFan.v
-theories/Classes/Init.v
-theories/Classes/Equivalence.v
-theories/Classes/RelationClasses.v
-theories/Classes/Morphisms.v
 
 -R theories/Lists Coq.Lists
 -R theories/Numbers Coq.Numbers
 -R theories/Logic Coq.Logic
--R theories/Classes Coq.Classes
+-R theories/Classes/All Coq.Classes.All

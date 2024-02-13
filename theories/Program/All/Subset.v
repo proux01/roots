@@ -9,8 +9,8 @@
 (************************************************************************)
 (** Tactics related to subsets and proof irrelevance. *)
 
-Require Import Coq.Program.Utils.
-Require Import Coq.Program.Equality.
+From Coq.Program Require Import Utils.
+From Coq.Program Require Import Equality.
 Require Export Coq.Logic.ProofIrrelevance.
 
 Local Open Scope program_scope.

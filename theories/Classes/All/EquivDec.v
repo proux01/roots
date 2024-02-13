@@ -24,7 +24,7 @@ Require Export Coq.Classes.Equivalence.
 Require Import Coq.Logic.Decidable.
 Require Import Coq.Bool.Bool.
 Require Import Coq.Arith.Peano_dec.
-Require Import Coq.Program.Program.
+From Coq.Program Require Import Program.
 
 Generalizable Variables A B R.
 
