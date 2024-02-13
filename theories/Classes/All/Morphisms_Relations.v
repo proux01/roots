@@ -16,7 +16,7 @@
 
 Require Import Relation_Definitions.
 Require Import Stdlib.Classes.Morphisms.
-Require Import Stdlib.Program.Program.
+From Stdlib.Program Require Import Program.
 
 Generalizable Variables A l.
 

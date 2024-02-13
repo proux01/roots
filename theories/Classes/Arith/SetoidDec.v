@@ -22,7 +22,7 @@ Generalizable Variables A B .
 
 (** Export notations. *)
 
-Require Export Stdlib.Classes.SetoidClass.
+From Stdlib.Classes Require Export SetoidClass.
 
 (** The [DecidableSetoid] class asserts decidability of a [Setoid].
    It can be useful in proofs to reason more classically. *)
@@ -50,7 +50,7 @@ Definition swap_sumbool {A B} (x : { A } + { B }) : { B } + { A } :=
     | right H => @left _ _ H
   end.
 
-Require Import Stdlib.Program.Program.
+From Stdlib.Program Require Import Program.
 
 Local Open Scope program_scope.
 

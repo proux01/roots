@@ -19,7 +19,7 @@ Unset Strict Implicit.
 
 Generalizable Variables A.
 
-Require Import Stdlib.Program.Program.
+From Stdlib.Program Require Import Program.
 
 Require Import Relation_Definitions.
 Require Export Stdlib.Classes.RelationClasses.
