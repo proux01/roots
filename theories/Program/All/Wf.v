@@ -11,7 +11,7 @@
    the support for [Program]'s treatment of well-founded definitions. *)
 
 Require Import Coq.Init.Wf.
-Require Import Coq.Program.Utils.
+From Coq.Program Require Import Utils.
 
 Local Open Scope program_scope.
 

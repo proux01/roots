@@ -46,7 +46,6 @@ install-package` to install it. `package` being one of
 * relations
 * rtauto
 * set-map
-* setoids
 * sets
 * sorting
 * string

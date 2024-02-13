@@ -19,8 +19,6 @@ digraph roots_deps {
 	"coq-roots-positive" -> "coq-roots-arith";
 	"coq-roots-arith" -> "coq-roots-structures";
 	"coq-roots-structures" -> "coq-roots-bool";
-	"coq-roots-structures" -> "coq-roots-setoids";
-	"coq-roots-setoids" -> "coq-roots-classes";
 	"coq-roots-set-map" -> "coq-roots-orders-ex";
 	"coq-roots-set-map" -> "coq-roots-funind";
 	"coq-roots-orders-ex" -> "coq-roots-string";

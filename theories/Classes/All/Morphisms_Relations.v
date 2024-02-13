@@ -16,7 +16,7 @@
 
 Require Import Coq.Relations.Relation_Definitions.
 Require Import Coq.Classes.Morphisms.
-Require Import Coq.Program.Program.
+From Coq.Program Require Import Program.
 
 Generalizable Variables A l.
 

@@ -19,7 +19,7 @@ Unset Strict Implicit.
 
 Generalizable Variables A.
 
-Require Import Coq.Program.Program.
+From Coq.Program Require Import Program.
 
 Require Import Coq.Relations.Relation_Definitions.
 Require Export Coq.Classes.RelationClasses.

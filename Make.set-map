@@ -42,6 +42,13 @@ theories/Structures/OrderedType.v
 
 theories/Structures/OrdersFacts.v
 theories/Structures/OrdersTac.v
+theories/Structures/Equalities.v
+theories/Structures/EqualitiesFacts.v
+theories/Structures/Orders.v
+theories/Structures/OrdersLists.v
+theories/Structures/OrdersEx.v
+theories/Bool/Bool.v
+theories/Bool/BoolOrder.v
 
 -R theories/FSets Coq.FSets
 -R theories/MSets Coq.MSets
