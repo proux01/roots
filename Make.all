@@ -424,7 +424,7 @@ theories/Logic/ClassicalEpsilon.v
 theories/Logic/PropFacts.v
 theories/Logic/ChoiceFacts.v
 theories/Logic/StrictProp.v
-theories/Logic/WKL.v
+theories/Logic/Lists/WKL.v
 theories/Logic/ConstructiveEpsilon.v
 theories/Logic/PropExtensionality.v
 theories/Logic/ClassicalDescription.v

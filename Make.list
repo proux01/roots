@@ -5,15 +5,10 @@ theories/Lists/StreamMemo.v
 theories/Lists/ListSet.v
 theories/Lists/ListTactics.v
 theories/Numbers/NaryFunctions.v
-theories/Logic/WKL.v
+theories/Logic/Lists/WKL.v
 theories/Classes/All/EquivDec.v
-
-theories/Logic/Decidable.v
-theories/Logic/Eqdep_dec.v
-theories/Logic/EqdepFacts.v
-theories/Logic/WeakFan.v
 
 -R theories/Lists Coq.Lists
 -R theories/Numbers Coq.Numbers
--R theories/Logic Coq.Logic
+-R theories/Logic/Lists Coq.Logic.Lists
 -R theories/Classes/All Coq.Classes.All
