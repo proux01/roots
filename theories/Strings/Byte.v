@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Coq.Arith.EqNat.
+From Coq.Arith Require Import EqNat.
 Require Import Coq.NArith.BinNat.
 Require Import Coq.NArith.Nnat.
 Require Export Coq.Init.Byte.

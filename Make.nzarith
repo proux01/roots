@@ -88,7 +88,7 @@ theories/setoid_ring/Ring_tac.v
 theories/setoid_ring/ArithRing.v
 theories/setoid_ring/NArithRing.v
 theories/setoid_ring/Ring_theory.v
-theories/Arith/Arith.v
+theories/Arith/All/Arith.v
 theories/btauto/Algebra.v
 theories/btauto/Reflect.v
 theories/btauto/Btauto.v
@@ -152,20 +152,12 @@ theories/Numbers/NatInt/NZMul.v
 theories/Numbers/NatInt/NZLog.v
 theories/Numbers/NatInt/NZAdd.v
 theories/Numbers/NatInt/NZMulOrder.v
-theories/Arith/EqNat.v
-theories/Arith/PeanoNat.v
-theories/Arith/Arith_base.v
-theories/Arith/Factorial.v
-theories/Arith/Between.v
-theories/Arith/Wf_nat.v
-theories/Arith/Compare_dec.v
-theories/Arith/Peano_dec.v
 
 -R theories/NArith Coq.NArith
 -R theories/ZArith Coq.ZArith
 -R theories/Numbers Coq.Numbers
 -R theories/setoid_ring Coq.setoid_ring
--R theories/Arith Coq.Arith
+-R theories/Arith/All Coq.Arith.All
 -R theories/btauto Coq.btauto
 -R theories/omega Coq.omega
 -R theories/micromega Coq.micromega

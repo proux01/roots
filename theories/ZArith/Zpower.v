@@ -8,7 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Wf_nat ZArith_base Zcomplements.
+From Coq.Arith Require Import Wf_nat.
+Require Import ZArith_base Zcomplements.
 Require Export Zpow_def.
 Local Open Scope Z_scope.
 
