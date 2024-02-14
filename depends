@@ -29,8 +29,9 @@ digraph roots_deps {
 	"coq-roots-extraction" -> "coq-roots-string";
 	"coq-roots-extraction" -> "coq-roots-primitive-floats";
 	"coq-roots-extraction" -> "coq-roots-primitive-array";
-	"coq-roots-nzarith" -> "coq-roots-list";
-	"coq-roots-nzarith" -> "coq-roots-zarith";
+	"coq-roots-nzarith" -> "coq-roots-ring";
+	"coq-roots-ring" -> "coq-roots-list";
+	"coq-roots-ring" -> "coq-roots-zarith";
 	"coq-roots-zarith" -> "coq-roots-narith";
 	"coq-roots-narith" -> "coq-roots-positive";
 	"coq-roots-reals" -> "coq-roots-vectors";

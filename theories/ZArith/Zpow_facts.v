@@ -8,7 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith_base ZArithRing Lia Zcomplements Zdiv Znumtheory.
+Require Import ZArith_base.
+From Coq.setoid_ring Require Import ZArithRing.
+Require Import Lia Zcomplements Zdiv Znumtheory.
 Require Export Zpower.
 Local Open Scope Z_scope.
 

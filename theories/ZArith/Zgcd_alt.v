@@ -22,7 +22,7 @@ Author: Pierre Letouzey
     point when proving gcd on Int31 numbers *)
 
 Require Import ZArith_base.
-Require Import ZArithRing.
+From Coq.setoid_ring Require Import ZArithRing.
 Require Import Zdiv.
 Require Import Znumtheory.
 Require Import Lia.
