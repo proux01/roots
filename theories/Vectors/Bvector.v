@@ -10,7 +10,7 @@
 
 (** Bit vectors. Contribution by Jean Duprat (ENS Lyon). *)
 
-Require Export Bool Sumbool.
+From Coq Require Export Bool Sumbool.
 Require Vector.
 Export Vector.VectorNotations.
 
