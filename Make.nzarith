@@ -1,13 +1,3 @@
-theories/NArith/BinNat.v
-theories/NArith/Ndiv_def.v
-theories/NArith/Ndigits.v
-theories/NArith/BinNatDef.v
-theories/NArith/Ndist.v
-theories/NArith/Nnat.v
-theories/NArith/Ndec.v
-theories/NArith/Ngcd_def.v
-theories/NArith/NArith.v
-theories/NArith/Nsqrt_def.v
 theories/Numbers/Natural/Binary/NBinary.v
 theories/ZArith/Zpower.v
 theories/ZArith/Zpow_def.v
@@ -153,7 +143,6 @@ theories/Numbers/NatInt/NZLog.v
 theories/Numbers/NatInt/NZAdd.v
 theories/Numbers/NatInt/NZMulOrder.v
 
--R theories/NArith Coq.NArith
 -R theories/ZArith Coq.ZArith
 -R theories/Numbers Coq.Numbers
 -R theories/setoid_ring Coq.setoid_ring

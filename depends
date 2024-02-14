@@ -30,6 +30,8 @@ digraph roots_deps {
 	"coq-roots-extraction" -> "coq-roots-primitive-floats";
 	"coq-roots-extraction" -> "coq-roots-primitive-array";
 	"coq-roots-nzarith" -> "coq-roots-list";
+	"coq-roots-nzarith" -> "coq-roots-narith";
+	"coq-roots-narith" -> "coq-roots-positive";
 	"coq-roots-reals" -> "coq-roots-vectors";
 	"coq-roots-sorting" -> "coq-roots-vectors";
 	"coq-roots-string" -> "coq-roots-vectors";
