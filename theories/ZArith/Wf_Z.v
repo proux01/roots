@@ -13,7 +13,7 @@ Require Import Zcompare.
 Require Import Zorder.
 Require Import Znat.
 Require Import Zmisc.
-Require Import Wf_nat.
+From Coq.Arith Require Import Wf_nat.
 Local Open Scope Z_scope.
 
 (** Our purpose is to write an induction shema for {0,1,2,...}

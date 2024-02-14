@@ -38,18 +38,18 @@ theories/Numbers/Natural/Abstract/NBase.v
 theories/Numbers/Natural/Abstract/NLcm.v
 theories/Numbers/Natural/Abstract/NOrder.v
 theories/Classes/All/SetoidDec.v
-theories/Arith/EqNat.v
-theories/Arith/Compare.v
-theories/Arith/PeanoNat.v
-theories/Arith/Arith_base.v
-theories/Arith/Cantor.v
-theories/Arith/Euclid.v
-theories/Arith/Factorial.v
-theories/Arith/Between.v
-theories/Arith/Wf_nat.v
-theories/Arith/Compare_dec.v
-theories/Arith/Bool_nat.v
-theories/Arith/Peano_dec.v
+theories/Arith/Base/EqNat.v
+theories/Arith/Base/Compare.v
+theories/Arith/Base/PeanoNat.v
+theories/Arith/Base/Arith_base.v
+theories/Arith/Base/Cantor.v
+theories/Arith/Base/Euclid.v
+theories/Arith/Base/Factorial.v
+theories/Arith/Base/Between.v
+theories/Arith/Base/Wf_nat.v
+theories/Arith/Base/Compare_dec.v
+theories/Arith/Base/Bool_nat.v
+theories/Arith/Base/Peano_dec.v
 
 -R theories/Numbers Coq.Numbers
--R theories/Arith Coq.Arith
+-R theories/Arith/Base Coq.Arith.Base

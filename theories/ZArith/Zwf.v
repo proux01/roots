@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import ZArith_base.
-Require Export Wf_nat.
+From Coq.Arith Require Export Wf_nat.
 Require Import Lia.
 Local Open Scope Z_scope.
 

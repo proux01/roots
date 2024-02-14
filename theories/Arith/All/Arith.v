@@ -8,5 +8,5 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export Arith_base.
+From Coq.Arith Require Export Arith_base.
 Require Export ArithRing.
