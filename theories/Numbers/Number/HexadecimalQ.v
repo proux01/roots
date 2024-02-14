@@ -13,8 +13,9 @@
     Proofs that conversions between hexadecimal numbers and [Q]
     are bijections. *)
 
-Require Import Decimal DecimalFacts DecimalPos DecimalN DecimalZ.
-Require Import Hexadecimal HexadecimalFacts HexadecimalPos HexadecimalN HexadecimalZ QArith.
+From Coq Require Import Decimal DecimalFacts DecimalPos DecimalN DecimalZ.
+From Coq Require Import Hexadecimal HexadecimalFacts HexadecimalPos HexadecimalN HexadecimalZ.
+From Coq.QArith Require Import QArith.
 
 Lemma of_IQmake_to_hexadecimal num den :
   match IQmake_to_hexadecimal num den with

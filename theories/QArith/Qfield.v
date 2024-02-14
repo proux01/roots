@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export Field.
+From Coq.setoid_ring Require Export Field.
 Require Export QArith_base.
-Require Import NArithRing.
+From Coq.setoid_ring Require Import NArithRing.
 
 (** * field and ring tactics for rational numbers *)
 

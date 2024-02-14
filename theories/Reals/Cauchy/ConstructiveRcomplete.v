@@ -403,7 +403,7 @@ Proof.
     unfold Qle, Qnum, Qden; ring_simplify. lia.
 Qed.
 
-Require Import Qminmax.
+From Coq.QArith Require Import Qminmax.
 
 Lemma CRealLt_QR_from_single_dist : forall (q : Q) (r : CReal) (n :Z),
     (2^n < seq r n - q)%Q

@@ -10,7 +10,7 @@
 
 Require Import Rdefinitions Raxioms RIneq.
 Require Import Rbasic_fun.
-Require Import ArithRing.
+From Coq.setoid_ring Require Import ArithRing.
 
 Local Open Scope Z_scope.
 Local Open Scope R_scope.

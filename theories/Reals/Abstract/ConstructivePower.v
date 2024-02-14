@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import QArith Qabs.
+From Coq.QArith Require Import QArith Qabs.
 Require Import ConstructiveReals.
 Require Import ConstructiveRealsMorphisms.
 Require Import ConstructiveAbs.

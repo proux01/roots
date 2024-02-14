@@ -10,32 +10,16 @@ theories/QArith/Qabs.v
 theories/QArith/QArith.v
 theories/QArith/QArith_base.v
 theories/QArith/Qcanon.v
-theories/setoid_ring/Field_theory.v
-theories/setoid_ring/Field_tac.v
-theories/setoid_ring/Rings_Q.v
-theories/setoid_ring/Field.v
+theories/setoid_ring/Q/Field_theory.v
+theories/setoid_ring/Q/Field_tac.v
+theories/setoid_ring/Q/Rings_Q.v
+theories/setoid_ring/Q/Field.v
 theories/Numbers/Number/DecimalQ.v
 theories/Numbers/Number/HexadecimalQ.v
 theories/micromega/Lqa/QMicromega.v
 theories/micromega/Lqa/Lqa.v
 theories/micromega/Lqa/DeclConstant.v
 
-theories/setoid_ring/ZArithRing.v
-theories/setoid_ring/Ring_base.v
-theories/setoid_ring/Ring.v
-theories/setoid_ring/Ring_tac.v
-theories/setoid_ring/Ring_theory.v
-theories/setoid_ring/Ring_polynom.v
-theories/setoid_ring/BinList.v
-theories/setoid_ring/InitialRing.v
-theories/setoid_ring/NArithRing.v
-theories/setoid_ring/Cring.v
-theories/setoid_ring/Algebra_syntax.v
-theories/setoid_ring/Ncring.v
-theories/setoid_ring/Ncring_initial.v
-theories/setoid_ring/Ncring_polynom.v
-theories/setoid_ring/Ncring_tac.v
-theories/setoid_ring/Integral_domain.v
 theories/Numbers/Number/DecimalFacts.v
 theories/Numbers/Number/DecimalPos.v
 theories/Numbers/Number/DecimalN.v
@@ -46,6 +30,6 @@ theories/Numbers/Number/HexadecimalN.v
 theories/Numbers/Number/HexadecimalZ.v
 
 -R theories/QArith Coq.QArith
--R theories/setoid_ring Coq.setoid_ring
+-R theories/setoid_ring/Q Coq.setoid_ring.Q
 -R theories/Numbers/Number Coq.Numbers.Number
 -R theories/micromega/Lqa Coq.micromega.Lqa
