@@ -13,7 +13,7 @@ From Coq Require Import QArith_base.
 From Coq Require Import Qabs.
 From Coq Require Import ConstructiveReals.
 From Coq Require Import ConstructiveCauchyRealsMult.
-From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq.Logic Require Import ConstructiveEpsilon.
 From Coq Require Import ConstructiveCauchyAbs.
 From Coq Require Import Lia.
 From Coq Require Import Lqa.

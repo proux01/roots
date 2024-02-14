@@ -21,7 +21,7 @@ Require Export Coq.Classes.Equivalence.
 (** The [DecidableSetoid] class asserts decidability of a [Setoid].
    It can be useful in proofs to reason more classically. *)
 
-Require Import Coq.Logic.Decidable.
+From Coq.Logic Require Import Decidable.
 Require Import Coq.Bool.Bool.
 From Coq.Arith Require Import Peano_dec.
 From Coq.Program Require Import Program.

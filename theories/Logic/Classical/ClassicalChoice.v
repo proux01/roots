@@ -22,9 +22,9 @@
     with non computable functions. Especially it conflicts with the
     impredicativity of [Set], knowing that [true<>false] in [Set].  *)
 
-Require Export ClassicalUniqueChoice.
-Require Export RelationalChoice.
-Require Import ChoiceFacts.
+From Coq.Logic Require Export ClassicalUniqueChoice.
+From Coq.Logic Require Export RelationalChoice.
+From Coq.Logic Require Import ChoiceFacts.
 
 Set Implicit Arguments.
 

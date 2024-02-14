@@ -20,7 +20,7 @@ From Coq Require Import QArith_base Qabs.
 From Coq Require Import ConstructiveReals.
 From Coq Require Import ConstructiveAbs.
 From Coq Require Import ConstructiveLimits.
-From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq.Logic Require Import ConstructiveEpsilon.
 
 Local Open Scope ConstructiveReals.
 

@@ -15,7 +15,7 @@
 *)
 
 Require Import Coq.Program.Basics.
-Require Export Coq.Logic.FunctionalExtensionality.
+From Coq.Logic Require Export FunctionalExtensionality.
 
 Open Scope program_scope.
 

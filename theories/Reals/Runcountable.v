@@ -14,7 +14,7 @@ Require Import Coq.Reals.Raxioms.
 Require Import Rfunctions.
 Require Import Coq.Reals.RIneq.
 From Coq.Logic Require Import FinFun.
-Require Import Coq.Logic.ConstructiveEpsilon.
+From Coq.Logic Require Import ConstructiveEpsilon.
 
 
 Definition enumeration (A : Type) (u : nat -> A) (v : A -> nat) : Prop :=

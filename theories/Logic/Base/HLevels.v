@@ -21,7 +21,7 @@
 
 (* It is almost impossible to prove that a type is a homotopy proposition
    without funext, so we assume it here. *)
-Require Import Coq.Logic.FunctionalExtensionality.
+From Coq.Logic Require Import FunctionalExtensionality.
 
 (* A homotopy proposition is a type that has at most one element.
    Its unique inhabitant, when it exists, is to be interpreted as the

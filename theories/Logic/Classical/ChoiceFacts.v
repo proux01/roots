@@ -982,7 +982,7 @@ Qed.
 (**********************************************************************)
 (** * About the axiom of choice over setoids                          *)
 
-Require Import ClassicalFacts PropExtensionalityFacts.
+From Coq.Logic Require Import ClassicalFacts PropExtensionalityFacts.
 
 (**********************************************************************)
 (** ** Consequences of the choice of a representative in an equivalence class *)
