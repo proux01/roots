@@ -22,7 +22,7 @@ Compilation
 Just type `make` to build the whole thing or `make package` to compile
 a single package (once its dependencies are installed), then `make
 install-package` to install it. `package` being one of
-* arith
+* arith-base
 * bool
 * classes
 * classical-logic
