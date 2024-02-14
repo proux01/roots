@@ -7,7 +7,7 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-From Coq Require Import Bool ZArith.
+From Coq Require Import Bool Arith_base BinInt BinNat Znat.
 From Coq Require Import Zify ZifyClasses.
 From Coq Require Import ZifyInst.
 Local Open Scope Z_scope.

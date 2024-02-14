@@ -16,26 +16,26 @@ theories/Numbers/Integer/Abstract/ZLt.v
 theories/Numbers/Integer/Abstract/ZLcm.v
 theories/Numbers/Integer/Abstract/ZBase.v
 theories/Numbers/Integer/Abstract/ZBits.v
-theories/ZArith/BinIntDef.v
-theories/ZArith/BinInt.v
-theories/ZArith/Zcompare.v
-theories/ZArith/Zorder.v
-theories/ZArith/Zminmax.v
-theories/ZArith/Zmin.v
-theories/ZArith/Zmax.v
-theories/ZArith/Znat.v
-theories/ZArith/ZArith_dec.v
-theories/ZArith/Zabs.v
-theories/ZArith/auxiliary.v
-theories/ZArith/Zbool.v
-theories/ZArith/Zmisc.v
-theories/ZArith/Wf_Z.v
-theories/ZArith/Zhints.v
-theories/ZArith/ZArith_base.v
-theories/ZArith/Zeven.v
-theories/ZArith/Zpow_alt.v
-theories/ZArith/Zeuclid.v
-theories/ZArith/Int.v
+theories/ZArith/Base/BinIntDef.v
+theories/ZArith/Base/BinInt.v
+theories/ZArith/Base/Zcompare.v
+theories/ZArith/Base/Zorder.v
+theories/ZArith/Base/Zminmax.v
+theories/ZArith/Base/Zmin.v
+theories/ZArith/Base/Zmax.v
+theories/ZArith/Base/Znat.v
+theories/ZArith/Base/ZArith_dec.v
+theories/ZArith/Base/Zabs.v
+theories/ZArith/Base/auxiliary.v
+theories/ZArith/Base/Zbool.v
+theories/ZArith/Base/Zmisc.v
+theories/ZArith/Base/Wf_Z.v
+theories/ZArith/Base/Zhints.v
+theories/ZArith/Base/ZArith_base.v
+theories/ZArith/Base/Zeven.v
+theories/ZArith/Base/Zpow_alt.v
+theories/ZArith/Base/Zeuclid.v
+theories/ZArith/Base/Int.v
 
--R theories/ZArith Coq.ZArith
 -R theories/Numbers/Integer/Abstract Coq.Numbers.Integer.Abstract
+-R theories/ZArith/Base Coq.ZArith.Base

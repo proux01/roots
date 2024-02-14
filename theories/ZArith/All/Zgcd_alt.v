@@ -21,11 +21,11 @@ Author: Pierre Letouzey
     here due to both its intrinsic interest and its use as reference
     point when proving gcd on Int31 numbers *)
 
-Require Import ZArith_base.
+From Coq.ZArith Require Import ZArith_base.
 From Coq.setoid_ring Require Import ZArithRing.
-Require Import Zdiv.
-Require Import Znumtheory.
-Require Import Lia.
+From Coq.ZArith Require Import Zdiv.
+From Coq.ZArith Require Import Znumtheory.
+From Coq.micromega Require Import Lia.
 
 Open Scope Z_scope.
 
