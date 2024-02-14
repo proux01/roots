@@ -35,6 +35,7 @@ install-package` to install it. `package` being one of
 * micromega-extraction
 * nsatz
 * narith
+* zarith
 * nzarith
 * orders-ex
 * positive
