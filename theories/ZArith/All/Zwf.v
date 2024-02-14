@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith_base.
+From Coq.ZArith Require Import ZArith_base.
 From Coq.Arith Require Export Wf_nat.
-Require Import Lia.
+From Coq.micromega Require Import Lia.
 Local Open Scope Z_scope.
 
 (** Well-founded relations on Z. *)

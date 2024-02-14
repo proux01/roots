@@ -1,0 +1,26 @@
+theories/omega/OmegaLemmas.v
+theories/omega/PreOmega.v
+theories/micromega/DeclConstantZ.v
+theories/micromega/ZifyN.v
+theories/micromega/ZifyComparison.v
+theories/micromega/OrderedRing.v
+theories/micromega/ZifyClasses.v
+theories/micromega/Tauto.v
+theories/micromega/Env.v
+theories/micromega/Refl.v
+theories/micromega/ZifyNat.v
+theories/micromega/ZifyPow.v
+theories/micromega/ZArith_hints.v
+theories/micromega/ZMicromega.v
+theories/micromega/EnvRing.v
+theories/micromega/Lia.v
+theories/micromega/VarMap.v
+theories/micromega/ZifyBool.v
+theories/micromega/Zify.v
+theories/micromega/ZifyInst.v
+theories/micromega/Ztac.v
+theories/micromega/ZCoeff.v
+theories/micromega/RingMicromega.v
+
+-R theories/omega Coq.omega
+-R theories/micromega Coq.micromega

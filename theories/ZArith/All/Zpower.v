@@ -9,8 +9,8 @@
 (************************************************************************)
 
 From Coq.Arith Require Import Wf_nat.
-Require Import ZArith_base Zcomplements.
-Require Export Zpow_def.
+From Coq.ZArith Require Import ZArith_base Zcomplements.
+From Coq.ZArith Require Export Zpow_def.
 Local Open Scope Z_scope.
 
 (** * Power functions over [Z] *)

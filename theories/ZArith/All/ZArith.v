@@ -10,20 +10,20 @@
 
 (** Library for manipulating integers based on binary encoding *)
 
-Require Export ZArith_base.
+From Coq.ZArith Require Export ZArith_base.
 
 (** Extra definitions *)
 
-Require Export Zpow_def.
+From Coq.ZArith Require Export Zpow_def.
 
 (** Extra modules using [Ring]. *)
 
-Require Export OmegaLemmas.
-Require Export PreOmega.
-Require Export ZArith_hints.
-Require Export Zcomplements.
+From Coq Require Export OmegaLemmas.
+From Coq Require Export PreOmega.
+From Coq Require Export ZArith_hints.
+From Coq Require Export Zcomplements.
 Require Export Zpower.
-Require Export Zdiv.
+From Coq Require Export Zdiv.
 Require Export Zbitwise.
 
 Export ZArithRing.

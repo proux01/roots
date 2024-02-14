@@ -10,7 +10,7 @@
 
 (* Instances of [ZifyClasses] for dealing with advanced [nat] operators. *)
 
-Require Import BinInt Znat Zdiv.
+From Coq Require Import BinInt Znat Zdiv.
 Require Import ZifyClasses ZifyInst Zify.
 
 Ltac zify_convert_to_euclidean_division_equations_flag ::= constr:(true).

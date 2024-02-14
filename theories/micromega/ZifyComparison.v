@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-From Coq Require Import Bool ZArith.
+From Coq Require Import Bool BinInt.
 From Coq Require Import Zify ZifyClasses.
 From Coq Require Import Lia.
 Local Open Scope Z_scope.

@@ -1,4 +1,4 @@
-Require Import BinInt Lia Btauto. Local Open Scope Z_scope.
+From Coq Require Import BinInt Lia Btauto. Local Open Scope Z_scope.
 Import (ltac.notations) BinInt.Z.
 
 Module Z.

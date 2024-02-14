@@ -1,11 +1,11 @@
 theories/Numbers/Natural/Binary/NBinary.v
-theories/ZArith/Zpower.v
-theories/ZArith/Zquot.v
-theories/ZArith/Zpow_facts.v
-theories/ZArith/Zgcd_alt.v
-theories/ZArith/Zwf.v
-theories/ZArith/ZArith.v
-theories/ZArith/Zbitwise.v
+theories/ZArith/All/Zpower.v
+theories/ZArith/All/Zquot.v
+theories/ZArith/All/Zpow_facts.v
+theories/ZArith/All/Zgcd_alt.v
+theories/ZArith/All/Zwf.v
+theories/ZArith/All/ZArith.v
+theories/ZArith/All/Zbitwise.v
 theories/Numbers/Integer/Binary/ZBinary.v
 theories/Numbers/Integer/NatPairs/ZNatPairs.v
 theories/Numbers/Number/DecimalN.v
@@ -21,60 +21,10 @@ theories/Numbers/Number/HexadecimalPos.v
 theories/btauto/Algebra.v
 theories/btauto/Reflect.v
 theories/btauto/Btauto.v
-theories/omega/OmegaLemmas.v
-theories/omega/PreOmega.v
-theories/micromega/DeclConstantZ.v
-theories/micromega/ZifyN.v
-theories/micromega/ZifyComparison.v
-theories/micromega/OrderedRing.v
-theories/micromega/ZifyClasses.v
-theories/micromega/Tauto.v
-theories/micromega/Env.v
-theories/micromega/Refl.v
-theories/micromega/ZifyNat.v
-theories/micromega/ZifyPow.v
-theories/micromega/ZArith_hints.v
-theories/micromega/ZMicromega.v
-theories/micromega/EnvRing.v
-theories/micromega/Lia.v
-theories/micromega/VarMap.v
-theories/micromega/ZifyBool.v
-theories/micromega/Zify.v
-theories/micromega/ZifyInst.v
-theories/micromega/Ztac.v
-theories/micromega/ZCoeff.v
-theories/micromega/RingMicromega.v
 
-theories/ZArith/Zmin.v
-theories/ZArith/ZArith_dec.v
-theories/ZArith/Zeven.v
-theories/ZArith/BinIntDef.v
-theories/ZArith/Zorder.v
-theories/ZArith/Zabs.v
-theories/ZArith/ZArith_base.v
-theories/ZArith/BinInt.v
-theories/ZArith/Zpow_alt.v
-theories/ZArith/Zeuclid.v
-theories/ZArith/Zmisc.v
-theories/ZArith/Zmax.v
-theories/ZArith/Wf_Z.v
-theories/ZArith/Zbool.v
-theories/ZArith/Zhints.v
-theories/ZArith/Zcompare.v
-theories/ZArith/auxiliary.v
-theories/ZArith/Int.v
-theories/ZArith/Zminmax.v
-theories/ZArith/Znat.v
-theories/ZArith/Ring/Zpow_def.v
-theories/ZArith/Ring/Znumtheory.v
-theories/ZArith/Ring/Zcomplements.v
-theories/ZArith/Ring/Zdiv.v
-
--R theories/ZArith Coq.ZArith
+-R theories/ZArith/All Coq.ZArith.All
 -R theories/Numbers/Natural/Binary Coq.Numbers.Natural.Binary
 -R theories/Numbers/Integer/Binary Coq.Numbers.Integer.Binary
 -R theories/Numbers/Integer/NatPairs Coq.Numbers.Integer.NatPairs
 -R theories/Numbers/Number Coq.Numbers.Number
 -R theories/btauto Coq.btauto
--R theories/omega Coq.omega
--R theories/micromega Coq.micromega
