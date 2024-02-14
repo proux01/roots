@@ -24,12 +24,12 @@ digraph roots_deps {
 	"coq-roots-orders-ex" -> "coq-roots-string";
 	"coq-roots-orders-ex" -> "coq-roots-sorting";
 	"coq-roots-funind" -> "coq-roots-extraction";
-	"coq-roots-string" -> "coq-roots-nzarith";
+	"coq-roots-string" -> "coq-roots-zarith";
 	"coq-roots-sorting" -> "coq-roots-sets";
 	"coq-roots-extraction" -> "coq-roots-string";
 	"coq-roots-extraction" -> "coq-roots-primitive-floats";
 	"coq-roots-extraction" -> "coq-roots-primitive-array";
-	"coq-roots-nzarith" -> "coq-roots-lia";
+	"coq-roots-zarith" -> "coq-roots-lia";
 	"coq-roots-lia" -> "coq-roots-arith";
 	"coq-roots-arith" -> "coq-roots-ring";
 	"coq-roots-ring" -> "coq-roots-list";
@@ -40,11 +40,11 @@ digraph roots_deps {
 	"coq-roots-sorting" -> "coq-roots-vectors";
 	"coq-roots-string" -> "coq-roots-vectors";
 	"coq-roots-sets" -> "coq-roots-classical-logic";
-	"coq-roots-classical-logic" -> "coq-roots-nzarith";
+	"coq-roots-classical-logic" -> "coq-roots-zarith";
 	"coq-roots-reals" -> "coq-roots-classical-logic";
 	"coq-roots-reals" -> "coq-roots-qarith";
-	"coq-roots-qarith" -> "coq-roots-nzarith";
-	"coq-roots-primitive-int" -> "coq-roots-nzarith";
+	"coq-roots-qarith" -> "coq-roots-zarith";
+	"coq-roots-primitive-int" -> "coq-roots-zarith";
 	"coq-roots-primitive-int" -> "coq-roots-unicode";
 	"coq-roots-primitive-floats" -> "coq-roots-primitive-int";
 	"coq-roots-primitive-array" -> "coq-roots-primitive-int";
@@ -53,5 +53,5 @@ digraph roots_deps {
 	"coq-roots-micromega-extraction" -> "coq-roots-reals";
 	"coq-roots-nsatz" -> "coq-roots-reals";
 	"coq-roots-rtauto" -> "coq-roots-list";
-	"coq-roots-compat" -> "coq-roots-nzarith";
+	"coq-roots-compat" -> "coq-roots-zarith";
 }
