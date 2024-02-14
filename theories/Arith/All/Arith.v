@@ -9,4 +9,4 @@
 (************************************************************************)
 
 From Coq.Arith Require Export Arith_base.
-Require Export ArithRing.
+From Coq.setoid_ring Require Export ArithRing.

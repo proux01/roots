@@ -14,7 +14,6 @@ From Coq Require Import BinPos.
 From Coq Require Import BinList.
 From Coq Require Import Znumtheory.
 From Coq Require Export Morphisms Setoid Bool.
-From Coq Require Import ZArith.
 From Coq Require Import Algebra_syntax.
 From Coq Require Export Ncring.
 From Coq Require Import Ncring_polynom.

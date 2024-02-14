@@ -1,45 +1,23 @@
 theories/Numbers/Natural/Binary/NBinary.v
 theories/ZArith/Zpower.v
-theories/ZArith/Zpow_def.v
-theories/ZArith/Znumtheory.v
 theories/ZArith/Zquot.v
-theories/ZArith/Zdiv.v
 theories/ZArith/Zpow_facts.v
-theories/ZArith/Zcomplements.v
 theories/ZArith/Zgcd_alt.v
 theories/ZArith/Zwf.v
 theories/ZArith/ZArith.v
 theories/ZArith/Zbitwise.v
 theories/Numbers/Integer/Binary/ZBinary.v
 theories/Numbers/Integer/NatPairs/ZNatPairs.v
-theories/Numbers/DecimalN.v
-theories/Numbers/DecimalNat.v
-theories/Numbers/DecimalZ.v
-theories/Numbers/DecimalFacts.v
-theories/Numbers/DecimalPos.v
-theories/Numbers/HexadecimalN.v
-theories/Numbers/HexadecimalNat.v
-theories/Numbers/HexadecimalZ.v
-theories/Numbers/HexadecimalFacts.v
-theories/Numbers/HexadecimalPos.v
-theories/setoid_ring/Ncring_polynom.v
-theories/setoid_ring/Rings_Z.v
-theories/setoid_ring/Ncring_initial.v
-theories/setoid_ring/Ring_polynom.v
-theories/setoid_ring/ZArithRing.v
-theories/setoid_ring/Integral_domain.v
-theories/setoid_ring/Ring_base.v
-theories/setoid_ring/BinList.v
-theories/setoid_ring/Ncring.v
-theories/setoid_ring/Ring.v
-theories/setoid_ring/Algebra_syntax.v
-theories/setoid_ring/InitialRing.v
-theories/setoid_ring/Cring.v
-theories/setoid_ring/Ncring_tac.v
-theories/setoid_ring/Ring_tac.v
-theories/setoid_ring/ArithRing.v
-theories/setoid_ring/NArithRing.v
-theories/setoid_ring/Ring_theory.v
+theories/Numbers/Number/DecimalN.v
+theories/Numbers/Number/DecimalNat.v
+theories/Numbers/Number/DecimalZ.v
+theories/Numbers/Number/DecimalFacts.v
+theories/Numbers/Number/DecimalPos.v
+theories/Numbers/Number/HexadecimalN.v
+theories/Numbers/Number/HexadecimalNat.v
+theories/Numbers/Number/HexadecimalZ.v
+theories/Numbers/Number/HexadecimalFacts.v
+theories/Numbers/Number/HexadecimalPos.v
 theories/Arith/All/Arith.v
 theories/btauto/Algebra.v
 theories/btauto/Reflect.v
@@ -68,60 +46,6 @@ theories/micromega/Ztac.v
 theories/micromega/ZCoeff.v
 theories/micromega/RingMicromega.v
 
-theories/Numbers/NumPrelude.v
-theories/Numbers/BinNums.v
-theories/Numbers/Integer/Abstract/ZSgnAbs.v
-theories/Numbers/Integer/Abstract/ZAxioms.v
-theories/Numbers/Integer/Abstract/ZAddOrder.v
-theories/Numbers/Integer/Abstract/ZProperties.v
-theories/Numbers/Integer/Abstract/ZDivTrunc.v
-theories/Numbers/Integer/Abstract/ZParity.v
-theories/Numbers/Integer/Abstract/ZMul.v
-theories/Numbers/Integer/Abstract/ZPow.v
-theories/Numbers/Integer/Abstract/ZAdd.v
-theories/Numbers/Integer/Abstract/ZDivFloor.v
-theories/Numbers/Integer/Abstract/ZMulOrder.v
-theories/Numbers/Integer/Abstract/ZDivEucl.v
-theories/Numbers/Integer/Abstract/ZMaxMin.v
-theories/Numbers/Integer/Abstract/ZGcd.v
-theories/Numbers/Integer/Abstract/ZLt.v
-theories/Numbers/Integer/Abstract/ZLcm.v
-theories/Numbers/Integer/Abstract/ZBase.v
-theories/Numbers/Integer/Abstract/ZBits.v
-theories/Numbers/Natural/Abstract/NAdd.v
-theories/Numbers/Natural/Abstract/NAxioms.v
-theories/Numbers/Natural/Abstract/NMaxMin.v
-theories/Numbers/Natural/Abstract/NSqrt.v
-theories/Numbers/Natural/Abstract/NDiv0.v
-theories/Numbers/Natural/Abstract/NBits.v
-theories/Numbers/Natural/Abstract/NGcd.v
-theories/Numbers/Natural/Abstract/NParity.v
-theories/Numbers/Natural/Abstract/NProperties.v
-theories/Numbers/Natural/Abstract/NPow.v
-theories/Numbers/Natural/Abstract/NDiv.v
-theories/Numbers/Natural/Abstract/NAddOrder.v
-theories/Numbers/Natural/Abstract/NLcm0.v
-theories/Numbers/Natural/Abstract/NLog.v
-theories/Numbers/Natural/Abstract/NMulOrder.v
-theories/Numbers/Natural/Abstract/NSub.v
-theories/Numbers/Natural/Abstract/NBase.v
-theories/Numbers/Natural/Abstract/NLcm.v
-theories/Numbers/Natural/Abstract/NOrder.v
-theories/Numbers/NatInt/NZBase.v
-theories/Numbers/NatInt/NZOrder.v
-theories/Numbers/NatInt/NZProperties.v
-theories/Numbers/NatInt/NZAxioms.v
-theories/Numbers/NatInt/NZDiv.v
-theories/Numbers/NatInt/NZParity.v
-theories/Numbers/NatInt/NZPow.v
-theories/Numbers/NatInt/NZSqrt.v
-theories/Numbers/NatInt/NZGcd.v
-theories/Numbers/NatInt/NZBits.v
-theories/Numbers/NatInt/NZAddOrder.v
-theories/Numbers/NatInt/NZMul.v
-theories/Numbers/NatInt/NZLog.v
-theories/Numbers/NatInt/NZAdd.v
-theories/Numbers/NatInt/NZMulOrder.v
 theories/ZArith/Zmin.v
 theories/ZArith/ZArith_dec.v
 theories/ZArith/Zeven.v
@@ -142,10 +66,16 @@ theories/ZArith/auxiliary.v
 theories/ZArith/Int.v
 theories/ZArith/Zminmax.v
 theories/ZArith/Znat.v
+theories/ZArith/Ring/Zpow_def.v
+theories/ZArith/Ring/Znumtheory.v
+theories/ZArith/Ring/Zcomplements.v
+theories/ZArith/Ring/Zdiv.v
 
 -R theories/ZArith Coq.ZArith
--R theories/Numbers Coq.Numbers
--R theories/setoid_ring Coq.setoid_ring
+-R theories/Numbers/Natural/Binary Coq.Numbers.Natural.Binary
+-R theories/Numbers/Integer/Binary Coq.Numbers.Integer.Binary
+-R theories/Numbers/Integer/NatPairs Coq.Numbers.Integer.NatPairs
+-R theories/Numbers/Number Coq.Numbers.Number
 -R theories/Arith/All Coq.Arith.All
 -R theories/btauto Coq.btauto
 -R theories/omega Coq.omega

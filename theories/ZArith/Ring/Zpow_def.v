@@ -8,7 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import BinInt Ring_theory.
+From Coq.ZArith Require Import BinInt.
+From Coq.setoid_ring Require Import Ring_theory.
 Local Open Scope Z_scope.
 
 (** * Power functions over [Z] *)

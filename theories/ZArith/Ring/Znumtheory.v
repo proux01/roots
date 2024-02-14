@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith_base.
-Require Import ZArithRing.
+From Coq.ZArith Require Import ZArith_base.
+From Coq.setoid_ring Require Import ZArithRing.
 Require Import Zcomplements.
 Require Import Zdiv.
 From Coq.Arith Require Import Wf_nat.
