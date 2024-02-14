@@ -370,7 +370,7 @@ Proof.
     apply Q2R_opp.
 Qed.
 
-Require Import EnvRing.
+From Coq.micromega Require Import EnvRing.
 
 Definition INZ (n:N) : R :=
   match n with
@@ -505,7 +505,7 @@ Proof.
   exact H.
 Qed.
 
-Require Import Coq.micromega.Tauto.
+From Coq.micromega Require Import Tauto.
 
 Definition Rnormalise := @cnf_normalise Q 0%Q 1%Q Qplus Qmult Qminus Qopp Qeq_bool Qle_bool.
 Definition Rnegate := @cnf_negate Q 0%Q 1%Q Qplus Qmult Qminus Qopp Qeq_bool Qle_bool.

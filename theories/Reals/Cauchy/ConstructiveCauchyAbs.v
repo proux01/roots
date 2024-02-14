@@ -13,8 +13,8 @@ Require Import Qabs.
 Require Import Qpower.
 Require Import ConstructiveCauchyReals.
 Require Import ConstructiveCauchyRealsMult.
-Require Import Lia.
-Require Import Lqa.
+From Coq.micromega Require Import Lia.
+From Coq.micromega Require Import Lqa.
 Require Import QExtra.
 
 Local Open Scope CReal_scope.

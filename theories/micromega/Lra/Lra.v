@@ -14,12 +14,13 @@
 (*                                                                      *)
 (************************************************************************)
 
-From Coq Require Import QMicromega.
-From Coq Require Import QArith.
-From Coq Require Import RingMicromega.
-From Coq Require Import VarMap.
-From Coq Require Import DeclConstant.
-Require Coq.micromega.Tauto.
+Require Import RMicromega.
+From Coq.micromega Require Import QMicromega.
+Require Import Rdefinitions.
+From Coq.micromega Require Import RingMicromega.
+From Coq.micromega Require Import VarMap.
+From Coq.micromega Require Tauto.
+Require Import Rregisternames.
 Declare ML Module "micromega_plugin:coq-core.plugins.micromega".
 
 Ltac rchange :=
@@ -27,26 +28,26 @@ Ltac rchange :=
   let __varmap := fresh "__varmap" in
   let __ff := fresh "__ff" in
   intros __wit __varmap __ff ;
-  change (Tauto.eval_bf (Qeval_formula (@find Q 0%Q __varmap)) __ff) ;
-  apply (QTautoChecker_sound __ff __wit).
+  change (Tauto.eval_bf (Reval_formula (@find R 0%R __varmap)) __ff) ;
+  apply (RTautoChecker_sound __ff __wit).
 
 Ltac rchecker_no_abstract := rchange ; vm_compute ; reflexivity.
 Ltac rchecker_abstract := rchange ; vm_cast_no_check (eq_refl true).
 
 Ltac rchecker := rchecker_no_abstract.
 
-(** Here, lra stands for linear rational arithmetic *)
-Ltac lra := xlra_Q rchecker.
+(** Here, lra stands for linear real arithmetic *)
+Ltac lra := unfold Rdiv in * ; xlra_R rchecker.
 
-(** Here, nra stands for non-linear rational arithmetic *)
-Ltac nra := xnra_Q rchecker.
+(** Here, nra stands for non-linear real arithmetic *)
+Ltac nra := unfold Rdiv in * ; xnra_R rchecker.
 
 Ltac xpsatz dom d :=
   let tac := lazymatch dom with
-  | Q =>
-    ((xsos_Q rchecker) || (xpsatz_Q d rchecker))
+  | R =>
+    (xsos_R rchecker) || (xpsatz_R d rchecker)
   | _ => fail "Unsupported domain"
-  end in tac.
+ end in tac.
 
 Tactic Notation "psatz" constr(dom) int_or_var(n) := xpsatz dom n.
 Tactic Notation "psatz" constr(dom) := xpsatz dom ltac:(-1).

@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import RIneq.
-Require Import Lia.
+From Coq.micromega Require Import Lia.
 Local Open Scope R_scope.
 
 Lemma Rlt_R0_R2 : 0 < 2.

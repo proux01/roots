@@ -22,7 +22,7 @@ From Coq Require Import List.
 From Coq Require Import Bool.
 From Coq Require Import OrderedRing.
 From Coq Require Import Refl.
-Require Coq.micromega.Tauto.
+From Coq.micromega Require Tauto.
 
 Set Implicit Arguments.
 
@@ -795,7 +795,7 @@ Definition xnegate (t:NFormula) : list (NFormula)  :=
     end.
 
 
-Import Coq.micromega.Tauto.
+Import Tauto.
 
 Definition cnf_of_list {T : Type} (l:list NFormula) (tg : T) : cnf NFormula T :=
   List.fold_right (fun x acc =>

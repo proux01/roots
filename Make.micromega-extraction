@@ -1,18 +1,3 @@
-theories/micromega/MExtraction.v
+theories/micromega/extraction/MExtraction.v
 
-theories/micromega/ZMicromega.v
-theories/micromega/OrderedRing.v
-theories/micromega/RingMicromega.v
-theories/micromega/Env.v
-theories/micromega/EnvRing.v
-theories/micromega/Refl.v
-theories/micromega/Tauto.v
-theories/micromega/VarMap.v
-theories/micromega/Ztac.v
-theories/micromega/ZCoeff.v
-theories/micromega/QMicromega.v
-theories/micromega/RMicromega.v
-theories/micromega/DeclConstantZ.v
-theories/micromega/DeclConstant.v
-
--R theories/micromega Coq.micromega
+-R theories/micromega/extraction Coq.micromega.extraction

@@ -16,7 +16,7 @@
 
 From Coq Require Import ZMicromega RingMicromega VarMap DeclConstantZ.
 From Coq Require Import BinNums.
-Require Coq.micromega.Tauto.
+From Coq.micromega Require Tauto.
 Declare ML Module "micromega_plugin:coq-core.plugins.micromega".
 
 Ltac zchecker :=

@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Lia.
-Require Import Lra.
+From Coq.micromega Require Import Lia.
+From Coq.micromega Require Import Lra.
 Require Import Rbase.
 Require Import Rtrigo1.
 Require Import Ranalysis_reg.

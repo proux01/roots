@@ -82,29 +82,15 @@ theories/Reals/Rlogic.v
 theories/Reals/SeqProp.v
 theories/setoid_ring/RealField.v
 theories/setoid_ring/Rings_R.v
-theories/micromega/Lra.v
-theories/micromega/Psatz.v
-theories/micromega/Fourier_util.v
-theories/micromega/Fourier.v
-theories/micromega/RMicromega.v
+theories/micromega/Lra/Lra.v
+theories/micromega/Lra/Psatz.v
+theories/micromega/Lra/Fourier_util.v
+theories/micromega/Lra/Fourier.v
+theories/micromega/Lra/RMicromega.v
 theories/QArith/Qreals.v
 theories/Numbers/Number/DecimalR.v
 theories/Numbers/Number/HexadecimalR.v
 
-theories/micromega/Lia.v
-theories/micromega/ZMicromega.v
-theories/micromega/Ztac.v
-theories/micromega/ZCoeff.v
-theories/micromega/OrderedRing.v
-theories/micromega/RingMicromega.v
-theories/micromega/EnvRing.v
-theories/micromega/Refl.v
-theories/micromega/Tauto.v
-theories/micromega/VarMap.v
-theories/micromega/DeclConstantZ.v
-theories/micromega/DeclConstant.v
-theories/micromega/Lqa.v
-theories/micromega/QMicromega.v
 theories/Numbers/BinNums.v
 theories/Numbers/Number/DecimalFacts.v
 theories/Numbers/Number/DecimalPos.v
@@ -149,6 +135,6 @@ theories/QArith/QOrderedType.v
 
 -R theories/Reals Coq.Reals
 -R theories/setoid_ring Coq.setoid_ring
--R theories/micromega Coq.micromega
+-R theories/micromega/Lra Coq.micromega.Lra
 -R theories/QArith Coq.QArith
 -R theories/Numbers/Number Coq.Numbers.Number

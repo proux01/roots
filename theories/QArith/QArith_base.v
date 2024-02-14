@@ -10,7 +10,7 @@
 
 From Coq Require Export ZArith_base.
 From Coq Require Export ZArithRing.
-From Coq Require Export ZArith.BinInt.
+From Coq.ZArith Require Export BinInt.
 From Coq Require Export Morphisms Setoid Bool.
 
 (** * Definition of [Q] and basic properties *)

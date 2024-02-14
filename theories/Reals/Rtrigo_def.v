@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import Rbase Rfunctions SeqSeries Rtrigo_fun.
-Require Import Lra Lia.
+From Coq.micromega Require Import Lra Lia.
 Local Open Scope R_scope.
 
 (********************************)
