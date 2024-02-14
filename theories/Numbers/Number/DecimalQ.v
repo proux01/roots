@@ -13,7 +13,8 @@
     Proofs that conversions between decimal numbers and [Q]
     are bijections. *)
 
-Require Import Decimal DecimalFacts DecimalPos DecimalN DecimalZ QArith.
+From Coq Require Import Decimal DecimalFacts DecimalPos DecimalN DecimalZ.
+From Coq.QArith Require Import QArith.
 
 Lemma of_IQmake_to_decimal num den :
   match IQmake_to_decimal num den with

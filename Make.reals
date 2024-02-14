@@ -80,14 +80,14 @@ theories/Reals/Rminmax.v
 theories/Reals/Rpow_def.v
 theories/Reals/Rlogic.v
 theories/Reals/SeqProp.v
-theories/setoid_ring/RealField.v
-theories/setoid_ring/Rings_R.v
+theories/Reals/Qreals.v
+theories/setoid_ring/R/RealField.v
+theories/setoid_ring/R/Rings_R.v
 theories/micromega/Lra/Lra.v
 theories/micromega/Lra/Psatz.v
 theories/micromega/Lra/Fourier_util.v
 theories/micromega/Lra/Fourier.v
 theories/micromega/Lra/RMicromega.v
-theories/QArith/Qreals.v
 theories/Numbers/Number/DecimalR.v
 theories/Numbers/Number/HexadecimalR.v
 
@@ -102,39 +102,8 @@ theories/Numbers/Number/HexadecimalPos.v
 theories/Numbers/Number/HexadecimalZ.v
 theories/Numbers/Number/HexadecimalN.v
 theories/Numbers/Number/HexadecimalQ.v
-theories/setoid_ring/Ring.v
-theories/setoid_ring/Ring_theory.v
-theories/setoid_ring/Ring_base.v
-theories/setoid_ring/Ring_tac.v
-theories/setoid_ring/Ring_polynom.v
-theories/setoid_ring/BinList.v
-theories/setoid_ring/InitialRing.v
-theories/setoid_ring/ArithRing.v
-theories/setoid_ring/ZArithRing.v
-theories/setoid_ring/Field.v
-theories/setoid_ring/Field_theory.v
-theories/setoid_ring/Field_tac.v
-theories/setoid_ring/NArithRing.v
-theories/setoid_ring/Cring.v
-theories/setoid_ring/Ncring.v
-theories/setoid_ring/Ncring_initial.v
-theories/setoid_ring/Ncring_polynom.v
-theories/setoid_ring/Ncring_tac.v
-theories/setoid_ring/Integral_domain.v
-theories/setoid_ring/Algebra_syntax.v
-theories/QArith/QArith_base.v
-theories/QArith/Qring.v
-theories/QArith/Qfield.v
-theories/QArith/QArith.v
-theories/QArith/Qreduction.v
-theories/QArith/Qpower.v
-theories/QArith/Qabs.v
-theories/QArith/Qround.v
-theories/QArith/Qminmax.v
-theories/QArith/QOrderedType.v
 
 -R theories/Reals Coq.Reals
--R theories/setoid_ring Coq.setoid_ring
+-R theories/setoid_ring/R Coq.setoid_ring.R
 -R theories/micromega/Lra Coq.micromega.Lra
--R theories/QArith Coq.QArith
 -R theories/Numbers/Number Coq.Numbers.Number

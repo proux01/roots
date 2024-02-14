@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import Rdefinitions Raxioms RIneq.
-Require Export QArith_base.
+From Coq.QArith Require Export QArith_base.
 
 (** Injection of rational numbers into real numbers. *)
 

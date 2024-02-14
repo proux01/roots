@@ -28,8 +28,8 @@
     WARNING: this file is experimental and likely to change in future releases.
 *)
 
-Require Import QArith.
-Require Import Qabs.
+From Coq.QArith Require Import QArith.
+From Coq.QArith Require Import Qabs.
 Require Import ConstructiveReals.
 Require Import ConstructiveLimits.
 Require Import ConstructiveAbs.

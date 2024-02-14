@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export Cring.
-Require Export Integral_domain.
+From Coq.setoid_ring Require Export Cring.
+From Coq.setoid_ring Require Export Integral_domain.
 
 (* Real numbers *)
 Require Import Reals.

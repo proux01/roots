@@ -21,7 +21,7 @@
     This allows to apply results from constructive reals to
     classical reals. *)
 
-Require Import QArith_base.
+From Coq.QArith Require Import QArith_base.
 Require Import Rdefinitions.
 Require Import Raxioms.
 Require Import ConstructiveReals.

@@ -8,9 +8,9 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import QArith.
-Require Import Qabs.
-Require Import Qpower.
+From Coq.QArith Require Import QArith.
+From Coq.QArith Require Import Qabs.
+From Coq.QArith Require Import Qpower.
 Require Import ConstructiveCauchyReals.
 Require Import ConstructiveCauchyRealsMult.
 From Coq.micromega Require Import Lia.
