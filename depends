@@ -33,8 +33,8 @@ digraph roots_deps {
 	"coq-roots-lia" -> "coq-roots-arith";
 	"coq-roots-arith" -> "coq-roots-ring";
 	"coq-roots-ring" -> "coq-roots-list";
-	"coq-roots-ring" -> "coq-roots-zarith";
-	"coq-roots-zarith" -> "coq-roots-narith";
+	"coq-roots-ring" -> "coq-roots-zarith-base";
+	"coq-roots-zarith-base" -> "coq-roots-narith";
 	"coq-roots-narith" -> "coq-roots-positive";
 	"coq-roots-reals" -> "coq-roots-vectors";
 	"coq-roots-sorting" -> "coq-roots-vectors";

@@ -35,7 +35,7 @@ install-package` to install it. `package` being one of
 * micromega-extraction
 * nsatz
 * narith
-* zarith
+* zarith-base
 * ring
 * arith
 * lia
