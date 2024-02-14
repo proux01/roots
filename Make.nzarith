@@ -18,7 +18,6 @@ theories/Numbers/Number/HexadecimalNat.v
 theories/Numbers/Number/HexadecimalZ.v
 theories/Numbers/Number/HexadecimalFacts.v
 theories/Numbers/Number/HexadecimalPos.v
-theories/Arith/All/Arith.v
 theories/btauto/Algebra.v
 theories/btauto/Reflect.v
 theories/btauto/Btauto.v
@@ -76,7 +75,6 @@ theories/ZArith/Ring/Zdiv.v
 -R theories/Numbers/Integer/Binary Coq.Numbers.Integer.Binary
 -R theories/Numbers/Integer/NatPairs Coq.Numbers.Integer.NatPairs
 -R theories/Numbers/Number Coq.Numbers.Number
--R theories/Arith/All Coq.Arith.All
 -R theories/btauto Coq.btauto
 -R theories/omega Coq.omega
 -R theories/micromega Coq.micromega

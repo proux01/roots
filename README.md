@@ -37,6 +37,7 @@ install-package` to install it. `package` being one of
 * narith
 * zarith
 * ring
+* arith
 * nzarith
 * orders-ex
 * positive
