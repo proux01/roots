@@ -13,7 +13,7 @@ From Coq Require Import QArith.
 From Coq Require Import Qpower.
 From Coq Require Import Qabs.
 From Coq Require Import Qround.
-From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq.Logic Require Import ConstructiveEpsilon.
 From Coq Require CMorphisms.
 From Coq Require Import Lia.
 From Coq Require Import Lqa.

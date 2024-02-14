@@ -377,7 +377,7 @@ theories/Sorting/Sorting.v
 theories/Sorting/Permutation.v
 theories/Sorting/Sorted.v
 theories/Bool/IfProp.v
-theories/Bool/Bvector.v
+theories/Bool/Vectors/Bvector.v
 theories/Bool/Bool.v
 theories/Bool/BoolOrder.v
 theories/Bool/Zerob.v
@@ -434,7 +434,7 @@ theories/Logic/RelationalChoice.v
 theories/Logic/WeakFan.v
 theories/Logic/ExtensionalFunctionRepresentative.v
 theories/Logic/ClassicalUniqueChoice.v
-theories/Logic/FinFun.v
+theories/Logic/Vectors/FinFun.v
 theories/Logic/SetoidChoice.v
 theories/Logic/SetIsType.v
 theories/Logic/Diaconescu.v
