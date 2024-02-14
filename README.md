@@ -39,7 +39,7 @@ install-package` to install it. `package` being one of
 * ring
 * arith
 * lia
-* nzarith
+* zarith
 * orders-ex
 * positive
 * primitive-array
