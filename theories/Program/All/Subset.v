@@ -11,7 +11,7 @@
 
 From Coq.Program Require Import Utils.
 From Coq.Program Require Import Equality.
-Require Export Coq.Logic.ProofIrrelevance.
+From Coq.Logic Require Export ProofIrrelevance.
 
 Local Open Scope program_scope.
 

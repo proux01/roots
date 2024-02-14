@@ -15,7 +15,7 @@
 *)
 
 From Coq Require Import QArith Qabs Qround Qpower.
-From Coq Require Import Logic.ConstructiveEpsilon.
+From Coq.Logic Require Import ConstructiveEpsilon.
 From Coq Require Export ConstructiveCauchyReals.
 From Coq Require CMorphisms.
 From Coq Require Import Lia.
