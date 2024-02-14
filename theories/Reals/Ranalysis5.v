@@ -14,8 +14,8 @@ Require Import Rfunctions.
 Require Import Rseries.
 Require Import RiemannInt.
 Require Import SeqProp.
-Require Import Lia.
-Require Import Lra.
+From Coq.micromega Require Import Lia.
+From Coq.micromega Require Import Lra.
 Local Open Scope R_scope.
 
 Local Ltac Tauto.intuition_solver ::= auto with rorders real.

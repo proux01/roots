@@ -16,7 +16,7 @@ Require Import Ranalysis1.
 Require Import Ranalysis3.
 Require Import Exp_prop.
 Require Import MVT.
-Require Import Lra Lia.
+From Coq.micromega Require Import Lra Lia.
 Local Open Scope R_scope.
 
 (**********)

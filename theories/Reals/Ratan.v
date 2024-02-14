@@ -21,7 +21,7 @@ Require Import SeqProp.
 Require Import Ranalysis5.
 Require Import SeqSeries.
 Require Import PartSum.
-Require Import Lia.
+From Coq.micromega Require Import Lia.
 
 Local Open Scope R_scope.
 Local Ltac Tauto.intuition_solver ::= auto with rorders real arith.

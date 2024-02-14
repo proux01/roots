@@ -1,26 +1,27 @@
 theories/omega/OmegaLemmas.v
 theories/omega/PreOmega.v
-theories/micromega/DeclConstantZ.v
-theories/micromega/ZifyN.v
-theories/micromega/ZifyComparison.v
-theories/micromega/OrderedRing.v
-theories/micromega/ZifyClasses.v
-theories/micromega/Tauto.v
-theories/micromega/Env.v
-theories/micromega/Refl.v
-theories/micromega/ZifyNat.v
-theories/micromega/ZifyPow.v
-theories/micromega/ZArith_hints.v
-theories/micromega/ZMicromega.v
-theories/micromega/EnvRing.v
-theories/micromega/Lia.v
-theories/micromega/VarMap.v
-theories/micromega/ZifyBool.v
-theories/micromega/Zify.v
-theories/micromega/ZifyInst.v
-theories/micromega/Ztac.v
-theories/micromega/ZCoeff.v
-theories/micromega/RingMicromega.v
+theories/micromega/Zify/ZifyN.v
+theories/micromega/Zify/ZifyComparison.v
+theories/micromega/Zify/ZifyClasses.v
+theories/micromega/Zify/ZifyNat.v
+theories/micromega/Zify/ZifyPow.v
+theories/micromega/Zify/ZifyBool.v
+theories/micromega/Zify/Zify.v
+theories/micromega/Zify/ZifyInst.v
+theories/micromega/Lia/DeclConstantZ.v
+theories/micromega/Lia/OrderedRing.v
+theories/micromega/Lia/Tauto.v
+theories/micromega/Lia/Env.v
+theories/micromega/Lia/Refl.v
+theories/micromega/Lia/ZArith_hints.v
+theories/micromega/Lia/ZMicromega.v
+theories/micromega/Lia/EnvRing.v
+theories/micromega/Lia/Lia.v
+theories/micromega/Lia/VarMap.v
+theories/micromega/Lia/Ztac.v
+theories/micromega/Lia/ZCoeff.v
+theories/micromega/Lia/RingMicromega.v
 
 -R theories/omega Coq.omega
--R theories/micromega Coq.micromega
+-R theories/micromega/Zify Coq.micromega.Zify
+-R theories/micromega/Lia Coq.micromega.Lia

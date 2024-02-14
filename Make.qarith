@@ -14,11 +14,11 @@ theories/setoid_ring/Field_theory.v
 theories/setoid_ring/Field_tac.v
 theories/setoid_ring/Rings_Q.v
 theories/setoid_ring/Field.v
-theories/Numbers/DecimalQ.v
-theories/Numbers/HexadecimalQ.v
-theories/micromega/QMicromega.v
-theories/micromega/Lqa.v
-theories/micromega/DeclConstant.v
+theories/Numbers/Number/DecimalQ.v
+theories/Numbers/Number/HexadecimalQ.v
+theories/micromega/Lqa/QMicromega.v
+theories/micromega/Lqa/Lqa.v
+theories/micromega/Lqa/DeclConstant.v
 
 theories/setoid_ring/ZArithRing.v
 theories/setoid_ring/Ring_base.v
@@ -36,24 +36,16 @@ theories/setoid_ring/Ncring_initial.v
 theories/setoid_ring/Ncring_polynom.v
 theories/setoid_ring/Ncring_tac.v
 theories/setoid_ring/Integral_domain.v
-theories/Numbers/DecimalFacts.v
-theories/Numbers/DecimalPos.v
-theories/Numbers/DecimalN.v
-theories/Numbers/DecimalZ.v
-theories/Numbers/HexadecimalFacts.v
-theories/Numbers/HexadecimalPos.v
-theories/Numbers/HexadecimalN.v
-theories/Numbers/HexadecimalZ.v
-theories/micromega/OrderedRing.v
-theories/micromega/RingMicromega.v
-theories/micromega/Env.v
-theories/micromega/EnvRing.v
-theories/micromega/Refl.v
-theories/micromega/Tauto.v
-theories/micromega/VarMap.v
-theories/micromega/DeclConstantZ.v
+theories/Numbers/Number/DecimalFacts.v
+theories/Numbers/Number/DecimalPos.v
+theories/Numbers/Number/DecimalN.v
+theories/Numbers/Number/DecimalZ.v
+theories/Numbers/Number/HexadecimalFacts.v
+theories/Numbers/Number/HexadecimalPos.v
+theories/Numbers/Number/HexadecimalN.v
+theories/Numbers/Number/HexadecimalZ.v
 
 -R theories/QArith Coq.QArith
 -R theories/setoid_ring Coq.setoid_ring
--R theories/Numbers Coq.Numbers
--R theories/micromega Coq.micromega
+-R theories/Numbers/Number Coq.Numbers.Number
+-R theories/micromega/Lqa Coq.micromega.Lqa

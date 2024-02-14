@@ -7,25 +7,8 @@ theories/Numbers/Cyclic/Abstract/NZCyclic.v
 theories/Numbers/Cyclic/Abstract/DoubleType.v
 theories/Numbers/Cyclic/Abstract/CarryType.v
 theories/Numbers/Cyclic/Abstract/CyclicAxioms.v
-theories/micromega/ZifyUint63.v
-theories/micromega/ZifySint63.v
-
-theories/micromega/DeclConstantZ.v
-theories/micromega/ZifyClasses.v
-theories/micromega/Tauto.v
-theories/micromega/Env.v
-theories/micromega/Refl.v
-theories/micromega/OrderedRing.v
-theories/micromega/ZMicromega.v
-theories/micromega/EnvRing.v
-theories/micromega/Lia.v
-theories/micromega/VarMap.v
-theories/micromega/ZifyBool.v
-theories/micromega/Zify.v
-theories/micromega/ZifyInst.v
-theories/micromega/Ztac.v
-theories/micromega/ZCoeff.v
-theories/micromega/RingMicromega.v
+theories/micromega/Int63/ZifyUint63.v
+theories/micromega/Int63/ZifySint63.v
 
 -R theories/Numbers/Cyclic Coq.Numbers.Cyclic
--R theories/micromega Coq.micromega
+-R theories/micromega/Int63 Coq.micromega.Int63

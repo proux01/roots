@@ -12,7 +12,7 @@ Require Import Rbase.
 Require Import Rfunctions.
 Require Import SeqSeries.
 Require Import Rtrigo_def.
-Require Import Lia Lra.
+From Coq.micromega Require Import Lia Lra.
 Local Open Scope R_scope.
 
 (***************************************************************)

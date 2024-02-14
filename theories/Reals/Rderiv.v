@@ -16,8 +16,8 @@
 Require Import Rbase.
 Require Import Rfunctions.
 Require Import Rlimit.
-Require Import Lra.
-Require Import Lia.
+From Coq.micromega Require Import Lra.
+From Coq.micromega Require Import Lia.
 Local Open Scope R_scope.
 
 (*********)
