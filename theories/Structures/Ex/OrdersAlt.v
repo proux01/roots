@@ -13,7 +13,7 @@
  * Institution: LRI, CNRS UMR 8623 - Université Paris Sud
  *              91405 Orsay, France *)
 
-Require Import OrderedType Orders.
+From Coq.Structures Require Import OrderedType Orders.
 Set Implicit Arguments.
 
 (** * Some alternative (but equivalent) presentations for an Ordered Type

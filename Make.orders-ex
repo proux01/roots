@@ -1,16 +1,12 @@
-theories/Structures/BoolOrder.v
-theories/Structures/OrdersEx.v
-theories/Structures/OrdersLists.v
-theories/Structures/EqualitiesFacts.v
-theories/Structures/OrderedTypeAlt.v
-theories/Structures/OrderedType.v
-theories/Structures/DecidableType.v
-theories/Structures/OrderedTypeEx.v
-theories/Structures/OrdersAlt.v
-theories/Structures/DecidableTypeEx.v
+theories/Structures/Ex/BoolOrder.v
+theories/Structures/Ex/OrdersEx.v
+theories/Structures/Ex/OrdersLists.v
+theories/Structures/Ex/EqualitiesFacts.v
+theories/Structures/Ex/OrderedTypeAlt.v
+theories/Structures/Ex/OrderedType.v
+theories/Structures/Ex/DecidableType.v
+theories/Structures/Ex/OrderedTypeEx.v
+theories/Structures/Ex/OrdersAlt.v
+theories/Structures/Ex/DecidableTypeEx.v
 
-theories/Structures/Equalities.v
-theories/Structures/Orders.v
-theories/Structures/OrdersTac.v
-
--R theories/Structures Coq.Structures
+-R theories/Structures/Ex Coq.Structures.Ex

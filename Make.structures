@@ -1,7 +1,7 @@
-theories/Structures/GenericMinMax.v
-theories/Structures/Equalities.v
-theories/Structures/Orders.v
-theories/Structures/OrdersFacts.v
-theories/Structures/OrdersTac.v
+theories/Structures/Def/GenericMinMax.v
+theories/Structures/Def/Equalities.v
+theories/Structures/Def/Orders.v
+theories/Structures/Def/OrdersFacts.v
+theories/Structures/Def/OrdersTac.v
 
--R theories/Structures Coq.Structures
+-R theories/Structures/Def Coq.Structures.Def
