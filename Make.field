@@ -1,20 +1,12 @@
-theories/QArith/Qfield.v
-theories/QArith/Qcabs.v
-theories/QArith/Qround.v
-theories/QArith/Qring.v
-theories/QArith/Qpower.v
-theories/QArith/Qabs.v
-# theories/QArith/QArith.v
-theories/QArith/Qcanon.v
+theories/QArith/Field/Qfield.v
+theories/QArith/Field/Qround.v
+theories/QArith/Field/Qring.v
+theories/QArith/Field/Qpower.v
+theories/QArith/Field/Qcanon.v
 theories/setoid_ring/Q/Field_theory.v
 theories/setoid_ring/Q/Field_tac.v
 theories/setoid_ring/Q/Rings_Q.v
 theories/setoid_ring/Q/Field.v
-# theories/Numbers/Q/DecimalQ.v
-# theories/Numbers/Q/HexadecimalQ.v
-# theories/micromega/Lqa/QMicromega.v
-# theories/micromega/Lqa/Lqa.v
-# theories/micromega/Lqa/DeclConstant.v
 
--R theories/QArith Coq.QArith
+-R theories/QArith/Field Coq.QArith.Field
 -R theories/setoid_ring/Q Coq.setoid_ring.Q

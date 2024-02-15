@@ -17,7 +17,7 @@
 From Coq Require Import OrderedRing.
 From Coq Require Import RingMicromega.
 From Coq Require Import Refl.
-From Coq Require Import QArith.
+From Coq Require Import QArith_base.
 From Coq Require Import Qfield.
 
 Lemma Qsor : SOR 0 1 Qplus Qmult Qminus Qopp Qeq  Qle Qlt.

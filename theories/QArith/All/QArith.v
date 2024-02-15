@@ -8,6 +8,6 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export QArith_base.
-Require Export Qring.
-Require Export Qreduction.
+From Coq.QArith Require Export QArith_base.
+From Coq.QArith Require Export Qring.
+From Coq.QArith Require Export Qreduction.

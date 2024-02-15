@@ -9,7 +9,7 @@
 (************************************************************************)
 
 From Coq Require Import Field.
-From Coq Require Import QArith.
+From Coq Require Import QArith_base Qreduction.
 From Coq Require Import Znumtheory.
 From Coq Require Import Eqdep_dec.
 

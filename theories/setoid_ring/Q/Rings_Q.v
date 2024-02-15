@@ -12,7 +12,7 @@ From Coq.setoid_ring Require Export Cring.
 From Coq.setoid_ring Require Export Integral_domain.
 
 (* Rational numbers *)
-Require Import QArith.
+From Coq.QArith Require Import QArith_base.
 
 #[global]
 Instance Qops: (@Ring_ops Q 0%Q 1%Q Qplus Qmult Qminus Qopp Qeq).

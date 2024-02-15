@@ -46,6 +46,9 @@ install-package` to install it. `package` being one of
 * primitive-floats
 * primitive-int
 * program
+* qarith-base
+* field
+* lqa
 * qarith
 * reals
 * relations

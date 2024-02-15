@@ -8,8 +8,8 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export QArith.
-Require Export Qreduction.
+From Coq.QArith Require Export QArith.
+From Coq.QArith Require Export Qreduction.
 
 #[global]
 Hint Resolve Qlt_le_weak : qarith.

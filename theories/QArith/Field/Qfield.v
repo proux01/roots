@@ -9,7 +9,7 @@
 (************************************************************************)
 
 From Coq.setoid_ring Require Export Field.
-Require Export QArith_base.
+From Coq.QArith Require Export QArith_base.
 From Coq.setoid_ring Require Import NArithRing.
 
 (** * field and ring tactics for rational numbers *)

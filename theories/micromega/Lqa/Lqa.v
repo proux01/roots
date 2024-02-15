@@ -15,7 +15,7 @@
 (************************************************************************)
 
 From Coq Require Import QMicromega.
-From Coq Require Import QArith.
+From Coq Require Import QArith_base.
 From Coq Require Import RingMicromega.
 From Coq Require Import VarMap.
 From Coq Require Import DeclConstant.

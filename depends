@@ -43,7 +43,10 @@ digraph roots_deps {
 	"coq-roots-classical-logic" -> "coq-roots-zarith";
 	"coq-roots-reals" -> "coq-roots-classical-logic";
 	"coq-roots-reals" -> "coq-roots-qarith";
-	"coq-roots-qarith" -> "coq-roots-zarith";
+	"coq-roots-qarith" -> "coq-roots-lqa";
+	"coq-roots-lqa" -> "coq-roots-field";
+	"coq-roots-field" -> "coq-roots-qarith-base";
+	"coq-roots-qarith-base" -> "coq-roots-zarith";
 	"coq-roots-primitive-int" -> "coq-roots-zarith";
 	"coq-roots-primitive-int" -> "coq-roots-unicode";
 	"coq-roots-primitive-floats" -> "coq-roots-primitive-int";
