@@ -6,10 +6,7 @@ theories/Sorting/PermutEq.v
 theories/Sorting/Sorting.v
 theories/Sorting/Permutation.v
 theories/Sorting/Sorted.v
-theories/Lists/SetoidList.v
-theories/Lists/SetoidPermutation.v
-
-theories/Lists/List.v
+theories/Sorting/SetoidList.v
+theories/Sorting/SetoidPermutation.v
 
 -R theories/Sorting Coq.Sorting
--R theories/Lists Coq.Lists
