@@ -13,9 +13,12 @@
     Proofs that conversions between hexadecimal numbers and [R]
     are bijections. *)
 
-Require Import Decimal DecimalFacts.
-Require Import Hexadecimal HexadecimalFacts HexadecimalPos HexadecimalZ.
-Require Import HexadecimalQ Rdefinitions.
+Require Import Decimal.
+From Coq.Numbers Require Import DecimalFacts.
+Require Import Hexadecimal.
+From Coq.Numbers Require Import HexadecimalFacts HexadecimalPos HexadecimalZ.
+From Coq.Numbers Require Import HexadecimalQ.
+Require Import Rdefinitions.
 
 Lemma of_IQmake_to_hexadecimal num den :
   match IQmake_to_hexadecimal num den with

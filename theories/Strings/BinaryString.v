@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Import Ascii String.
-Require Import BinNums.
+From Coq Require Import BinNums.
 Import BinNatDef.
 Import BinIntDef.
 Import BinPosDef.

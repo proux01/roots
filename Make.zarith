@@ -8,16 +8,16 @@ theories/ZArith/All/ZArith.v
 theories/ZArith/All/Zbitwise.v
 theories/Numbers/Integer/Binary/ZBinary.v
 theories/Numbers/Integer/NatPairs/ZNatPairs.v
-theories/Numbers/Number/DecimalN.v
-theories/Numbers/Number/DecimalNat.v
-theories/Numbers/Number/DecimalZ.v
-theories/Numbers/Number/DecimalFacts.v
-theories/Numbers/Number/DecimalPos.v
-theories/Numbers/Number/HexadecimalN.v
-theories/Numbers/Number/HexadecimalNat.v
-theories/Numbers/Number/HexadecimalZ.v
-theories/Numbers/Number/HexadecimalFacts.v
-theories/Numbers/Number/HexadecimalPos.v
+theories/Numbers/Z/DecimalN.v
+theories/Numbers/Z/DecimalNat.v
+theories/Numbers/Z/DecimalZ.v
+theories/Numbers/Z/DecimalFacts.v
+theories/Numbers/Z/DecimalPos.v
+theories/Numbers/Z/HexadecimalN.v
+theories/Numbers/Z/HexadecimalNat.v
+theories/Numbers/Z/HexadecimalZ.v
+theories/Numbers/Z/HexadecimalFacts.v
+theories/Numbers/Z/HexadecimalPos.v
 theories/btauto/Algebra.v
 theories/btauto/Reflect.v
 theories/btauto/Btauto.v
@@ -26,5 +26,5 @@ theories/btauto/Btauto.v
 -R theories/Numbers/Natural/Binary Coq.Numbers.Natural.Binary
 -R theories/Numbers/Integer/Binary Coq.Numbers.Integer.Binary
 -R theories/Numbers/Integer/NatPairs Coq.Numbers.Integer.NatPairs
--R theories/Numbers/Number Coq.Numbers.Number
+-R theories/Numbers/Z Coq.Numbers.Z
 -R theories/btauto Coq.btauto
