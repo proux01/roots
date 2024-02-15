@@ -88,22 +88,10 @@ theories/micromega/Lra/Psatz.v
 theories/micromega/Lra/Fourier_util.v
 theories/micromega/Lra/Fourier.v
 theories/micromega/Lra/RMicromega.v
-theories/Numbers/Number/DecimalR.v
-theories/Numbers/Number/HexadecimalR.v
-
-theories/Numbers/BinNums.v
-theories/Numbers/Number/DecimalFacts.v
-theories/Numbers/Number/DecimalPos.v
-theories/Numbers/Number/DecimalZ.v
-theories/Numbers/Number/DecimalN.v
-theories/Numbers/Number/DecimalQ.v
-theories/Numbers/Number/HexadecimalFacts.v
-theories/Numbers/Number/HexadecimalPos.v
-theories/Numbers/Number/HexadecimalZ.v
-theories/Numbers/Number/HexadecimalN.v
-theories/Numbers/Number/HexadecimalQ.v
+theories/Numbers/R/DecimalR.v
+theories/Numbers/R/HexadecimalR.v
 
 -R theories/Reals Coq.Reals
 -R theories/setoid_ring/R Coq.setoid_ring.R
 -R theories/micromega/Lra Coq.micromega.Lra
--R theories/Numbers/Number Coq.Numbers.Number
+-R theories/Numbers/R Coq.Numbers.R

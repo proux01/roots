@@ -5,10 +5,8 @@ theories/Strings/String.v
 theories/Strings/OctalString.v
 theories/Strings/Byte.v
 theories/Strings/BinaryString.v
-theories/Numbers/DecimalString.v
-theories/Numbers/HexadecimalString.v
-
-theories/Numbers/BinNums.v
+theories/Numbers/Strings/DecimalString.v
+theories/Numbers/Strings/HexadecimalString.v
 
 -R theories/Strings Coq.Strings
--R theories/Numbers Coq.Numbers
+-R theories/Numbers/Strings Coq.Numbers.Strings
