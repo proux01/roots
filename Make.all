@@ -80,6 +80,7 @@ theories/Structures/OrdersLists.v
 theories/Structures/DecidableTypeEx.v
 theories/Structures/OrderedType.v
 theories/Structures/OrdersTac.v
+theories/Structures/BoolOrder.v
 theories/Floats/FloatOps.v
 theories/Floats/Floats.v
 theories/Floats/SpecFloat.v
@@ -378,7 +379,6 @@ theories/Sorting/Permutation.v
 theories/Sorting/Sorted.v
 theories/Bool/IfProp.v
 theories/Bool/Bool.v
-theories/Bool/BoolOrder.v
 theories/Bool/Zerob.v
 theories/Bool/DecBool.v
 theories/Bool/BoolEq.v

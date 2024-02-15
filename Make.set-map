@@ -49,6 +49,7 @@ theories/Structures/OrdersLists.v
 theories/Structures/OrdersEx.v
 theories/Bool/Bool.v
 theories/Bool/BoolOrder.v
+theories/Structures/BoolOrder.v
 
 -R theories/FSets Coq.FSets
 -R theories/MSets Coq.MSets

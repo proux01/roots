@@ -1,11 +1,9 @@
-theories/Bool/BoolOrder.v
+theories/Structures/BoolOrder.v
 theories/Structures/OrdersEx.v
 theories/Structures/OrdersLists.v
 theories/Structures/EqualitiesFacts.v
 
-theories/Bool/Bool.v
 theories/Structures/Equalities.v
 theories/Structures/Orders.v
 
--R theories/Bool Coq.Bool
 -R theories/Structures Coq.Structures
