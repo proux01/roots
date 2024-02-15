@@ -226,8 +226,6 @@ theories/Lists/Streams.v
 theories/Lists/List.v
 theories/Lists/StreamMemo.v
 theories/Lists/ListSet.v
-theories/Lists/SetoidList.v
-theories/Lists/SetoidPermutation.v
 theories/Lists/ListTactics.v
 theories/micromega/Zify/ZifyN.v
 theories/micromega/Lqa/QMicromega.v
@@ -368,6 +366,8 @@ theories/Reals/Qreals.v
 theories/Relations/All/Relation_Operators.v
 theories/Relations/All/Operators_Properties.v
 theories/Relations/All/Relations.v
+theories/Sorting/SetoidList.v
+theories/Sorting/SetoidPermutation.v
 theories/Sorting/Heap.v
 theories/Sorting/CPermutation.v
 theories/Sorting/Mergesort.v
