@@ -9,8 +9,8 @@
 (************************************************************************)
 
 
-Require Export OrderedType OrderedTypeEx OrderedTypeAlt.
-Require Export DecidableType DecidableTypeEx.
+From Coq Require Export OrderedType OrderedTypeEx OrderedTypeAlt.
+From Coq Require Export DecidableType DecidableTypeEx.
 Require Export FMapInterface.
 Require Export FMapPositive.
 Require Export FMapFacts.

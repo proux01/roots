@@ -41,7 +41,7 @@ Unset Strict Implicit.
 (** This is just a compatibility layer, the real implementation
     is now in [MSetAVL] *)
 
-Require FSetCompat MSetAVL Orders OrdersAlt.
+From Coq Require FSetCompat MSetAVL Orders OrdersAlt.
 
 Module IntMake (I:Int)(X: OrderedType) <: S with Module E := X.
  Module X' := OrdersAlt.Update_OT X.

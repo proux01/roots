@@ -20,7 +20,7 @@ Unset Strict Implicit.
 (** This is just a compatibility layer, the real implementation
     is now in [MSetList] *)
 
-Require FSetCompat MSetList Orders OrdersAlt.
+From Coq Require FSetCompat MSetList Orders OrdersAlt.
 
 Module Make (X: OrderedType) <: S with Module E := X.
  Module X' := OrdersAlt.Update_OT X.

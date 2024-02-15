@@ -16,7 +16,7 @@
   Moreover, we prove that [E.Eq] and [Equal] are setoid equalities.
 *)
 
-Require Import DecidableTypeEx.
+From Coq Require Import DecidableTypeEx.
 Require Export MSetInterface.
 Set Implicit Arguments.
 Unset Strict Implicit.

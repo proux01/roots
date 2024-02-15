@@ -32,22 +32,6 @@ theories/MSets/MSetRBT.v
 theories/MSets/MSetPositive.v
 theories/MSets/MSetToFiniteSet.v
 theories/MSets/MSetEqProperties.v
-theories/Structures/OrderedTypeAlt.v
-theories/Structures/DecidableType.v
-theories/Structures/OrderedTypeEx.v
-theories/Structures/OrdersAlt.v
-theories/Structures/DecidableTypeEx.v
-theories/Structures/OrderedType.v
-
-theories/Structures/OrdersFacts.v
-theories/Structures/OrdersTac.v
-theories/Structures/Equalities.v
-theories/Structures/EqualitiesFacts.v
-theories/Structures/Orders.v
-theories/Structures/OrdersLists.v
-theories/Structures/OrdersEx.v
-theories/Structures/BoolOrder.v
 
 -R theories/FSets Coq.FSets
 -R theories/MSets Coq.MSets
--R theories/Structures Coq.Structures

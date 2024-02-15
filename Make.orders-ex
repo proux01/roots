@@ -2,8 +2,15 @@ theories/Structures/BoolOrder.v
 theories/Structures/OrdersEx.v
 theories/Structures/OrdersLists.v
 theories/Structures/EqualitiesFacts.v
+theories/Structures/OrderedTypeAlt.v
+theories/Structures/OrderedType.v
+theories/Structures/DecidableType.v
+theories/Structures/OrderedTypeEx.v
+theories/Structures/OrdersAlt.v
+theories/Structures/DecidableTypeEx.v
 
 theories/Structures/Equalities.v
 theories/Structures/Orders.v
+theories/Structures/OrdersTac.v
 
 -R theories/Structures Coq.Structures

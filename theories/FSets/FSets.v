@@ -8,11 +8,11 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Export OrderedType.
-Require Export OrderedTypeEx.
-Require Export OrderedTypeAlt.
-Require Export DecidableType.
-Require Export DecidableTypeEx.
+From Coq Require Export OrderedType.
+From Coq Require Export OrderedTypeEx.
+From Coq Require Export OrderedTypeAlt.
+From Coq Require Export DecidableType.
+From Coq Require Export DecidableTypeEx.
 Require Export FSetInterface.
 Require Export FSetBridge.
 Require Export FSetFacts.

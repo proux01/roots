@@ -20,7 +20,7 @@ Unset Strict Implicit.
 (** This is just a compatibility layer, the real implementation
     is now in [MSetWeakList] *)
 
-Require Equalities FSetCompat MSetWeakList.
+From Coq Require Equalities FSetCompat MSetWeakList.
 
 Module Make (X: DecidableType) <: WS with Module E := X.
  Module E := X.
