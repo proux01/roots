@@ -50,6 +50,7 @@ theories/Arith/Base/Wf_nat.v
 theories/Arith/Base/Compare_dec.v
 theories/Arith/Base/Bool_nat.v
 theories/Arith/Base/Peano_dec.v
+theories/Arith/Base/Zerob.v
 
 -R theories/Numbers Coq.Numbers
 -R theories/Arith/Base Coq.Arith.Base

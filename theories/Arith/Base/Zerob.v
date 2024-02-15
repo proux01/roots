@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-From Coq Require Import Arith.
+From Coq Require Import Arith_base.
 From Coq Require Import Bool.
 
 Local Open Scope nat_scope.
