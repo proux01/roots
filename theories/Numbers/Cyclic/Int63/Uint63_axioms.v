@@ -13,13 +13,13 @@
 (* From Coq Require Export BinInt. *)
 
 From Coq Require Import BinNums.
-From Coq Require Import BinIntDef.
-
-Import BinIntDef.Z.
+From Coq Require Import MyBinIntDef.
 
 Local Open Scope Z_scope.
 
-Module Z.
+Module Z'.
+
+Include MyBinIntDef.Z.
 
 (** * Logic Predicates *)
 
@@ -30,7 +30,7 @@ Definition ge x y := (x ?= y) <> Lt.
 
 Definition divide x y := exists z, y = z*x.
 
-End Z.
+End Z'.
 
 (** Re-export Notations *)
 
@@ -43,23 +43,19 @@ Infix "*" := Z.mul : Z_scope.
 Infix "^" := Z.pow : Z_scope.
 Infix "/" := Z.div : Z_scope.
 Infix "mod" := Z.modulo (at level 40, no associativity) : Z_scope.
-Infix "÷" := Z.quot (at level 40, left associativity) : Z_scope.
 Infix "?=" := Z.compare (at level 70, no associativity) : Z_scope.
 Infix "=?" := Z.eqb (at level 70, no associativity) : Z_scope.
 Infix "<=?" := Z.leb (at level 70, no associativity) : Z_scope.
 Infix "<?" := Z.ltb (at level 70, no associativity) : Z_scope.
-Infix ">=?" := Z.geb (at level 70, no associativity) : Z_scope.
-Infix ">?" := Z.gtb (at level 70, no associativity) : Z_scope.
-Notation "( x | y )" := (Z.divide x y) (at level 0) : Z_scope.
-Infix "<=" := Z.le : Z_scope.
-Infix "<" := Z.lt : Z_scope.
-Infix ">=" := Z.ge : Z_scope.
-Infix ">" := Z.gt : Z_scope.
+Notation "( x | y )" := (Z'.divide x y) (at level 0) : Z_scope.
+Infix "<=" := Z'.le : Z_scope.
+Infix "<" := Z'.lt : Z_scope.
+Infix ">=" := Z'.ge : Z_scope.
+Infix ">" := Z'.gt : Z_scope.
 Notation "x <= y <= z" := (x <= y /\ y <= z) : Z_scope.
 Notation "x <= y < z" := (x <= y /\ y < z) : Z_scope.
 Notation "x < y < z" := (x < y /\ y < z) : Z_scope.
 Notation "x < y <= z" := (x < y /\ y <= z) : Z_scope.
-
 
 
 
