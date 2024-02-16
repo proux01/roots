@@ -447,7 +447,7 @@ Qed.
 
 
 From Coq.micromega Require Import Tauto.
-Require Import Coq.Numbers.BinNums.
+Require Import Coq.BinNums.BinNums.
 
 Definition cnf_of_list {T: Type} (tg : T) (l : list (NFormula Z)) :=
   List.fold_right (fun x acc =>

@@ -1,4 +1,3 @@
-theories/Numbers/BinNums.v
 theories/Numbers/AltBinNotations.v
 theories/PArith/Pnat.v
 theories/PArith/POrderedType.v
