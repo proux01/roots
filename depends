@@ -15,7 +15,7 @@ digraph roots_deps {
 	"coq-roots-classes" -> "coq-roots-program";
 	"coq-roots-program" -> "coq-roots-logic";
 	"coq-roots-vectors" -> "coq-roots-list";
-	"coq-roots-list" -> "coq-roots-positive";
+	"coq-roots-list" -> "coq-roots-arith-base";
 	"coq-roots-positive" -> "coq-roots-arith-base";
 	"coq-roots-arith-base" -> "coq-roots-structures";
 	"coq-roots-structures" -> "coq-roots-bool";
