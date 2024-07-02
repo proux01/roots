@@ -282,7 +282,22 @@ let _ = CErrors.register_handler begin function
   | _ -> None
 end
 
+let warn_deprecated_from_Coq =
+  CWarnings.create ~name:"deprecated-from-Coq"
+    ~category:CWarnings.CoreCategories.deprecated
+    (fun () -> strbrk
+        "\"From Coq\" has been replaced by \"From Stdlib\".")
+
+let deprecated_Coq p =
+  let p', i = Libnames.repr_qualid p in
+  if not (DirPath.is_empty p')
+     || not (String.equal (Id.to_string i) "Coq") then p
+  else
+    let () = warn_deprecated_from_Coq () in
+    Libnames.qualid_of_ident (Id.of_string "Stdlib")
+
 let synterp_require ~intern from export qidl =
+  let from = Option.map deprecated_Coq from in
   let root = match from with
   | None -> None
   | Some from ->
