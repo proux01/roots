@@ -12,9 +12,9 @@
 
 Attributes deprecated(since="8.20", note="Use Coq.NArith.BinNat instead.").
 
-Require Import BinPos.
-Require Export BinNat.
-Require Import NAxioms NProperties.
+From Stdlib Require Import BinPos.
+From Stdlib Require Export BinNat.
+From Stdlib Require Import NAxioms NProperties.
 
 Local Open Scope N_scope.
 

@@ -11,8 +11,8 @@
 (************************************************************************)
 
 Attributes deprecated(since="8.20", note="Use Coq.ZArith.BinInt instead.").
-Require Import NSub ZAxioms.
-Require Export Ring.
+From Stdlib Require Import NSub ZAxioms.
+From Stdlib Require Export Ring.
 
 Declare Scope pair_scope.
 Local Open Scope pair_scope.

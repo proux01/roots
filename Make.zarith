@@ -1,0 +1,30 @@
+theories/Numbers/Natural/Binary/NBinary.v
+theories/ZArith/All/Zpower.v
+theories/ZArith/All/Zquot.v
+theories/ZArith/All/Zpow_facts.v
+theories/ZArith/All/Zgcd_alt.v
+theories/ZArith/All/Zwf.v
+theories/ZArith/All/ZArith.v
+theories/ZArith/All/Zbitwise.v
+theories/Numbers/Integer/Binary/ZBinary.v
+theories/Numbers/Integer/NatPairs/ZNatPairs.v
+theories/Numbers/Z/DecimalN.v
+theories/Numbers/Z/DecimalNat.v
+theories/Numbers/Z/DecimalZ.v
+theories/Numbers/Z/DecimalFacts.v
+theories/Numbers/Z/DecimalPos.v
+theories/Numbers/Z/HexadecimalN.v
+theories/Numbers/Z/HexadecimalNat.v
+theories/Numbers/Z/HexadecimalZ.v
+theories/Numbers/Z/HexadecimalFacts.v
+theories/Numbers/Z/HexadecimalPos.v
+theories/btauto/Algebra.v
+theories/btauto/Reflect.v
+theories/btauto/Btauto.v
+
+-R theories/ZArith/All Stdlib.ZArith.All
+-R theories/Numbers/Natural/Binary Stdlib.Numbers.Natural.Binary
+-R theories/Numbers/Integer/Binary Stdlib.Numbers.Integer.Binary
+-R theories/Numbers/Integer/NatPairs Stdlib.Numbers.Integer.NatPairs
+-R theories/Numbers/Z Stdlib.Numbers.Z
+-R theories/btauto Stdlib.btauto
