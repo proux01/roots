@@ -23,7 +23,7 @@
     impredicativity of [Set], knowing that [true<>false] in [Set].  *)
 
 Require Export ClassicalUniqueChoice.
-Require Export RelationalChoice.
+From Stdlib Require Export RelationalChoice.
 Require Import ChoiceFacts.
 
 Set Implicit Arguments.

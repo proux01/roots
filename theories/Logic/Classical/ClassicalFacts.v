@@ -99,7 +99,7 @@ Qed.
 (** A weakest form of propositional extensionality: extensionality for
     provable propositions only *)
 
-Require Import PropExtensionalityFacts.
+From Stdlib Require Import PropExtensionalityFacts.
 
 Definition provable_prop_extensionality := forall A:Prop, A -> A = True.
 
@@ -320,7 +320,7 @@ End Proof_irrelevance_CIC.
     paradox of system U- (e.g. Hurkens' paradox).
 *)
 
-Require Import Hurkens.
+From Stdlib Require Import Hurkens.
 
 Section Proof_irrelevance_EM_CC.
 
@@ -722,7 +722,7 @@ Section Unrestricted_minimization_entails_excluded_middle.
 
 End Unrestricted_minimization_entails_excluded_middle.
 
-Require Import Wf_nat.
+From Stdlib Require Import Wf_nat.
 
 Section Excluded_middle_entails_unrestricted_minimization.
 

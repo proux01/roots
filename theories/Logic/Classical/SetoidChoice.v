@@ -32,7 +32,7 @@
 *)
 
 Require Export ClassicalChoice. (* classical logic, relational choice, unique choice *)
-Require Export ExtensionalFunctionRepresentative.
+From Stdlib Require Export ExtensionalFunctionRepresentative.
 
 Require Import ChoiceFacts.
 Require Import ClassicalFacts.

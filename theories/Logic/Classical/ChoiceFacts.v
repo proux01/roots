@@ -682,8 +682,8 @@ Qed.
     relations with [nat] as codomain.
 *)
 
-Require Import Wf_nat.
-Require Import Decidable.
+From Stdlib Require Import Wf_nat.
+From Stdlib Require Import Decidable.
 
 Lemma classical_denumerable_description_imp_fun_choice :
   forall A:Type,
@@ -946,7 +946,7 @@ Qed.
 (** * Choice => Dependent choice => Countable choice *)
 (* The implications below are standard *)
 
-Require Import Arith.
+From Stdlib Require Import Arith.
 
 Theorem functional_choice_imp_functional_dependent_choice :
    FunctionalChoice -> FunctionalDependentChoice.
@@ -981,7 +981,7 @@ Qed.
 (**********************************************************************)
 (** * About the axiom of choice over setoids                          *)
 
-Require Import ClassicalFacts PropExtensionalityFacts.
+From Stdlib Require Import ClassicalFacts PropExtensionalityFacts.
 
 (**********************************************************************)
 (** ** Consequences of the choice of a representative in an equivalence class *)
