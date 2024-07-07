@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Stdlib.Arith.EqNat.
+From Stdlib.Arith Require Import EqNat.
 Require Import Stdlib.NArith.BinNat.
 Require Import Stdlib.NArith.Nnat.
 Require Export Stdlib.Init.Byte.

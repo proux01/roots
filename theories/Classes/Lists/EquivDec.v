@@ -23,7 +23,7 @@ Require Export Stdlib.Classes.Equivalence.
 
 From Stdlib.Logic Require Import Decidable.
 Require Import Stdlib.Bool.Bool.
-Require Import Stdlib.Arith.Peano_dec.
+From Stdlib.Arith Require Import Peano_dec.
 From Stdlib.Program Require Import Program.
 
 Generalizable Variables A B R.
