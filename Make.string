@@ -1,0 +1,11 @@
+theories/Strings/HexString.v
+theories/Strings/Ascii.v
+theories/Strings/String.v
+theories/Strings/OctalString.v
+theories/Strings/Byte.v
+theories/Strings/BinaryString.v
+theories/Numbers/Strings/DecimalString.v
+theories/Numbers/Strings/HexadecimalString.v
+
+-R theories/Strings Stdlib.Strings
+-R theories/Numbers/Strings Stdlib.Numbers.Strings

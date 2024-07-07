@@ -12,9 +12,9 @@
 (** Contributed by Laurent Théry (INRIA);
     Adapted to Coq V8 by the Coq Development Team *)
 
-Require Import Arith.
-Require Import Ascii.
-Require Import Bool.
+From Stdlib Require Import Arith.
+From Stdlib Require Import Ascii.
+From Stdlib Require Import Bool.
 Require Import Stdlib.Strings.Byte.
 Import IfNotations.
 
