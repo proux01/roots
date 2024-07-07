@@ -1,0 +1,3 @@
+theories/Strings/PString.v
+
+-R theories/Strings Stdlib.Strings
