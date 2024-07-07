@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import BinPos.
+Require Import BinNums.PosDef.
 Require Import List.
 
 Ltac list_fold_right fcons fnil l :=
