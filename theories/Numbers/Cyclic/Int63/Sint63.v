@@ -8,10 +8,10 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import ZArith.
+From Stdlib Require Import ZArith.
 Import Znumtheory.
-Require Export Uint63 Sint63Axioms.
-Require Import Lia.
+From Stdlib Require Export Uint63 Sint63Axioms.
+From Stdlib Require Import Lia.
 
 Declare Scope sint63_scope.
 Definition printer (x : int_wrapper) : pos_neg_int63 :=
