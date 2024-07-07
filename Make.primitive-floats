@@ -1,0 +1,4 @@
+theories/Floats/Floats.v
+theories/Floats/FloatLemmas.v
+
+-R theories/Floats Stdlib.Floats
