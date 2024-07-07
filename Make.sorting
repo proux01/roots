@@ -1,0 +1,12 @@
+theories/Sorting/Heap.v
+theories/Sorting/CPermutation.v
+theories/Sorting/Mergesort.v
+theories/Sorting/PermutSetoid.v
+theories/Sorting/PermutEq.v
+theories/Sorting/Sorting.v
+theories/Sorting/Permutation.v
+theories/Sorting/Sorted.v
+theories/Sorting/SetoidList.v
+theories/Sorting/SetoidPermutation.v
+
+-R theories/Sorting Stdlib.Sorting

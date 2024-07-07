@@ -8,7 +8,7 @@
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
 
-Require Import Lia Relations Multiset SetoidList.
+From Stdlib Require Import Lia Relations Multiset SetoidList.
 
 (** This file is deprecated, use [Permutation.v] instead.
 
