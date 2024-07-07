@@ -13,7 +13,7 @@ Require Import QArith_base.
 Require Import Qabs.
 Require Import ConstructiveReals.
 Require Import ConstructiveCauchyRealsMult.
-Require Import Logic.ConstructiveEpsilon.
+From Stdlib.Logic Require Import ConstructiveEpsilon.
 Require Import ConstructiveCauchyAbs.
 Require Import Lia.
 Require Import Lqa.

@@ -21,7 +21,7 @@ Require Export Stdlib.Classes.Equivalence.
 (** The [DecidableSetoid] class asserts decidability of a [Setoid].
    It can be useful in proofs to reason more classically. *)
 
-Require Import Stdlib.Logic.Decidable.
+From Stdlib.Logic Require Import Decidable.
 Require Import Stdlib.Bool.Bool.
 Require Import Stdlib.Arith.Peano_dec.
 Require Import Stdlib.Program.Program.

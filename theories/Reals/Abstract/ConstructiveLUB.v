@@ -20,7 +20,7 @@ Require Import QArith_base Qabs.
 Require Import ConstructiveReals.
 Require Import ConstructiveAbs.
 Require Import ConstructiveLimits.
-Require Import Logic.ConstructiveEpsilon.
+From Stdlib.Logic Require Import ConstructiveEpsilon.
 
 Local Open Scope ConstructiveReals.
 

@@ -14,7 +14,7 @@ Require Import Stdlib.Reals.Raxioms.
 Require Import Rfunctions.
 Require Import Stdlib.Reals.RIneq.
 Require Import Stdlib.Vectors.FinFun.
-Require Import Stdlib.Logic.ConstructiveEpsilon.
+From Stdlib.Logic Require Import ConstructiveEpsilon.
 
 
 Definition enumeration (A : Type) (u : nat -> A) (v : A -> nat) : Prop :=

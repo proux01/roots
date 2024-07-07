@@ -27,7 +27,7 @@ Require Export Stdlib.Classes.SetoidClass.
 (** The [DecidableSetoid] class asserts decidability of a [Setoid].
    It can be useful in proofs to reason more classically. *)
 
-Require Import Stdlib.Logic.Decidable.
+From Stdlib.Logic Require Import Decidable.
 
 Class DecidableSetoid `(S : Setoid A) :=
   setoid_decidable : forall x y : A, decidable (x == y).
