@@ -224,7 +224,7 @@ Proof.
   exact H.
 Qed.
 
-Require Import Stdlib.micromega.Tauto.
+Require Import Stdlib.micromega.Lia.Tauto.
 
 Definition Qnormalise := @cnf_normalise Q 0 1 Qplus Qmult Qminus Qopp Qeq_bool Qle_bool.
 

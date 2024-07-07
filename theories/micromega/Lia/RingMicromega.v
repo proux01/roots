@@ -22,7 +22,7 @@ Require Import List.
 Require Import Bool.
 Require Import OrderedRing.
 Require Import Refl.
-Require Stdlib.micromega.Tauto.
+From Stdlib.micromega Require Tauto.
 
 Set Implicit Arguments.
 
@@ -795,7 +795,7 @@ Definition xnegate (t:NFormula) : list (NFormula)  :=
     end.
 
 
-Import Stdlib.micromega.Tauto.
+Import Stdlib.micromega.Lia.Tauto.
 
 Definition cnf_of_list {T : Type} (l:list NFormula) (tg : T) : cnf NFormula T :=
   List.fold_right (fun x acc =>

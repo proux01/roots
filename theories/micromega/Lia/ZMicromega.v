@@ -447,7 +447,7 @@ Qed.
 
 
 
-Require Import Stdlib.micromega.Tauto BinNums.
+Require Import Stdlib.micromega.Lia.Tauto BinNums.
 
 Definition cnf_of_list {T: Type} (tg : T) (l : list (NFormula Z)) :=
   List.fold_right (fun x acc =>
