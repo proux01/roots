@@ -1,0 +1,9 @@
+theories/Vectors/VectorEq.v
+theories/Vectors/VectorDef.v
+theories/Vectors/Vector.v
+theories/Vectors/Fin.v
+theories/Vectors/VectorSpec.v
+theories/Vectors/Bvector.v
+theories/Vectors/FinFun.v
+
+-R theories/Vectors Stdlib.Vectors

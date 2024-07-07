@@ -15,7 +15,7 @@ Local Set Warnings "-deprecated".
 
 (** Bit vectors. Contribution by Jean Duprat (ENS Lyon). *)
 
-Require Export Bool Sumbool.
+From Stdlib Require Export Bool Sumbool.
 #[local] Set Warnings "-stdlib-vector".
 Require Vector.
 Export Vector.VectorNotations.

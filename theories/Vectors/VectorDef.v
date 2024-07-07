@@ -22,7 +22,7 @@ Attributes warn(cats="stdlib vector", note="Using Vector.t is known to be techni
 Names should be "caml name in list.ml" if exists and order of arguments
 have to be the same. complain if you see mistakes ... *)
 
-Require Import Arith_base.
+From Stdlib Require Import Arith_base.
 #[local] Set Warnings "-stdlib-vector".
 Require Vectors.Fin.
 Import EqNotations.
