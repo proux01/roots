@@ -66,6 +66,7 @@ theories/Arith/Wf_nat.v
 theories/Arith/Compare_dec.v
 theories/Arith/Bool_nat.v
 theories/Arith/Peano_dec.v
+theories/Arith/Zerob.v
 theories/Structures/GenericMinMax.v
 theories/Structures/Equalities.v
 theories/Structures/OrderedTypeAlt.v
@@ -372,7 +373,6 @@ theories/Sorting/Permutation.v
 theories/Sorting/Sorted.v
 theories/Bool/IfProp.v
 theories/Bool/Bool.v
-theories/Bool/Zerob.v
 theories/Bool/DecBool.v
 theories/Bool/BoolEq.v
 theories/Strings/HexString.v
