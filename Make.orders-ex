@@ -1,0 +1,12 @@
+theories/Structures/Ex/BoolOrder.v
+theories/Structures/Ex/OrdersEx.v
+theories/Structures/Ex/OrdersLists.v
+theories/Structures/Ex/EqualitiesFacts.v
+theories/Structures/Ex/OrderedTypeAlt.v
+theories/Structures/Ex/OrderedType.v
+theories/Structures/Ex/DecidableType.v
+theories/Structures/Ex/OrderedTypeEx.v
+theories/Structures/Ex/OrdersAlt.v
+theories/Structures/Ex/DecidableTypeEx.v
+
+-R theories/Structures/Ex Stdlib.Structures.Ex
