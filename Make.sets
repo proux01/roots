@@ -1,0 +1,24 @@
+theories/Sets/Partial_Order.v
+theories/Sets/Multiset.v
+theories/Sets/Uniset.v
+theories/Sets/Relations_2.v
+theories/Sets/Image.v
+theories/Sets/Relations_3.v
+theories/Sets/Relations_1.v
+theories/Sets/Classical_sets.v
+theories/Sets/Finite_sets.v
+theories/Sets/Permut.v
+theories/Sets/Integers.v
+theories/Sets/Finite_sets_facts.v
+theories/Sets/Powerset_facts.v
+theories/Sets/Powerset.v
+theories/Sets/Powerset_Classical_facts.v
+theories/Sets/Ensembles.v
+theories/Sets/Relations_1_facts.v
+theories/Sets/Constructive_sets.v
+theories/Sets/Infinite_sets.v
+theories/Sets/Relations_2_facts.v
+theories/Sets/Relations_3_facts.v
+theories/Sets/Cpo.v
+
+-R theories/Sets Stdlib.Sets
