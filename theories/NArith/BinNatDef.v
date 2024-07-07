@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Export BinNums.
-Require Import BinPos.
+From Stdlib Require Import BinPos.
 Require Export BinNums.NatDef.
 
 Local Open Scope N_scope.

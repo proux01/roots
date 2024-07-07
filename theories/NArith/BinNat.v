@@ -9,7 +9,7 @@
 (************************************************************************)
 
 Require Export BinNums.
-Require Import BinPos RelationClasses Morphisms Setoid
+From Stdlib Require Import BinPos RelationClasses Morphisms Setoid
  Equalities OrdersFacts GenericMinMax Bool NAxioms NMaxMin NProperties.
 Require BinNatDef.
 
