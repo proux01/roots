@@ -14,16 +14,16 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Import List.
-Require Import Bool.
-Require Import OrderedRing.
-Require Import RingMicromega.
-Require Import ZCoeff.
-Require Import Refl.
-Require Import ZArith_base.
-Require Import ZArithRing.
-Require Import Ztac.
-Require PreOmega.
+From Stdlib Require Import List.
+From Stdlib Require Import Bool.
+From Stdlib Require Import OrderedRing.
+From Stdlib Require Import RingMicromega.
+From Stdlib Require Import ZCoeff.
+From Stdlib Require Import Refl.
+From Stdlib Require Import ZArith_base.
+From Stdlib Require Import ZArithRing.
+From Stdlib Require Import Ztac.
+From Stdlib Require PreOmega.
 Local Open Scope Z_scope.
 
 Ltac flatten_bool :=
@@ -555,7 +555,7 @@ Definition ZweakTautoChecker (w: list ZWitness) (f : BFormula (Formula Z) Tauto.
 
 (* To get a complete checker, the proof format has to be enriched *)
 
-Require Import Zdiv.
+From Stdlib Require Import Zdiv.
 Local Open Scope Z_scope.
 
 Definition ceiling (a b:Z) : Z :=
@@ -566,7 +566,7 @@ Definition ceiling (a b:Z) : Z :=
     end.
 
 
-Require Import Znumtheory.
+From Stdlib Require Import Znumtheory.
 
 Lemma Zdivide_ceiling : forall a b, (b | a) -> ceiling a b = Z.div a b.
 Proof.
@@ -632,7 +632,7 @@ Register ExProof     as micromega.ZArithProof.ExProof.
    - b is the constant
    - a is the gcd of the other coefficient.
 *)
-Require Import Znumtheory.
+From Stdlib Require Import Znumtheory.
 
 Definition isZ0 (x:Z) :=
   match x with
@@ -1129,7 +1129,7 @@ Fixpoint bdepth (pf : ZArithProof) : nat :=
     | ExProof _ p   => S (bdepth p)
   end.
 
-Require Import Wf_nat.
+From Stdlib Require Import Wf_nat.
 
 Lemma in_bdepth : forall l a b  y, In y l ->  ltof ZArithProof bdepth y (EnumProof a b  l).
 Proof.

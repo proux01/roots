@@ -10,18 +10,18 @@
 (*                      Evgeny Makarov, INRIA, 2007                     *)
 (************************************************************************)
 
-Require Import NArith NArithRing.
-Require Import Relation_Definitions.
-Require Import Setoid.
-Require Import Ring.
+From Stdlib Require Import NArith NArithRing.
+From Stdlib Require Import Relation_Definitions.
+From Stdlib Require Import Setoid.
+From Stdlib Require Import Ring.
 (*****)
-Require Import Env.
-Require Import EnvRing.
+From Stdlib Require Import Env.
+From Stdlib Require Import EnvRing.
 (*****)
-Require Import List.
-Require Import Bool.
-Require Import OrderedRing.
-Require Import Refl.
+From Stdlib Require Import List.
+From Stdlib Require Import Bool.
+From Stdlib Require Import OrderedRing.
+From Stdlib Require Import Refl.
 From Stdlib.micromega Require Tauto.
 
 Set Implicit Arguments.

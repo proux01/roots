@@ -7,9 +7,9 @@
 (*         *     GNU Lesser General Public License Version 2.1          *)
 (*         *     (see LICENSE file for the text of the license)         *)
 (************************************************************************)
-Require Import Bool ZArith.
-Require Import Zify ZifyClasses.
-Require Import ZifyInst.
+From Stdlib Require Import Bool Arith_base BinInt BinNat Znat.
+From Stdlib Require Import Zify ZifyClasses.
+From Stdlib Require Import ZifyInst.
 Local Open Scope Z_scope.
 (* Instances of [ZifyClasses] for dealing with boolean operators. *)
 

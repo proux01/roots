@@ -1,0 +1,27 @@
+theories/omega/OmegaLemmas.v
+theories/omega/PreOmega.v
+theories/micromega/Zify/ZifyN.v
+theories/micromega/Zify/ZifyComparison.v
+theories/micromega/Zify/ZifyClasses.v
+theories/micromega/Zify/ZifyNat.v
+theories/micromega/Zify/ZifyPow.v
+theories/micromega/Zify/ZifyBool.v
+theories/micromega/Zify/Zify.v
+theories/micromega/Zify/ZifyInst.v
+theories/micromega/Lia/DeclConstantZ.v
+theories/micromega/Lia/OrderedRing.v
+theories/micromega/Lia/Tauto.v
+theories/micromega/Lia/Env.v
+theories/micromega/Lia/Refl.v
+theories/micromega/Lia/ZArith_hints.v
+theories/micromega/Lia/ZMicromega.v
+theories/micromega/Lia/EnvRing.v
+theories/micromega/Lia/Lia.v
+theories/micromega/Lia/VarMap.v
+theories/micromega/Lia/Ztac.v
+theories/micromega/Lia/ZCoeff.v
+theories/micromega/Lia/RingMicromega.v
+
+-R theories/omega Stdlib.omega
+-R theories/micromega/Zify Stdlib.micromega.Zify
+-R theories/micromega/Lia Stdlib.micromega.Lia
