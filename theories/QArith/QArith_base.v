@@ -10,7 +10,7 @@
 
 Require Export ZArith_base.
 Require Export ZArithRing.
-Require Export ZArith.BinInt.
+From Stdlib.ZArith Require Export BinInt.
 Require Export Morphisms Setoid Bool.
 
 (** * Definition of [Q] and basic properties *)
