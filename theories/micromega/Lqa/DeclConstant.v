@@ -14,8 +14,8 @@
 (*                                                                      *)
 (************************************************************************)
 
-Require Export DeclConstantZ.
-Require Import QArith_base.
+From Stdlib Require Export DeclConstantZ.
+From Stdlib Require Import QArith_base.
 
 #[global]
 Instance DQ : DeclaredConstant Qmake := {}.

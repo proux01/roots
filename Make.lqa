@@ -1,0 +1,5 @@
+theories/micromega/Lqa/QMicromega.v
+theories/micromega/Lqa/Lqa.v
+theories/micromega/Lqa/DeclConstant.v
+
+-R theories/micromega/Lqa Stdlib.micromega.Lqa
