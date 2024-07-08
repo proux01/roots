@@ -1,0 +1,8 @@
+theories/QArith/All/Qcabs.v
+theories/QArith/All/Qabs.v
+theories/QArith/All/QArith.v
+theories/Numbers/Q/DecimalQ.v
+theories/Numbers/Q/HexadecimalQ.v
+
+-R theories/QArith/All Stdlib.QArith.All
+-R theories/Numbers/Q Stdlib.Numbers.Number.Q
