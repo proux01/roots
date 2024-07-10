@@ -4,7 +4,7 @@ Proof.
   Fail dependent induction b.
 Abort.
 
-From Stdlib Require Import Program.Equality.
+From Stdlib.Program Require Import Equality.
 
 Theorem foo_with_destruction (b:bool) : b = true \/ b = false.
 Proof.

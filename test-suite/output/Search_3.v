@@ -1,5 +1,4 @@
-
-Require Import Morphisms.
+From Stdlib Require Import Morphisms.
 
 Search is:Instance [ Reflexive | Symmetric ].
 
@@ -33,7 +32,7 @@ Module WithCoercions.
   Search (None = 0).
 End WithCoercions.
 
-Require Import List.
+From Stdlib Require Import List.
 
 Module Wish13349.
 Search partition "1" inside List.

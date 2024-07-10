@@ -2,7 +2,7 @@
 
 (* Note: not an utf8 file *)
 
-Require Import Stdlib.ZArith.BinInt Stdlib.Lists.List.
+From Stdlib Require Import BinInt List.
 Require Stdlib.Init.Byte Stdlib.Strings.Byte Stdlib.Strings.String.
 
 Definition allBytes: list Byte.byte :=

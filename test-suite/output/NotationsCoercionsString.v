@@ -1,6 +1,6 @@
 (* Tests about skipping a coercion vs using a notation involving a coercion *)
 
-Require Import String.
+From Stdlib Require Import String.
 
 (* Skipping a coercion vs using a notation for the application of the
     coercion (from Robbert Krebbers, see PR #8890) *)

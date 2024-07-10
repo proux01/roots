@@ -1,6 +1,6 @@
 Require Import TestSuite.admit.
-Require Import List.
-Require Import Stdlib.Program.Equality.
+From Stdlib Require Import List.
+From Stdlib.Program Require Import Equality.
 
 Inductive star {genv state : Type}
   (step : genv -> state -> state -> Prop)

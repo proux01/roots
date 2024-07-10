@@ -1,4 +1,5 @@
-Require Stdlib.Init.Byte Stdlib.Strings.Byte Stdlib.ZArith.ZArith.
+Require Stdlib.Init.Byte Stdlib.Strings.Byte.
+From Stdlib Require ZArith.
 
 Axiom proof_admitted : False.
 Tactic Notation "admit" := abstract case proof_admitted.
@@ -65,7 +66,7 @@ Section Sep.
 
 End Sep.
 
-Import Stdlib.ZArith.ZArith.
+Import ZArith.
 
 Section Scalars.
   Context {width : Z} {word : word width}.

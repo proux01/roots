@@ -5,8 +5,7 @@ Goal True. let a := constr:(1+1) in idtac a. Abort.
 
 (* Idem *)
 
-Require Import Stdlib.Strings.String.
-Require Import Stdlib.ZArith.ZArith.
+From Stdlib Require Import String ZArith.
 Open Scope string_scope.
 
 Axiom Ox: string -> Z.

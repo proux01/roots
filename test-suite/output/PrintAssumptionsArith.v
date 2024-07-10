@@ -6,7 +6,7 @@
 
 (* The original test-case of the bug-report *)
 
-Require Import Arith.
+From Stdlib Require Import Arith.
 
 Axiom extensionality : forall P Q (f g:P -> Q),
   (forall x, f x = g x) -> f = g.

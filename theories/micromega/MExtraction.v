@@ -16,14 +16,14 @@
 
 (* Used to generate micromega.ml *)
 
-Require Extraction.
-Require Import ZMicromega.
-Require Import QMicromega.
-Require Import RMicromega.
-Require Import VarMap.
-Require Import RingMicromega.
-Require Import NArith.
-Require Import QArith.
+From Stdlib Require Extraction.
+From Stdlib.micromega Require Import ZMicromega.
+From Stdlib.micromega Require Import QMicromega.
+From Stdlib.micromega Require Import RMicromega.
+From Stdlib.micromega Require Import VarMap.
+From Stdlib.micromega Require Import RingMicromega.
+From Stdlib Require Import NArith.
+From Stdlib Require Import QArith.
 
 Extract Inductive prod => "( * )" [ "(,)" ].
 Extract Inductive list => list [ "[]" "(::)" ].

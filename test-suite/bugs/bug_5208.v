@@ -1,4 +1,4 @@
-Require Import Program.
+From Stdlib Require Import Program.
 
 Require Import Stdlib.Strings.String.
 Require Import Stdlib.Strings.Ascii.

@@ -1,5 +1,5 @@
-Require Import Stdlib.Program.Program.
-Require Import Stdlib.Lists.List.
+From Stdlib.Program Require Import Program.
+From Stdlib Require Import List.
 Import ListNotations.
 Open Scope list_scope.
 Program Fixpoint foo

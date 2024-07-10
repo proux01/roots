@@ -1,4 +1,4 @@
-Require Import Stdlib.Program.Equality.
+From Stdlib.Program Require Import Equality.
 
 Inductive star {genv state : Type}
   (step : genv -> state -> state -> Prop)

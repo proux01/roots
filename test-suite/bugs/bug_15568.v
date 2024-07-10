@@ -1,4 +1,4 @@
-Require Import Stdlib.ZArith.BinInt.
+From Stdlib Require Import BinInt.
 Require Import Stdlib.Classes.RelationClasses.
 
 Axiom mod_mod : forall a b : Z, Z.modulo (Z.modulo b a) a = Z.modulo b a.

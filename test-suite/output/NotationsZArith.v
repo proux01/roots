@@ -3,7 +3,7 @@
 
 (* Case of a printer conflict *)
 
-Require Import BinInt.
+From Stdlib Require Import BinInt.
 Coercion Zpos : positive >-> Z.
 Open Scope Z_scope.
 
@@ -34,7 +34,7 @@ Check (3+3).
 
 (* This is another aspect of bug #1179 (raises anomaly in 8.1) *)
 
-Require Import ZArith.
+From Stdlib Require Import ZArith.
 Open Scope Z_scope.
 Notation "- 4" := (-2 + -2).
 Check -4.

@@ -1,7 +1,7 @@
 Require Export Stdlib.Unicode.Utf8.
-Require Export Stdlib.Program.Program.
-Require Export Stdlib.Classes.CEquivalence.
-Require Export Stdlib.Classes.CMorphisms.
+From Stdlib.Program Require Export Program.
+From Stdlib.Classes Require Export CEquivalence.
+From Stdlib.Classes Require Export CMorphisms.
 Require Setoid.
 
 (* Notation "f ≃ g" := (equiv f g) (at level 79, only parsing). *)

@@ -1,5 +1,4 @@
-Require Import Stdlib.ZArith.ZArith.
-Require Import Stdlib.micromega.Lia.
+From Stdlib Require Import ZArith Lia.
 
 Local Open Scope Z_scope.
 

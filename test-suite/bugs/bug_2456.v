@@ -1,5 +1,4 @@
-
-Require Import Equality.
+From Stdlib Require Import Equality.
 
 Parameter Patch : nat -> nat -> Set.
 

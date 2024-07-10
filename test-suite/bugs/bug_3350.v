@@ -1,6 +1,5 @@
 Require Import TestSuite.admit.
-Require Stdlib.Vectors.Fin.
-Require Stdlib.Vectors.Vector.
+From Stdlib Require Fin Vector.
 
 Local Generalizable All Variables.
 Set Implicit Arguments.
@@ -101,7 +100,7 @@ Section squeeze.
     end v.
 End squeeze.
 
-Require Import Program.
+From Stdlib Require Import Program.
 Lemma squeeze_nth (A:Type) (x:A) (n:nat) (v:Vector.t A n) p i :
   Vector.nth (squeeze x v p) i = match lower p i with
                                    | Some j => Vector.nth v j

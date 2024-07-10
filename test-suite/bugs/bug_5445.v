@@ -1,4 +1,4 @@
-Require Import Stdlib.nsatz.NsatzTactic.
+From Stdlib Require Import NsatzTactic.
 (** Ensure that loading the nsatz tactic doesn't load the reals *)
 Fail Module M := Stdlib.Reals.Rdefinitions.
 (** Ensure that loading the nsatz tactic doesn't load classic *)
@@ -7,5 +7,5 @@ Fail Check Stdlib.Logic.Classical_Prop.classic.
 Require Stdlib.Reals.Rdefinitions.
 Module M := Stdlib.Reals.Rdefinitions.
 (** Ensure that this test-case hasn't messed up about the location of classic / how to check for it *)
-Require Stdlib.Logic.Classical_Prop.
-Check Stdlib.Logic.Classical_Prop.classic.
+From Stdlib Require Classical_Prop.
+Check Stdlib.Logic.Classical.Classical_Prop.classic.

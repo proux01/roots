@@ -44,7 +44,7 @@ functional inversion 1 ftest;auto.
 Qed.
 
 
-Require Import Arith.
+From Stdlib Require Import Arith.
 Lemma test11 : forall m : nat, ftest 0 m <= 2.
 intros m.
  functional induction ftest 0 m.
@@ -71,7 +71,7 @@ Defined.
 
 
 (* polymorphic function *)
-Require Import List.
+From Stdlib Require Import List.
 
 Functional Scheme app_ind := Induction for app Sort Prop.
 
@@ -85,7 +85,7 @@ Qed.
 
 
 
-Require Export Arith.
+From Stdlib Require Export Arith.
 
 
 Function trivfun (n : nat) : nat :=
@@ -505,8 +505,8 @@ Qed.
 
 (* An example with projections *)
 
-Require Import FunInd.
-Require Import List.
+From Stdlib Require Import FunInd.
+From Stdlib Require Import List.
 
 Record foo (X:Type):= {a:nat; b:X}.
 
