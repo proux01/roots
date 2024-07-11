@@ -15,3 +15,6 @@ install: Makefile-all.coq
 # Make of individual .vo
 %.vo: Makefile-all.coq
 	+$(MAKE) -f $< $(COQMAKEOPTIONS) $@
+
+refman-html:
+	dune build --no-buffer @refman-html
