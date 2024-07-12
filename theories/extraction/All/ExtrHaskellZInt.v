@@ -1,6 +1,6 @@
 (** Extraction of [Z] into Haskell's [Int] *)
 
-Require Stdlib.extraction.Extraction.
+From Stdlib Require Extraction.
 
 Require Import ZArith.
 Require Import ExtrHaskellZNum.

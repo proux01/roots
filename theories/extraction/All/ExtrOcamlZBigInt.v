@@ -10,7 +10,7 @@
 
 (** Extraction of [positive], [N], and [Z], into Zarith's [Z.t] *)
 
-Require Stdlib.extraction.Extraction.
+From Stdlib Require Extraction.
 
 Require Import ZArith NArith.
 Require Import ExtrOcamlBasic.

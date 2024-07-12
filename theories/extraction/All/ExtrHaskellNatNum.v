@@ -6,7 +6,7 @@
  * implements [Num].
  *)
 
-Require Stdlib.extraction.Extraction.
+From Stdlib Require Extraction.
 
 Require Import Arith.
 Require Import EqNat.
