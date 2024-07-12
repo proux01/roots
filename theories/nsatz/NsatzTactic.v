@@ -458,7 +458,7 @@ Tactic Notation "nsatz" "with"
   end.
 
 (* Rational numbers *)
-Require Import QArith.
+Require Import QArith_base.
 
 #[global]
 Instance Qops: (@Ring_ops Q 0%Q 1%Q Qplus Qmult Qminus Qopp Qeq).
