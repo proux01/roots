@@ -1,0 +1,3 @@
+theories/extraction/Base/Extraction.v
+
+-R theories/extraction/Base Stdlib.extraction.Base
