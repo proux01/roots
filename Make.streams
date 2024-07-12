@@ -1,0 +1,4 @@
+theories/Streams/Streams.v
+theories/Streams/StreamMemo.v
+
+-R theories/Streams Stdlib.Streams
