@@ -358,6 +358,7 @@ theories/Reals/Rpow_def.v
 theories/Reals/Rlogic.v
 theories/Reals/SeqProp.v
 theories/Reals/Qreals.v
+theories/Reals/Nsatz.v
 theories/Relations/Relation_Operators.v
 theories/Relations/Operators_Properties.v
 theories/Relations/Relations.v
@@ -501,7 +502,6 @@ theories/Wellfounded/Inverse_Image.v
 theories/Wellfounded/Disjoint_Union.v
 theories/Wellfounded/Lexicographic_Product.v
 theories/Wellfounded/Lexicographic_Exponentiation.v
-theories/nsatz/Nsatz.v
 theories/nsatz/NsatzTactic.v
 
 -I theories
