@@ -33,7 +33,7 @@
     code after extraction.
 *)
 
-Require Import FunInd MSetInterface MSetGenTree BinInt Int.
+From Stdlib Require Import FunInd MSetInterface MSetGenTree BinInt Int.
 
 Set Implicit Arguments.
 Unset Strict Implicit.

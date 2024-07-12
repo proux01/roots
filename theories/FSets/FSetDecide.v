@@ -17,7 +17,7 @@
 (** This file implements a decision procedure for a certain
     class of propositions involving finite sets.  *)
 
-Require Import Decidable Setoid DecidableTypeEx FSetFacts.
+From Stdlib Require Import Decidable Setoid DecidableTypeEx FSetFacts.
 
 (** First, a version for Weak Sets in functorial presentation *)
 

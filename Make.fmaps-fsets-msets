@@ -1,0 +1,37 @@
+theories/FSets/FMapInterface.v
+theories/FSets/FSetInterface.v
+theories/FSets/FSetWeakList.v
+theories/FSets/FSetAVL.v
+theories/FSets/FSetCompat.v
+theories/FSets/FSetDecide.v
+theories/FSets/FSetList.v
+theories/FSets/FSetProperties.v
+theories/FSets/FMapList.v
+theories/FSets/FMapFacts.v
+theories/FSets/FSetPositive.v
+theories/FSets/FMapFullAVL.v
+theories/FSets/FSetToFiniteSet.v
+theories/FSets/FMapAVL.v
+theories/FSets/FMapPositive.v
+theories/FSets/FSets.v
+theories/FSets/FMaps.v
+theories/FSets/FSetFacts.v
+theories/FSets/FSetEqProperties.v
+theories/FSets/FSetBridge.v
+theories/FSets/FMapWeakList.v
+theories/MSets/MSetList.v
+theories/MSets/MSetDecide.v
+theories/MSets/MSets.v
+theories/MSets/MSetWeakList.v
+theories/MSets/MSetGenTree.v
+theories/MSets/MSetAVL.v
+theories/MSets/MSetInterface.v
+theories/MSets/MSetFacts.v
+theories/MSets/MSetProperties.v
+theories/MSets/MSetRBT.v
+theories/MSets/MSetPositive.v
+theories/MSets/MSetToFiniteSet.v
+theories/MSets/MSetEqProperties.v
+
+-R theories/FSets Stdlib.FSets
+-R theories/MSets Stdlib.MSets

@@ -27,7 +27,7 @@
 
 *)
 
-Require Import FunInd Recdef FMapInterface FMapList ZArith Int FMapAVL Lia.
+From Stdlib Require Import FunInd Recdef FMapInterface FMapList ZArith Int FMapAVL Lia.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
