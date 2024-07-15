@@ -223,7 +223,6 @@ theories/Streams/Streams.v
 theories/Streams/StreamMemo.v
 theories/micromega/ZifyN.v
 theories/micromega/QMicromega.v
-theories/micromega/MExtraction.v
 theories/micromega/ZifyComparison.v
 theories/micromega/Lra.v
 theories/micromega/OrderedRing.v
